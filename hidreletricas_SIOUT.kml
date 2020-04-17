@@ -145,6 +145,9 @@ Corpo Hidrico: Arroio da Ilha
   </Folder>
   <Folder>
     <name>Aguardando an&#225;lise</name>
+  </Folder>
+  <Folder>
+    <name>Aguardando altera&#231;&#245;es de dados inconsistentes</name>
     <Placemark>
       <name>2020/005.099</name>
       <Point>
@@ -152,41 +155,12 @@ Corpo Hidrico: Arroio da Ilha
       </Point>
       <description>
 Usuario: BT GERADORA DE ENERGIA ELETRICA S.A.
-Status: Aguardando an&#225;lise
+Status: Aguardando altera&#231;&#245;es de dados inconsistentes
 Municipio: Erval Seco
 Corpo Hidrico: Rio Guarita
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
-    <Placemark>
-      <name>2019/023.469</name>
-      <Point>
-        <coordinates>-51.122088432312,-29.0186486903895</coordinates>
-      </Point>
-      <description>
-Usuario: ENERBIO SERVICOS DE ENGENHARIA LTDA
-Status: Aguardando an&#225;lise
-Municipio: S&#227;o Marcos
-Corpo Hidrico: Arroio S&#227;o Marcos
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>2016/013.809</name>
-      <Point>
-        <coordinates>-53.6951422691345,-27.8708722237738</coordinates>
-      </Point>
-      <description>
-Usuario: Hidroel&#233;trica Sperotto Queda do Turvo Ltda
-Status: Aguardando an&#225;lise
-Municipio: Santo Augusto
-Corpo Hidrico: Rio Turvo
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-  </Folder>
-  <Folder>
-    <name>Aguardando altera&#231;&#245;es de dados inconsistentes</name>
     <Placemark>
       <name>2020/000.536</name>
       <Point>
@@ -698,6 +672,19 @@ Corpo Hidrico: Arroio da Gl&#243;ria
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
+      <name>2019/023.469</name>
+      <Point>
+        <coordinates>-51.122088432312,-29.0186486903895</coordinates>
+      </Point>
+      <description>
+Usuario: ENERBIO SERVICOS DE ENGENHARIA LTDA
+Status: Em an&#225;lise
+Municipio: S&#227;o Marcos
+Corpo Hidrico: Arroio S&#227;o Marcos
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
       <name>2019/020.046</name>
       <Point>
         <coordinates>-51.7387559110648,-27.6282253835692</coordinates>
@@ -772,6 +759,19 @@ Usuario: Aecogeo Solu&#231;&#245;es Ambientais Ltda
 Status: Em an&#225;lise
 Municipio: Ip&#234;
 Corpo Hidrico: Arroio Goiabal
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>2016/013.809</name>
+      <Point>
+        <coordinates>-53.6951422691345,-27.8708722237738</coordinates>
+      </Point>
+      <description>
+Usuario: Hidroel&#233;trica Sperotto Queda do Turvo Ltda
+Status: Em an&#225;lise
+Municipio: Santo Augusto
+Corpo Hidrico: Rio Turvo
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
