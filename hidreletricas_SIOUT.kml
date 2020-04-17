@@ -26,19 +26,6 @@
   <Folder>
     <name>Aguardando formaliza&#231;&#227;o de documentos</name>
     <Placemark>
-      <name>2020/005.099</name>
-      <Point>
-        <coordinates>-53.5789,-27.5612</coordinates>
-      </Point>
-      <description>
-Usuario: BT GERADORA DE ENERGIA ELETRICA S.A.
-Status: Aguardando formaliza&#231;&#227;o de documentos
-Municipio: Erval Seco
-Corpo Hidrico: Rio Guarita
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
       <name>2020/002.866</name>
       <Point>
         <coordinates>-54.0045500199785,-28.3511124417778</coordinates>
@@ -142,16 +129,29 @@ Corpo Hidrico: Rio Piai
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
+    <Placemark>
+      <name>2017/005.275</name>
+      <Point>
+        <coordinates>-53.1211,-28.2623</coordinates>
+      </Point>
+      <description>
+Usuario: CONQUISTA GERA&#199;&#195;O DE ENERGIA EL&#201;TRICA LTDA
+Status: Aguardando formaliza&#231;&#227;o de documentos
+Municipio: Carazinho
+Corpo Hidrico: Arroio da Ilha
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
   </Folder>
   <Folder>
     <name>Aguardando an&#225;lise</name>
     <Placemark>
-      <name>2019/022.169</name>
+      <name>2020/005.099</name>
       <Point>
-        <coordinates>-53.5819444444444,-27.59</coordinates>
+        <coordinates>-53.5789,-27.5612</coordinates>
       </Point>
       <description>
-Usuario: GUARITA GERADORA DE ENERGIA LTDA
+Usuario: BT GERADORA DE ENERGIA ELETRICA S.A.
 Status: Aguardando an&#225;lise
 Municipio: Erval Seco
 Corpo Hidrico: Rio Guarita
@@ -159,28 +159,15 @@ Corpo Hidrico: Rio Guarita
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>2019/013.226</name>
+      <name>2019/023.469</name>
       <Point>
-        <coordinates>-54.3117928504944,-28.4020085740672</coordinates>
+        <coordinates>-51.122088432312,-29.0186486903895</coordinates>
       </Point>
       <description>
-Usuario: COOPERATIVA DE DISTRIBUICAO E GERACAO DE ENERGIA DAS MISSOES
+Usuario: ENERBIO SERVICOS DE ENGENHARIA LTDA
 Status: Aguardando an&#225;lise
-Municipio: Entre-Iju&#237;s
-Corpo Hidrico: Rio Ijuizinho
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>2019/005.142</name>
-      <Point>
-        <coordinates>-50.4083847999573,-28.5267355342475</coordinates>
-      </Point>
-      <description>
-Usuario: TOUROS IV ENERG&#201;TICA S.A.
-Status: Aguardando an&#225;lise
-Municipio: Bom Jesus
-Corpo Hidrico: Rio dos Touros
+Municipio: S&#227;o Marcos
+Corpo Hidrico: Arroio S&#227;o Marcos
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -197,48 +184,9 @@ Corpo Hidrico: Rio Turvo
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
-    <Placemark>
-      <name>2016/007.777</name>
-      <Point>
-        <coordinates>-52.7326841549166,-29.3289844444486</coordinates>
-      </Point>
-      <description>
-Usuario: TRES FRONTEIRAS GERA&#199;&#195;O DE ENERGIA
-Status: Aguardando an&#225;lise
-Municipio: Lago&#227;o
-Corpo Hidrico: Rio Pardo
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
   </Folder>
   <Folder>
     <name>Aguardando altera&#231;&#245;es de dados inconsistentes</name>
-    <Placemark>
-      <name>2020/001.754</name>
-      <Point>
-        <coordinates>-50.8559701377817,-28.2990821433521</coordinates>
-      </Point>
-      <description>
-Usuario: BORTOLON AGROCOMERCIAL EIRELI
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Vacaria
-Corpo Hidrico: Rio Socorro
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>2020/001.523</name>
-      <Point>
-        <coordinates>-53.5472,-27.4186</coordinates>
-      </Point>
-      <description>
-Usuario: ENERBIO SERVICOS DE ENGENHARIA LTDA
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Erval Seco
-Corpo Hidrico: Rio Fortaleza
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
     <Placemark>
       <name>2020/000.536</name>
       <Point>
@@ -253,28 +201,15 @@ Corpo Hidrico: Rio Suzana
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>2019/025.605</name>
+      <name>2019/022.169</name>
       <Point>
-        <coordinates>-51.2537617065137,-27.8221323593531</coordinates>
+        <coordinates>-53.5819444444444,-27.59</coordinates>
       </Point>
       <description>
-Usuario: CONSTRUN&#205;VEL ENERGIAS RENOV&#193;VEIS LTDA
+Usuario: GUARITA GERADORA DE ENERGIA LTDA
 Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Pinhal da Serra
-Corpo Hidrico: Arroio da Gl&#243;ria
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>2019/023.469</name>
-      <Point>
-        <coordinates>-51.122088432312,-29.0186486903895</coordinates>
-      </Point>
-      <description>
-Usuario: ENERBIO SERVICOS DE ENGENHARIA LTDA
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: S&#227;o Marcos
-Corpo Hidrico: Arroio S&#227;o Marcos
+Municipio: Erval Seco
+Corpo Hidrico: Rio Guarita
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -305,28 +240,15 @@ Corpo Hidrico: Rio Ijuizinho
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>2019/020.046</name>
+      <name>2019/013.226</name>
       <Point>
-        <coordinates>-51.7387559110648,-27.6282253835692</coordinates>
+        <coordinates>-54.3117928504944,-28.4020085740672</coordinates>
       </Point>
       <description>
-Usuario: Vertente Engenharia Ltda
+Usuario: COOPERATIVA DE DISTRIBUICAO E GERACAO DE ENERGIA DAS MISSOES
 Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Maximiliano de Almeida
-Corpo Hidrico: Rio Forquilha ou Inhandava
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>2019/009.268</name>
-      <Point>
-        <coordinates>-51.0283870699641,-28.0204617307276</coordinates>
-      </Point>
-      <description>
-Usuario: RIO DO FRADE GERA&#199;&#195;O DE ENERGIA LTDA
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Esmeralda
-Corpo Hidrico: Rio do Frade
+Municipio: Entre-Iju&#237;s
+Corpo Hidrico: Rio Ijuizinho
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -487,32 +409,6 @@ Corpo Hidrico: Sem denomina&#231;&#227;o
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>2018/033.655</name>
-      <Point>
-        <coordinates>-50.6833004951477,-28.7781918007691</coordinates>
-      </Point>
-      <description>
-Usuario: Pablo Rodrigo Ferreira Romeiro
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Monte Alegre dos Campos
-Corpo Hidrico: Sem denomina&#231;&#227;o
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>2018/033.220</name>
-      <Point>
-        <coordinates>-52.6786111111111,-28.8552777777778</coordinates>
-      </Point>
-      <description>
-Usuario: Tr&#243;pico Energia Renov&#225;vel LTDA
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Soledade
-Corpo Hidrico: Arroio Buti&#225;
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
       <name>2018/032.593</name>
       <Point>
         <coordinates>-52.5460839271545,-27.6894943455994</coordinates>
@@ -630,19 +526,6 @@ Corpo Hidrico: Arroio Caravaggio
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>2017/030.507</name>
-      <Point>
-        <coordinates>-51.1727777777778,-28.8227777777778</coordinates>
-      </Point>
-      <description>
-Usuario: Aecogeo Solu&#231;&#245;es Ambientais Ltda
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Ip&#234;
-Corpo Hidrico: Rio Vieira
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
       <name>2017/028.651</name>
       <Point>
         <coordinates>-53.3474,-29.1881</coordinates>
@@ -734,6 +617,19 @@ Corpo Hidrico: Rio Pardo
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
+      <name>2016/007.777</name>
+      <Point>
+        <coordinates>-52.7326841549166,-29.3289844444486</coordinates>
+      </Point>
+      <description>
+Usuario: TRES FRONTEIRAS GERA&#199;&#195;O DE ENERGIA
+Status: Aguardando altera&#231;&#245;es de dados inconsistentes
+Municipio: Lago&#227;o
+Corpo Hidrico: Rio Pardo
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
       <name>2016/007.736</name>
       <Point>
         <coordinates>-52.7218787358187,-29.3180164291718</coordinates>
@@ -763,6 +659,97 @@ Corpo Hidrico: Rio Pardo
   <Folder>
     <name>Em an&#225;lise</name>
     <Placemark>
+      <name>2020/001.754</name>
+      <Point>
+        <coordinates>-50.8559701377817,-28.2990821433521</coordinates>
+      </Point>
+      <description>
+Usuario: BORTOLON AGROCOMERCIAL EIRELI
+Status: Em an&#225;lise
+Municipio: Vacaria
+Corpo Hidrico: Rio Socorro
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>2020/001.523</name>
+      <Point>
+        <coordinates>-53.5472,-27.4186</coordinates>
+      </Point>
+      <description>
+Usuario: ENERBIO SERVICOS DE ENGENHARIA LTDA
+Status: Em an&#225;lise
+Municipio: Erval Seco
+Corpo Hidrico: Rio Fortaleza
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>2019/025.605</name>
+      <Point>
+        <coordinates>-51.2537617065137,-27.8221323593531</coordinates>
+      </Point>
+      <description>
+Usuario: CONSTRUN&#205;VEL ENERGIAS RENOV&#193;VEIS LTDA
+Status: Em an&#225;lise
+Municipio: Pinhal da Serra
+Corpo Hidrico: Arroio da Gl&#243;ria
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>2019/020.046</name>
+      <Point>
+        <coordinates>-51.7387559110648,-27.6282253835692</coordinates>
+      </Point>
+      <description>
+Usuario: Vertente Engenharia Ltda
+Status: Em an&#225;lise
+Municipio: Maximiliano de Almeida
+Corpo Hidrico: Rio Forquilha ou Inhandava
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>2019/009.268</name>
+      <Point>
+        <coordinates>-51.0283870699641,-28.0204617307276</coordinates>
+      </Point>
+      <description>
+Usuario: RIO DO FRADE GERA&#199;&#195;O DE ENERGIA LTDA
+Status: Em an&#225;lise
+Municipio: Esmeralda
+Corpo Hidrico: Rio do Frade
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>2019/005.142</name>
+      <Point>
+        <coordinates>-50.4083847999573,-28.5267355342475</coordinates>
+      </Point>
+      <description>
+Usuario: TOUROS IV ENERG&#201;TICA S.A.
+Status: Em an&#225;lise
+Municipio: Bom Jesus
+Corpo Hidrico: Rio dos Touros
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>2018/033.655</name>
+      <Point>
+        <coordinates>-50.6833004951477,-28.7781918007691</coordinates>
+      </Point>
+      <description>
+Usuario: Pablo Rodrigo Ferreira Romeiro
+Status: Em an&#225;lise
+Municipio: Monte Alegre dos Campos
+Corpo Hidrico: Sem denomina&#231;&#227;o
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
       <name>2018/033.376</name>
       <Point>
         <coordinates>-53.4572196006775,-28.3982335362495</coordinates>
@@ -772,6 +759,19 @@ Usuario: Agropecuaria Fockink Ltda
 Status: Em an&#225;lise
 Municipio: Panambi
 Corpo Hidrico: Sem denomina&#231;&#227;o
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>2017/030.507</name>
+      <Point>
+        <coordinates>-51.1727777777778,-28.8227777777778</coordinates>
+      </Point>
+      <description>
+Usuario: Aecogeo Solu&#231;&#245;es Ambientais Ltda
+Status: Em an&#225;lise
+Municipio: Ip&#234;
+Corpo Hidrico: Arroio Goiabal
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -1025,19 +1025,6 @@ Corpo Hidrico: Lajeado Tigre
     </description>
       <styleUrl>#verde</styleUrl>
     </Placemark>
-    <Placemark>
-      <name>2017/005.275</name>
-      <Point>
-        <coordinates>-53.1211,-28.2623</coordinates>
-      </Point>
-      <description>
-Usuario: CONQUISTA GERA&#199;&#195;O DE ENERGIA EL&#201;TRICA LTDA
-Status: Concedida
-Municipio: Carazinho
-Corpo Hidrico: Arroio da Ilha
-    </description>
-      <styleUrl>#verde</styleUrl>
-    </Placemark>
   </Folder>
   <Folder>
     <name>Indeferida</name>
@@ -1090,6 +1077,19 @@ Usuario: COOPERATIVA DE DISTRIBUICAO E GERACAO DE ENERGIA DAS MISSOES
 Status: Indeferida
 Municipio: Entre-Iju&#237;s
 Corpo Hidrico: Sem denomina&#231;&#227;o
+    </description>
+      <styleUrl>#vermelho</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>2018/033.220</name>
+      <Point>
+        <coordinates>-52.6786111111111,-28.8552777777778</coordinates>
+      </Point>
+      <description>
+Usuario: Tr&#243;pico Energia Renov&#225;vel LTDA
+Status: Indeferida
+Municipio: Soledade
+Corpo Hidrico: Arroio Buti&#225;
     </description>
       <styleUrl>#vermelho</styleUrl>
     </Placemark>
