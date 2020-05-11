@@ -26,20 +26,6 @@
   <Folder>
     <name>Aguardando formaliza&#231;&#227;o de documentos</name>
     <Placemark>
-      <name>PCH Linha Onze Oeste</name>
-      <Point>
-        <coordinates>-54.0045500199785,-28.3511124417778</coordinates>
-      </Point>
-      <description>
-Processo: 2020/002.866
-Usuario: LINHA ONZE OESTE ENERGIA LTDA
-Status: Aguardando formaliza&#231;&#227;o de documentos
-Municipio: Coronel Barros
-Corpo Hidrico: Rio Iju&#237;
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
       <name>CGH Nilo Bonfanti</name>
       <Point>
         <coordinates>-53.9701307613505,-27.9612491935233</coordinates>
@@ -50,6 +36,20 @@ Usuario: Cooperativa de Gera&#231;&#227;o de Energia e Desenvolvimento Social LT
 Status: Aguardando formaliza&#231;&#227;o de documentos
 Municipio: Chiapetta
 Corpo Hidrico: Rio Buric&#225;
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Daltro Filho</name>
+      <Point>
+        <coordinates>-51.7493,-29.3301</coordinates>
+      </Point>
+      <description>
+Processo: 2018/031.548
+Usuario: SPE DALTRO FILHO GERA&#199;&#195;O DE ENERGIA LTDA
+Status: Aguardando formaliza&#231;&#227;o de documentos
+Municipio: Imigrante
+Corpo Hidrico: Arroio da Seca
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -82,48 +82,6 @@ Corpo Hidrico: Rio Taquari
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>PCH Serra dos Cavalinhos I</name>
-      <Point>
-        <coordinates>-50.7297778129578,-28.796471025244</coordinates>
-      </Point>
-      <description>
-Processo: 2018/014.719
-Usuario: SERRA DOS CAVALINHOS I ENERGETICA SA
-Status: Aguardando formaliza&#231;&#227;o de documentos
-Municipio: Monte Alegre dos Campos
-Corpo Hidrico: Sem denomina&#231;&#227;o
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>PCH Serra dos Cavalinhos II</name>
-      <Point>
-        <coordinates>-50.7456564903259,-28.7912433437793</coordinates>
-      </Point>
-      <description>
-Processo: 2018/014.640
-Usuario: SERRA DOS CAVALINHOS II ENERGETICA SA
-Status: Aguardando formaliza&#231;&#227;o de documentos
-Municipio: Monte Alegre dos Campos
-Corpo Hidrico: Rio das Antas
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>PCH Ca&#231;ador</name>
-      <Point>
-        <coordinates>-51.850597858429,-28.7066614390401</coordinates>
-      </Point>
-      <description>
-Processo: 2018/012.255
-Usuario: CA&#199;ADOR ENERG&#201;TICA SA
-Status: Aguardando formaliza&#231;&#227;o de documentos
-Municipio: Serafina Corr&#234;a
-Corpo Hidrico: Rio Carreiro
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
       <name>CGH Foz do Car&#225;</name>
       <Point>
         <coordinates>-51.0578484317457,-29.1742686136754</coordinates>
@@ -151,6 +109,20 @@ Corpo Hidrico: Lajeado Tigre
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
+    <Placemark>
+      <name>N/D</name>
+      <Point>
+        <coordinates>-53.8794412024506,-28.3713467861906</coordinates>
+      </Point>
+      <description>
+Processo: 2017/000.678
+Usuario: IJUI CENTENARIA GERACAO SPE LTDA
+Status: Aguardando formaliza&#231;&#227;o de documentos
+Municipio: Iju&#237;
+Corpo Hidrico: Rio Potiribu
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
   </Folder>
   <Folder>
     <name>Aguardando an&#225;lise</name>
@@ -169,72 +141,30 @@ Corpo Hidrico: Arroio da Gl&#243;ria
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>CGH Crissiumal</name>
+      <name>PCH Linha Onze Oeste</name>
       <Point>
-        <coordinates>-54.1643786430359,-27.4042327925508</coordinates>
+        <coordinates>-54.0045500199785,-28.3511124417778</coordinates>
       </Point>
       <description>
-Processo: 2019/003.691
-Usuario: M. H.N GERACAO ELETRICA LTDA
+Processo: 2020/002.866
+Usuario: LINHA ONZE OESTE ENERGIA LTDA
 Status: Aguardando an&#225;lise
-Municipio: Crissiumal
-Corpo Hidrico: Lajeado Grande
+Municipio: Coronel Barros
+Corpo Hidrico: Rio Iju&#237;
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>CGH Touros III</name>
+      <name>CGH Touros V</name>
       <Point>
-        <coordinates>-50.3776,-28.5343</coordinates>
+        <coordinates>-50.4245209693909,-28.50290316766</coordinates>
       </Point>
       <description>
-Processo: 2019/003.312
-Usuario: TOUROS III ENERG&#201;TICA S.A.
-Status: Aguardando an&#225;lise
-Municipio: Bom Jesus
-Corpo Hidrico: Sem denomina&#231;&#227;o
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>CGH Touros II</name>
-      <Point>
-        <coordinates>-50.3528,-28.5774</coordinates>
-      </Point>
-      <description>
-Processo: 2019/002.931
-Usuario: TOUROS II ENERG&#201;TICA S.A.
+Processo: 2019/005.157
+Usuario: TOUROS V ENERG&#201;TICA S.A.
 Status: Aguardando an&#225;lise
 Municipio: Bom Jesus
 Corpo Hidrico: Rio dos Touros
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>CGH Ligeiro</name>
-      <Point>
-        <coordinates>-51.8405555555556,-28.1827777777778</coordinates>
-      </Point>
-      <description>
-Processo: 2017/040.172
-Usuario: ENERG&#201;TICA RIO LIGEIRO LTDA
-Status: Aguardando an&#225;lise
-Municipio: Santa Cec&#237;lia do Sul
-Corpo Hidrico: Sem denomina&#231;&#227;o
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>CGH Mirim</name>
-      <Point>
-        <coordinates>-53.1211,-28.2623</coordinates>
-      </Point>
-      <description>
-Processo: 2017/005.275
-Usuario: CONQUISTA GERA&#199;&#195;O DE ENERGIA EL&#201;TRICA LTDA
-Status: Aguardando an&#225;lise
-Municipio: Carazinho
-Corpo Hidrico: Arroio da Ilha
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -312,20 +242,6 @@ Corpo Hidrico: Rio Forqueta
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>CGH Touros V</name>
-      <Point>
-        <coordinates>-50.4245209693909,-28.50290316766</coordinates>
-      </Point>
-      <description>
-Processo: 2019/005.157
-Usuario: TOUROS V ENERG&#201;TICA S.A.
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Bom Jesus
-Corpo Hidrico: Rio dos Touros
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
       <name>CGH Palomas</name>
       <Point>
         <coordinates>-52.3982405662537,-27.3289150400905</coordinates>
@@ -350,6 +266,48 @@ Usuario: APS Constru&#231;&#245;es EIRELI
 Status: Aguardando altera&#231;&#245;es de dados inconsistentes
 Municipio: Caxias do Sul
 Corpo Hidrico: Rio Piai
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Crissiumal</name>
+      <Point>
+        <coordinates>-54.1643786430359,-27.4042327925508</coordinates>
+      </Point>
+      <description>
+Processo: 2019/003.691
+Usuario: M. H.N GERACAO ELETRICA LTDA
+Status: Aguardando altera&#231;&#245;es de dados inconsistentes
+Municipio: Crissiumal
+Corpo Hidrico: Lajeado Grande
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Touros III</name>
+      <Point>
+        <coordinates>-50.3776,-28.5343</coordinates>
+      </Point>
+      <description>
+Processo: 2019/003.312
+Usuario: TOUROS III ENERG&#201;TICA S.A.
+Status: Aguardando altera&#231;&#245;es de dados inconsistentes
+Municipio: Bom Jesus
+Corpo Hidrico: Sem denomina&#231;&#227;o
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Touros II</name>
+      <Point>
+        <coordinates>-50.3528,-28.5774</coordinates>
+      </Point>
+      <description>
+Processo: 2019/002.931
+Usuario: TOUROS II ENERG&#201;TICA S.A.
+Status: Aguardando altera&#231;&#245;es de dados inconsistentes
+Municipio: Bom Jesus
+Corpo Hidrico: Rio dos Touros
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -475,6 +433,20 @@ Processo: 2018/004.498
 Usuario: APS Constru&#231;&#245;es EIRELI
 Status: Aguardando altera&#231;&#245;es de dados inconsistentes
 Municipio: Caxias do Sul
+Corpo Hidrico: Sem denomina&#231;&#227;o
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Ligeiro</name>
+      <Point>
+        <coordinates>-51.8405555555556,-28.1827777777778</coordinates>
+      </Point>
+      <description>
+Processo: 2017/040.172
+Usuario: ENERG&#201;TICA RIO LIGEIRO LTDA
+Status: Aguardando altera&#231;&#245;es de dados inconsistentes
+Municipio: Santa Cec&#237;lia do Sul
 Corpo Hidrico: Sem denomina&#231;&#227;o
     </description>
       <styleUrl>#amarelo</styleUrl>
@@ -647,6 +619,20 @@ Usuario: Agropecuaria Fockink Ltda
 Status: Em an&#225;lise
 Municipio: Panambi
 Corpo Hidrico: Sem denomina&#231;&#227;o
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Mirim</name>
+      <Point>
+        <coordinates>-53.1211,-28.2623</coordinates>
+      </Point>
+      <description>
+Processo: 2017/005.275
+Usuario: CONQUISTA GERA&#199;&#195;O DE ENERGIA EL&#201;TRICA LTDA
+Status: Em an&#225;lise
+Municipio: Carazinho
+Corpo Hidrico: Arroio da Ilha
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -944,20 +930,6 @@ Usuario: SCHIRMER &amp; CORREA CONSULTORIA FLORESTAL LTDA
 Status: Concedida
 Municipio: Boa Vista do Cadeado
 Corpo Hidrico: Arroio Concei&#231;&#227;o
-    </description>
-      <styleUrl>#verde</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>CGH Daltro Filho</name>
-      <Point>
-        <coordinates>-51.7493,-29.3301</coordinates>
-      </Point>
-      <description>
-Processo: 2018/031.548
-Usuario: SPE DALTRO FILHO GERA&#199;&#195;O DE ENERGIA LTDA
-Status: Concedida
-Municipio: Imigrante
-Corpo Hidrico: Arroio da Seca
     </description>
       <styleUrl>#verde</styleUrl>
     </Placemark>
