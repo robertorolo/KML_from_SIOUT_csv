@@ -26,6 +26,20 @@
   <Folder>
     <name>Aguardando formaliza&#231;&#227;o de documentos</name>
     <Placemark>
+      <name>N/D</name>
+      <Point>
+        <coordinates>-54.1755,-29.3524</coordinates>
+      </Point>
+      <description>
+Processo: 2020/006.277
+Usuario: Fernando Isoton
+Status: Aguardando formaliza&#231;&#227;o de documentos
+Municipio: Quevedos
+Corpo Hidrico: Rio Toropi-Mirim
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
       <name>CGH Nilo Bonfanti</name>
       <Point>
         <coordinates>-53.9701307613505,-27.9612491935233</coordinates>
@@ -36,6 +50,20 @@ Usuario: Cooperativa de Gera&#231;&#227;o de Energia e Desenvolvimento Social LT
 Status: Aguardando formaliza&#231;&#227;o de documentos
 Municipio: Chiapetta
 Corpo Hidrico: Rio Buric&#225;
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>N/D</name>
+      <Point>
+        <coordinates>-49.9896,-28.52315</coordinates>
+      </Point>
+      <description>
+Processo: 2019/000.170
+Usuario: SILVEIRA III ENERG&#201;TICA S.A.
+Status: Aguardando formaliza&#231;&#227;o de documentos
+Municipio: S&#227;o Jos&#233; dos Ausentes
+Corpo Hidrico: Rio do Silveira
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -110,16 +138,16 @@ Corpo Hidrico: Lajeado Tigre
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>N/D</name>
+      <name>CGH Sperotto</name>
       <Point>
-        <coordinates>-53.8794412024506,-28.3713467861906</coordinates>
+        <coordinates>-53.6951422691345,-27.8708722237738</coordinates>
       </Point>
       <description>
-Processo: 2017/000.678
-Usuario: IJUI CENTENARIA GERACAO SPE LTDA
+Processo: 2016/013.809
+Usuario: Hidroel&#233;trica Sperotto Queda do Turvo Ltda
 Status: Aguardando formaliza&#231;&#227;o de documentos
-Municipio: Iju&#237;
-Corpo Hidrico: Rio Potiribu
+Municipio: Santo Augusto
+Corpo Hidrico: Rio Turvo
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -129,12 +157,43 @@ Corpo Hidrico: Rio Potiribu
     <Placemark>
       <name>N/D</name>
       <Point>
+        <coordinates>-51.0574126226783,-28.0183100523146</coordinates>
+      </Point>
+      <description>
+Processo: 2020/007.726
+Usuario: A&#199;O METAIS FRAIBURGO LTDA
+Status: Aguardando an&#225;lise
+Municipio: Esmeralda
+Corpo Hidrico: Arroio Guabij&#250;
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>N/D</name>
+      <Point>
+        <coordinates>-51.8483233451843,-28.7032737272059</coordinates>
+      </Point>
+      <description>
+Processo: 2018/020.674
+Usuario: Focchezan Energia Ltda
+Status: Aguardando an&#225;lise
+Municipio: Nova Bassano
+Corpo Hidrico: Rio Carreiro
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Aguardando altera&#231;&#245;es de dados inconsistentes</name>
+    <Placemark>
+      <name>N/D</name>
+      <Point>
         <coordinates>-51.2448983019806,-27.8099371429907</coordinates>
       </Point>
       <description>
 Processo: 2020/006.741
 Usuario: CONSTRUN&#205;VEL ENERGIAS RENOV&#193;VEIS LTDA
-Status: Aguardando an&#225;lise
+Status: Aguardando altera&#231;&#245;es de dados inconsistentes
 Municipio: Pinhal da Serra
 Corpo Hidrico: Arroio da Gl&#243;ria
     </description>
@@ -148,29 +207,12 @@ Corpo Hidrico: Arroio da Gl&#243;ria
       <description>
 Processo: 2020/002.866
 Usuario: LINHA ONZE OESTE ENERGIA LTDA
-Status: Aguardando an&#225;lise
+Status: Aguardando altera&#231;&#245;es de dados inconsistentes
 Municipio: Coronel Barros
 Corpo Hidrico: Rio Iju&#237;
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
-    <Placemark>
-      <name>CGH Touros V</name>
-      <Point>
-        <coordinates>-50.4245209693909,-28.50290316766</coordinates>
-      </Point>
-      <description>
-Processo: 2019/005.157
-Usuario: TOUROS V ENERG&#201;TICA S.A.
-Status: Aguardando an&#225;lise
-Municipio: Bom Jesus
-Corpo Hidrico: Rio dos Touros
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-  </Folder>
-  <Folder>
-    <name>Aguardando altera&#231;&#245;es de dados inconsistentes</name>
     <Placemark>
       <name>CGH Suzana</name>
       <Point>
@@ -340,6 +382,20 @@ Corpo Hidrico: Sem denomina&#231;&#227;o
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
+      <name>CGH Caxambu</name>
+      <Point>
+        <coordinates>-53.4572196006775,-28.3982335362495</coordinates>
+      </Point>
+      <description>
+Processo: 2018/033.376
+Usuario: Agropecuaria Fockink Ltda
+Status: Aguardando altera&#231;&#245;es de dados inconsistentes
+Municipio: Panambi
+Corpo Hidrico: Sem denomina&#231;&#227;o
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
       <name>CGH Padre Polo</name>
       <Point>
         <coordinates>-52.5460839271545,-27.6894943455994</coordinates>
@@ -480,6 +536,20 @@ Corpo Hidrico: Arroio Caravaggio
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
+      <name>N/D</name>
+      <Point>
+        <coordinates>-53.8794412024506,-28.3713467861906</coordinates>
+      </Point>
+      <description>
+Processo: 2017/000.678
+Usuario: IJUI CENTENARIA GERACAO SPE LTDA
+Status: Aguardando altera&#231;&#245;es de dados inconsistentes
+Municipio: Iju&#237;
+Corpo Hidrico: Rio Potiribu
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
       <name>CGH Gramado Xavier</name>
       <Point>
         <coordinates>-52.6818554804459,-29.2587665674645</coordinates>
@@ -595,44 +665,16 @@ Corpo Hidrico: Rio Pardo
   <Folder>
     <name>Em an&#225;lise</name>
     <Placemark>
-      <name>CGH Tr&#234;s Marias</name>
+      <name>CGH Touros V</name>
       <Point>
-        <coordinates>-50.8559701377817,-28.2990821433521</coordinates>
+        <coordinates>-50.4245209693909,-28.50290316766</coordinates>
       </Point>
       <description>
-Processo: 2020/001.754
-Usuario: BORTOLON AGROCOMERCIAL EIRELI
+Processo: 2019/005.157
+Usuario: TOUROS V ENERG&#201;TICA S.A.
 Status: Em an&#225;lise
-Municipio: Vacaria
-Corpo Hidrico: Rio Socorro
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>CGH Caxambu</name>
-      <Point>
-        <coordinates>-53.4572196006775,-28.3982335362495</coordinates>
-      </Point>
-      <description>
-Processo: 2018/033.376
-Usuario: Agropecuaria Fockink Ltda
-Status: Em an&#225;lise
-Municipio: Panambi
-Corpo Hidrico: Sem denomina&#231;&#227;o
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>CGH Mirim</name>
-      <Point>
-        <coordinates>-53.1211,-28.2623</coordinates>
-      </Point>
-      <description>
-Processo: 2017/005.275
-Usuario: CONQUISTA GERA&#199;&#195;O DE ENERGIA EL&#201;TRICA LTDA
-Status: Em an&#225;lise
-Municipio: Carazinho
-Corpo Hidrico: Arroio da Ilha
+Municipio: Bom Jesus
+Corpo Hidrico: Rio dos Touros
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -650,6 +692,20 @@ Usuario: BT GERADORA DE ENERGIA ELETRICA S.A.
 Status: Concedida
 Municipio: Erval Seco
 Corpo Hidrico: Rio Guarita
+    </description>
+      <styleUrl>#verde</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Tr&#234;s Marias</name>
+      <Point>
+        <coordinates>-50.8559701377817,-28.2990821433521</coordinates>
+      </Point>
+      <description>
+Processo: 2020/001.754
+Usuario: BORTOLON AGROCOMERCIAL EIRELI
+Status: Concedida
+Municipio: Vacaria
+Corpo Hidrico: Rio Socorro
     </description>
       <styleUrl>#verde</styleUrl>
     </Placemark>
@@ -1060,16 +1116,16 @@ Corpo Hidrico: Rio Vieira
       <styleUrl>#verde</styleUrl>
     </Placemark>
     <Placemark>
-      <name>CGH Sperotto</name>
+      <name>CGH Mirim</name>
       <Point>
-        <coordinates>-53.6951422691345,-27.8708722237738</coordinates>
+        <coordinates>-53.1211,-28.2623</coordinates>
       </Point>
       <description>
-Processo: 2016/013.809
-Usuario: Hidroel&#233;trica Sperotto Queda do Turvo Ltda
+Processo: 2017/005.275
+Usuario: CONQUISTA GERA&#199;&#195;O DE ENERGIA EL&#201;TRICA LTDA
 Status: Concedida
-Municipio: Santo Augusto
-Corpo Hidrico: Rio Turvo
+Municipio: Carazinho
+Corpo Hidrico: Arroio da Ilha
     </description>
       <styleUrl>#verde</styleUrl>
     </Placemark>
