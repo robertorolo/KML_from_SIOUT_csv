@@ -127,7 +127,7 @@ Corpo Hidrico: Rio Turvo
   <Folder>
     <name>Aguardando an&#225;lise</name>
     <Placemark>
-      <name>N/D</name>
+      <name>PCH Silveira II</name>
       <Point>
         <coordinates>-28.5496954870663,-49.9945306777954</coordinates>
       </Point>
@@ -141,7 +141,7 @@ Corpo Hidrico: Rio do Silveira
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>N/D</name>
+      <name>PCH Silveira III</name>
       <Point>
         <coordinates>-28.52315,-49.9896</coordinates>
       </Point>
@@ -158,7 +158,7 @@ Corpo Hidrico: Rio do Silveira
   <Folder>
     <name>Aguardando altera&#231;&#245;es de dados inconsistentes</name>
     <Placemark>
-      <name>N/D</name>
+      <name>CGH Guabiju I</name>
       <Point>
         <coordinates>-28.0183100523146,-51.0574126226783</coordinates>
       </Point>
@@ -172,7 +172,7 @@ Corpo Hidrico: Arroio Guabij&#250;
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>N/D</name>
+      <name>CGH Gl&#243;ria</name>
       <Point>
         <coordinates>-27.8099371429907,-51.2448983019806</coordinates>
       </Point>
@@ -186,7 +186,7 @@ Corpo Hidrico: Arroio da Gl&#243;ria
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>N/D</name>
+      <name>CGH Quevedos</name>
       <Point>
         <coordinates>-29.3524,-54.1755</coordinates>
       </Point>
@@ -466,7 +466,7 @@ Corpo Hidrico: Rio Passo Fundo
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>N/D</name>
+      <name>CGH Focchezan</name>
       <Point>
         <coordinates>-28.7032737272059,-51.8483233451843</coordinates>
       </Point>
@@ -494,7 +494,7 @@ Corpo Hidrico: Sem denomina&#231;&#227;o
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>N/D</name>
+      <name>PCH Pezzi</name>
       <Point>
         <coordinates>-28.7931990538675,-50.5646395683289</coordinates>
       </Point>
@@ -522,7 +522,7 @@ Corpo Hidrico: Rio das Antas
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>N/D</name>
+      <name>PCH Cotipor&#227;</name>
       <Point>
         <coordinates>-28.9637684333985,-51.7580723762512</coordinates>
       </Point>
@@ -707,7 +707,7 @@ Corpo Hidrico: Rio Pardo
   <Folder>
     <name>Em an&#225;lise</name>
     <Placemark>
-      <name>N/D</name>
+      <name>PCH Cotovelo do Jacu&#237;</name>
       <Point>
         <coordinates>-28.6720639800573,-52.7260065078735</coordinates>
       </Point>
@@ -763,7 +763,7 @@ Corpo Hidrico: Rio Ligeiro
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>N/D</name>
+      <name>CGH Esteira</name>
       <Point>
         <coordinates>-28.6736111111111,-50.85</coordinates>
       </Point>
@@ -777,7 +777,7 @@ Corpo Hidrico: Arroio Esteira
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>N/D</name>
+      <name>PCH Sede II</name>
       <Point>
         <coordinates>-28.3713467861906,-53.8794412024506</coordinates>
       </Point>

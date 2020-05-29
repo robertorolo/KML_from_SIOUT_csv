@@ -1,9 +1,9 @@
 Prioridade,Número do cadastro,Nome,Nome do usuário de água,Município,Status,Data de saída do processo,Número da portaria
-Não,2020/008.760,N/D,IJUI CENTENARIA GERACAO SPE LTDA,Ijuí,Aguardando pagamento da guia,29/05/2020,-
-Não,2020/007.726,N/D,AÇO METAIS FRAIBURGO LTDA,Esmeralda,Aguardando alterações de dados inconsistentes,29/05/2020,-
-Não,2020/007.390,N/D,COPREL Cooperativa de Geração de Energia e Desenvolvimento,Victor Graeff,Em análise,25/05/2020,-
-Não,2020/006.741,N/D,CONSTRUNÍVEL ENERGIAS RENOVÁVEIS LTDA,Pinhal da Serra,Aguardando alterações de dados inconsistentes,01/05/2020,-
-Não,2020/006.277,N/D,Fernando Isoton,Quevedos,Aguardando alterações de dados inconsistentes,27/04/2020,-
+Não,2020/008.760,PCH Sede II,IJUI CENTENARIA GERACAO SPE LTDA,Ijuí,Aguardando pagamento da guia,29/05/2020,-
+Não,2020/007.726,CGH Guabiju I,AÇO METAIS FRAIBURGO LTDA,Esmeralda,Aguardando alterações de dados inconsistentes,29/05/2020,-
+Não,2020/007.390,PCH Cotovelo do Jacuí,COPREL Cooperativa de Geração de Energia e Desenvolvimento,Victor Graeff,Em análise,25/05/2020,-
+Não,2020/006.741,CGH Glória,CONSTRUNÍVEL ENERGIAS RENOVÁVEIS LTDA,Pinhal da Serra,Aguardando alterações de dados inconsistentes,01/05/2020,-
+Não,2020/006.277,CGH Quevedos,Fernando Isoton,Quevedos,Aguardando alterações de dados inconsistentes,27/04/2020,-
 Não,2020/005.099,PCH Ferradura,BT GERADORA DE ENERGIA ELETRICA S.A.,Erval Seco,Concedida,24/04/2020,O-000.870/2020
 Não,2020/002.866,PCH Linha Onze Oeste,LINHA ONZE OESTE ENERGIA LTDA,Coronel Barros,Aguardando alterações de dados inconsistentes,19/02/2020,-
 Não,2020/002.683,CGH Nilo Bonfanti,Cooperativa de Geração de Energia e Desenvolvimento Social LTDA,Chiapetta,Aguardando formalização de documentos,05/03/2020,-
@@ -25,7 +25,7 @@ Não,2019/008.795,CGH Lorenz,LORENZ & FILHOS LTDA - EPP,Humaitá,Concedida,16/03
 Não,2019/008.576,CGH Ligeirinho,ESB ENGENHARIA LTDA,Sananduva,Indeferida,16/05/2019,-
 Não,2019/008.343,GGH Despraiado,X-6 Geração de Energia Eireli,Vacaria,Concedida,02/03/2020,O-000.644/2020
 Não,2019/006.177,CGH Pedras Brancas,CERFOX  COOPERATIVA DE GERAÇÃO E DESENVOLVIMENTO FONTOURA XAVIER,Arvorezinha,Aguardando alterações de dados inconsistentes,13/11/2019,-
-Não,2019/005.166,N/D,SILVEIRA II ENERGÉTICA S.A.,São José dos Ausentes,Aguardando análise,22/05/2020,-
+Não,2019/005.166,PCH Silveira II,SILVEIRA II ENERGÉTICA S.A.,São José dos Ausentes,Aguardando análise,22/05/2020,-
 Não,2019/005.157,CGH Touros V,TOUROS V ENERGÉTICA S.A.,Bom Jesus,Em análise,10/02/2020,-
 Não,2019/005.142,PCH Touros IV,TOUROS IV ENERGÉTICA S.A.,Bom Jesus,Concedida,20/04/2020,O-000.841/2020
 Não,2019/004.975,CGH Palomas,PALOMA ENERGIA LTDA,Barra do Rio Azul,Aguardando alterações de dados inconsistentes,29/04/2020,-
@@ -42,7 +42,7 @@ Não,2019/001.476,PCH Silveira II,SILVEIRA III ENERGÉTICA S.A.,São José dos A
 Não,2019/001.316,CGH Serrinha II,OLFAR S/A ALIMENTO E ENERGIA,Protásio Alves,Concedida,16/04/2020,R-000.897/2020
 Não,2019/001.003,PCH Rio Ijuizinho,COOPERATIVA DE DISTRIBUICAO E GERACAO DE ENERGIA DAS MISSOES,Entre-Ijuís,Indeferida,07/02/2019,-
 Não,2019/000.653,CGH Foz do Cará,APS Construções EIRELI,Caxias do Sul,Aguardando alterações de dados inconsistentes,15/04/2020,-
-Não,2019/000.170,N/D,SILVEIRA III ENERGÉTICA S.A.,São José dos Ausentes,Aguardando análise,14/05/2020,-
+Não,2019/000.170,PCH Silveira III,SILVEIRA III ENERGÉTICA S.A.,São José dos Ausentes,Aguardando análise,14/05/2020,-
 Não,2018/034.982,PCH Vale do Leite,Certel Vale do Leite Geração de Energia S/A,Pouso Novo,Concedida,14/02/2020,R-000.594/2020
 Não,2018/034.380,CGH Mariano,MARIANO GERAÇÃO DE ENERGIA,Machadinho,Aguardando alterações de dados inconsistentes,28/01/2020,-
 Não,2018/033.655,CGH Governador,Pablo Rodrigo Ferreira Romeiro,Monte Alegre dos Campos,Concedida,14/04/2020,R-000.842/2020
@@ -63,11 +63,11 @@ Não,2018/025.979,CGH Recanto,Vertente Engenharia Ltda,Ipê,Concedida,16/01/2020
 Não,2018/025.491,CGH Invernada,Vertente Engenharia Ltda,Campestre da Serra,Concedida,11/12/2018,R-000.116/2018
 Não,2018/023.145,CGH das Cabras,CABRAS GERADORA DE ENERGIA ELÉTRICA LTDA,Erval Seco,Concedida,16/08/2019,O-000.298/2019
 Não,2018/022.736,UHE Passo Fundo,ENGIE BRASIL ENERGIA S.A.,Entre Rios do Sul,Aguardando alterações de dados inconsistentes,04/04/2019,-
-Não,2018/020.674,N/D,Focchezan Energia Ltda,Nova Bassano,Aguardando alterações de dados inconsistentes,12/05/2020,-
+Não,2018/020.674,CGH Focchezan,Focchezan Energia Ltda,Nova Bassano,Aguardando alterações de dados inconsistentes,12/05/2020,-
 Não,2018/014.719,PCH Serra dos Cavalinhos I,SERRA DOS CAVALINHOS I ENERGETICA SA,Monte Alegre dos Campos,Aguardando alterações de dados inconsistentes,18/02/2020,-
-Não,2018/014.695,N/D,PEZZI ENERGETICA SA,Bom Jesus,Aguardando alterações de dados inconsistentes,24/05/2018,-
+Não,2018/014.695,PCH Pezzi,PEZZI ENERGETICA SA,Bom Jesus,Aguardando alterações de dados inconsistentes,24/05/2018,-
 Não,2018/014.640,PCH Serra dos Cavalinhos II,SERRA DOS CAVALINHOS II ENERGETICA SA,Monte Alegre dos Campos,Aguardando alterações de dados inconsistentes,23/03/2020,-
-Não,2018/012.969,N/D,COTIPORÃ ENERGÉTICA SA,Cotiporã,Aguardando alterações de dados inconsistentes,07/05/2020,-
+Não,2018/012.969,PCH Cotiporã,COTIPORÃ ENERGÉTICA SA,Cotiporã,Aguardando alterações de dados inconsistentes,07/05/2020,-
 Não,2018/017.547,PCH Coronel Barros,Cooperativa de Geração de Energia e Desenvolvimento Social LTDA,Coronel Barros,Indeferida,08/07/2019,-
 Não,2018/012.671,CGH Pedra Branca,"JCS Engenharia, Consultoria e Participações EIRELLI - EPP",Campestre da Serra,Concedida,19/03/2019,O-000.598/2020
 Não,2018/012.255,PCH Caçador,CAÇADOR ENERGÉTICA SA,Serafina Corrêa,Aguardando alterações de dados inconsistentes,27/03/2020,-
@@ -86,11 +86,11 @@ Não,2017/030.507,CGH Vieira II,Aecogeo Soluções Ambientais Ltda,Ipê,Concedid
 Não,2017/028.789,CGH Tomé,Aecogeo Soluções Ambientais Ltda,São Francisco de Paula,Concedida,06/02/2020,R-000.741/2020
 Não,2017/028.651,CGH Arroio da Reserva,SAULO SALLES BEVILACQUA NETO,Pinhal Grande,Indeferida,11/09/2018,-
 Não,2017/028.632,CGH Buricá,COOPERATIVA DE DESENVOLVIMENTO SOCIAL ENTRE RIOS LTDA.,Inhacorá,Indeferida,05/09/2019,-
-Não,2017/026.926,N/D,Aecogeo Soluções Ambientais Ltda,Monte Alegre dos Campos,Em análise,06/05/2020,-
+Não,2017/026.926,CGH Esteira,Aecogeo Soluções Ambientais Ltda,Monte Alegre dos Campos,Em análise,06/05/2020,-
 Não,2017/026.651,CGH Vieira 01,Aecogeo Soluções Ambientais Ltda,Ipê,Concedida,22/04/2020,R-000.866/2020
 Não,2017/011.290,CGH Pozza I,ITASUL ENERGY GERAÇÃO DE ENERGIA LTDA,Machadinho,Aguardando formalização de documentos,19/12/2019,-
 Não,2017/005.275,CGH Mirim,CONQUISTA GERAÇÃO DE ENERGIA ELÉTRICA LTDA,Carazinho,Concedida,11/05/2020,O-000.957/2020
-Não,2017/000.678,N/D,IJUI CENTENARIA GERACAO SPE LTDA,Ijuí,Em análise,26/05/2020,-
+Não,2017/000.678,PCH Sede II,IJUI CENTENARIA GERACAO SPE LTDA,Ijuí,Em análise,26/05/2020,-
 Não,2016/013.809,CGH Sperotto,Hidroelétrica Sperotto Queda do Turvo Ltda,Santo Augusto,Aguardando formalização de documentos,13/04/2020,-
 Não,2016/008.018,CGH Gramado Xavier,TRES FRONTEIRAS GERAÇÃO DE ENERGIA,Gramado Xavier,Aguardando alterações de dados inconsistentes,14/10/2019,-
 Não,2016/008.016,CGH Gramado dos Francos,TRES FRONTEIRAS GERAÇÃO DE ENERGIA,Barros Cassal,Aguardando alterações de dados inconsistentes,14/10/2019,-
