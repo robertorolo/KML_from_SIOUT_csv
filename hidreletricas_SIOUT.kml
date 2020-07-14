@@ -28,9 +28,6 @@
   </Folder>
   <Folder>
     <name>Aguardando an&#225;lise</name>
-  </Folder>
-  <Folder>
-    <name>Aguardando altera&#231;&#245;es de dados inconsistentes</name>
     <Placemark>
       <name>CGH Gl&#243;ria</name>
       <Point>
@@ -39,12 +36,57 @@
       <description>
 Processo: 2020/006.741
 Usuario: CONSTRUN&#205;VEL ENERGIAS RENOV&#193;VEIS LTDA
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
+Status: Aguardando an&#225;lise
 Municipio: Pinhal da Serra
 Corpo Hidrico: Arroio da Gl&#243;ria
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
+    <Placemark>
+      <name>N/D</name>
+      <Point>
+        <coordinates>-51.3604,-27.8621</coordinates>
+      </Point>
+      <description>
+Processo: 2019/024.861
+Usuario: Bernardo Jos&#233; Gera&#231;&#227;o de Energia Ltda
+Status: Aguardando an&#225;lise
+Municipio: Pinhal da Serra
+Corpo Hidrico: Rio Bernardo Jos&#233;
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Palomas</name>
+      <Point>
+        <coordinates>-52.3982405662537,-27.3289150400905</coordinates>
+      </Point>
+      <description>
+Processo: 2019/004.975
+Usuario: PALOMA ENERGIA LTDA
+Status: Aguardando an&#225;lise
+Municipio: Barra do Rio Azul
+Corpo Hidrico: Rio Palomas
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>PCH Silveira III</name>
+      <Point>
+        <coordinates>-49.9896,-28.52315</coordinates>
+      </Point>
+      <description>
+Processo: 2019/000.170
+Usuario: SILVEIRA III ENERG&#201;TICA S.A.
+Status: Aguardando an&#225;lise
+Municipio: S&#227;o Jos&#233; dos Ausentes
+Corpo Hidrico: Rio do Silveira
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Aguardando altera&#231;&#245;es de dados inconsistentes</name>
     <Placemark>
       <name>CGH Quevedos</name>
       <Point>
@@ -144,20 +186,6 @@ Corpo Hidrico: Rio do Silveira
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>CGH Palomas</name>
-      <Point>
-        <coordinates>-52.3982405662537,-27.3289150400905</coordinates>
-      </Point>
-      <description>
-Processo: 2019/004.975
-Usuario: PALOMA ENERGIA LTDA
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Barra do Rio Azul
-Corpo Hidrico: Rio Palomas
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
       <name>CGH Vanassi</name>
       <Point>
         <coordinates>-51.0092751160888,-29.1671439641435</coordinates>
@@ -172,34 +200,6 @@ Corpo Hidrico: Rio Piai
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>CGH Touros III</name>
-      <Point>
-        <coordinates>-50.3776,-28.5343</coordinates>
-      </Point>
-      <description>
-Processo: 2019/003.312
-Usuario: TOUROS III ENERG&#201;TICA S.A.
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Bom Jesus
-Corpo Hidrico: Sem denomina&#231;&#227;o
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>CGH Touros II</name>
-      <Point>
-        <coordinates>-50.3528,-28.5774</coordinates>
-      </Point>
-      <description>
-Processo: 2019/002.931
-Usuario: TOUROS II ENERG&#201;TICA S.A.
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Bom Jesus
-Corpo Hidrico: Rio dos Touros
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
       <name>CGH Foz do Car&#225;</name>
       <Point>
         <coordinates>-51.0578484317457,-29.1742686136754</coordinates>
@@ -210,20 +210,6 @@ Usuario: APS Constru&#231;&#245;es EIRELI
 Status: Aguardando altera&#231;&#245;es de dados inconsistentes
 Municipio: Caxias do Sul
 Corpo Hidrico: Rio Piai
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>PCH Silveira III</name>
-      <Point>
-        <coordinates>-49.9896,-28.52315</coordinates>
-      </Point>
-      <description>
-Processo: 2019/000.170
-Usuario: SILVEIRA III ENERG&#201;TICA S.A.
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: S&#227;o Jos&#233; dos Ausentes
-Corpo Hidrico: Rio do Silveira
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -538,23 +524,23 @@ Corpo Hidrico: Rio Pardo
   </Folder>
   <Folder>
     <name>Em an&#225;lise</name>
+  </Folder>
+  <Folder>
+    <name>Concedida</name>
     <Placemark>
-      <name>N/D</name>
+      <name>CGH Guabiju II</name>
       <Point>
         <coordinates>-51.0500254745448,-28.0138986023676</coordinates>
       </Point>
       <description>
 Processo: 2020/009.716
 Usuario: A&#199;O METAIS FRAIBURGO LTDA
-Status: Em an&#225;lise
+Status: Concedida
 Municipio: Esmeralda
 Corpo Hidrico: Arroio Guabij&#250;
     </description>
-      <styleUrl>#amarelo</styleUrl>
+      <styleUrl>#verde</styleUrl>
     </Placemark>
-  </Folder>
-  <Folder>
-    <name>Concedida</name>
     <Placemark>
       <name>PCH Sede II</name>
       <Point>
@@ -846,20 +832,6 @@ Usuario: M. H.N GERACAO ELETRICA LTDA
 Status: Concedida
 Municipio: Crissiumal
 Corpo Hidrico: Lajeado Grande
-    </description>
-      <styleUrl>#verde</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>PCH Cotovelo do Jacu&#237;</name>
-      <Point>
-        <coordinates>-52.7264142036438,-28.6717251018477</coordinates>
-      </Point>
-      <description>
-Processo: 2019/002.997
-Usuario: COPREL Cooperativa de Gera&#231;&#227;o de Energia e Desenvolvimento
-Status: Concedida
-Municipio: Victor Graeff
-Corpo Hidrico: Rio Jacu&#237;
     </description>
       <styleUrl>#verde</styleUrl>
     </Placemark>
