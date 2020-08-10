@@ -29,16 +29,86 @@
   <Folder>
     <name>Aguardando an&#225;lise</name>
     <Placemark>
-      <name>CGH Daltro Filho</name>
+      <name>N/D</name>
       <Point>
-        <coordinates>-51.7493,-29.3301</coordinates>
+        <coordinates>-51.4019469510276,-28.6365014666689</coordinates>
       </Point>
       <description>
-Processo: 2018/031.548
-Usuario: SPE DALTRO FILHO GERA&#199;&#195;O DE ENERGIA LTDA
+Processo: 2020/012.232
+Usuario: VALE DO TURVO HIDREL&#201;TRICA LTDA
 Status: Aguardando an&#225;lise
-Municipio: Imigrante
-Corpo Hidrico: Arroio da Seca
+Municipio: Andr&#233; da Rocha
+Corpo Hidrico: Rio Turvo
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>N/D</name>
+      <Point>
+        <coordinates>-51.4116458188255,-28.6488482889169</coordinates>
+      </Point>
+      <description>
+Processo: 2020/010.778
+Usuario: VALE DO TURVO HIDREL&#201;TRICA LTDA
+Status: Aguardando an&#225;lise
+Municipio: Andr&#233; da Rocha
+Corpo Hidrico: Rio Turvo
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>N/D</name>
+      <Point>
+        <coordinates>-51.5042064125009,-27.6967850415058</coordinates>
+      </Point>
+      <description>
+Processo: 2020/009.392
+Usuario: Cassiano Collet
+Status: Aguardando an&#225;lise
+Municipio: Barrac&#227;o
+Corpo Hidrico: Rio Marmeleiro
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Touros V</name>
+      <Point>
+        <coordinates>-50.4245209693909,-28.50290316766</coordinates>
+      </Point>
+      <description>
+Processo: 2019/005.157
+Usuario: TOUROS V ENERG&#201;TICA S.A.
+Status: Aguardando an&#225;lise
+Municipio: Bom Jesus
+Corpo Hidrico: Rio dos Touros
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Touros III</name>
+      <Point>
+        <coordinates>-50.3776,-28.5343</coordinates>
+      </Point>
+      <description>
+Processo: 2019/003.312
+Usuario: TOUROS III ENERG&#201;TICA S.A.
+Status: Aguardando an&#225;lise
+Municipio: Bom Jesus
+Corpo Hidrico: Sem denomina&#231;&#227;o
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Touros III</name>
+      <Point>
+        <coordinates>-50.3528,-28.5774</coordinates>
+      </Point>
+      <description>
+Processo: 2019/002.931
+Usuario: TOUROS II ENERG&#201;TICA S.A.
+Status: Aguardando an&#225;lise
+Municipio: Bom Jesus
+Corpo Hidrico: Rio dos Touros
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -116,34 +186,6 @@ Corpo Hidrico: Rio Toropi-Mirim
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>PCH Linha Onze Oeste</name>
-      <Point>
-        <coordinates>-54.0045500199785,-28.3511124417778</coordinates>
-      </Point>
-      <description>
-Processo: 2020/002.866
-Usuario: LINHA ONZE OESTE ENERGIA LTDA
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Coronel Barros
-Corpo Hidrico: Rio Iju&#237;
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>CGH Suzana</name>
-      <Point>
-        <coordinates>-52.082783435041,-27.5152597908802</coordinates>
-      </Point>
-      <description>
-Processo: 2020/000.536
-Usuario: USINA HIDRELETRICA SUZANA I LTDA
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Gaurama
-Corpo Hidrico: Rio Suzana
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
       <name>PCH Edelweiss</name>
       <Point>
         <coordinates>-53.5819444444444,-27.59</coordinates>
@@ -186,48 +228,6 @@ Corpo Hidrico: Rio Forqueta
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>CGH Touros V</name>
-      <Point>
-        <coordinates>-50.4245209693909,-28.50290316766</coordinates>
-      </Point>
-      <description>
-Processo: 2019/005.157
-Usuario: TOUROS V ENERG&#201;TICA S.A.
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Bom Jesus
-Corpo Hidrico: Rio dos Touros
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>CGH Touros III</name>
-      <Point>
-        <coordinates>-50.3776,-28.5343</coordinates>
-      </Point>
-      <description>
-Processo: 2019/003.312
-Usuario: TOUROS III ENERG&#201;TICA S.A.
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Bom Jesus
-Corpo Hidrico: Sem denomina&#231;&#227;o
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>CGH Touros III</name>
-      <Point>
-        <coordinates>-50.3528,-28.5774</coordinates>
-      </Point>
-      <description>
-Processo: 2019/002.931
-Usuario: TOUROS II ENERG&#201;TICA S.A.
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Bom Jesus
-Corpo Hidrico: Rio dos Touros
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
       <name>CGH Foz do Car&#225;</name>
       <Point>
         <coordinates>-51.0578484317457,-29.1742686136754</coordinates>
@@ -238,20 +238,6 @@ Usuario: APS Constru&#231;&#245;es EIRELI
 Status: Aguardando altera&#231;&#245;es de dados inconsistentes
 Municipio: Caxias do Sul
 Corpo Hidrico: Rio Piai
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>PCH Silveira III</name>
-      <Point>
-        <coordinates>-49.9896,-28.52315</coordinates>
-      </Point>
-      <description>
-Processo: 2019/000.170
-Usuario: SILVEIRA III ENERG&#201;TICA S.A.
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: S&#227;o Jos&#233; dos Ausentes
-Corpo Hidrico: Rio do Silveira
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -308,6 +294,20 @@ Usuario: USINA PADRE POLO LTDA - ME
 Status: Aguardando altera&#231;&#245;es de dados inconsistentes
 Municipio: Jacutinga
 Corpo Hidrico: Sem denomina&#231;&#227;o
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Daltro Filho</name>
+      <Point>
+        <coordinates>-51.7493,-29.3301</coordinates>
+      </Point>
+      <description>
+Processo: 2018/031.548
+Usuario: SPE DALTRO FILHO GERA&#199;&#195;O DE ENERGIA LTDA
+Status: Aguardando altera&#231;&#245;es de dados inconsistentes
+Municipio: Imigrante
+Corpo Hidrico: Arroio da Seca
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -580,6 +580,48 @@ Corpo Hidrico: Rio Pardo
   </Folder>
   <Folder>
     <name>Em an&#225;lise</name>
+    <Placemark>
+      <name>PCH Linha Onze Oeste</name>
+      <Point>
+        <coordinates>-54.0045500199785,-28.3511124417778</coordinates>
+      </Point>
+      <description>
+Processo: 2020/002.866
+Usuario: LINHA ONZE OESTE ENERGIA LTDA
+Status: Em an&#225;lise
+Municipio: Coronel Barros
+Corpo Hidrico: Rio Iju&#237;
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Suzana</name>
+      <Point>
+        <coordinates>-52.082783435041,-27.5152597908802</coordinates>
+      </Point>
+      <description>
+Processo: 2020/000.536
+Usuario: USINA HIDRELETRICA SUZANA I LTDA
+Status: Em an&#225;lise
+Municipio: Gaurama
+Corpo Hidrico: Rio Suzana
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>PCH Silveira III</name>
+      <Point>
+        <coordinates>-49.9896,-28.52315</coordinates>
+      </Point>
+      <description>
+Processo: 2019/000.170
+Usuario: SILVEIRA III ENERG&#201;TICA S.A.
+Status: Em an&#225;lise
+Municipio: S&#227;o Jos&#233; dos Ausentes
+Corpo Hidrico: Rio do Silveira
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
   </Folder>
   <Folder>
     <name>Concedida</name>
@@ -776,20 +818,6 @@ Usuario: Cooperativa de Gera&#231;&#227;o de Energia e Desenvolvimento Social LT
 Status: Concedida
 Municipio: Coronel Barros
 Corpo Hidrico: Rio Concei&#231;&#227;o
-    </description>
-      <styleUrl>#verde</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>CGH Eug&#234;nio de Castro</name>
-      <Point>
-        <coordinates>-54.1852040655927,-28.5427428128476</coordinates>
-      </Point>
-      <description>
-Processo: 2019/021.194
-Usuario: EUGENIO DE CASTRO GERACAO E COMERCIO DE ENERGIA ELETRICA LTDA
-Status: Concedida
-Municipio: Eug&#234;nio de Castro
-Corpo Hidrico: Rio Ijuizinho
     </description>
       <styleUrl>#verde</styleUrl>
     </Placemark>
