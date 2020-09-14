@@ -29,23 +29,6 @@
   <Folder>
     <name>Aguardando an&#225;lise</name>
     <Placemark>
-      <name>N/D</name>
-      <Point>
-        <coordinates>-51.0881,-29.2021</coordinates>
-      </Point>
-      <description>
-Processo: 2020/014.974
-Usuario: CGH SANTO ANJO GERA&#199;&#195;O DE ENERGIA S.A
-Status: Aguardando an&#225;lise
-Municipio: Caxias do Sul
-Corpo Hidrico: Rio Piai
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-  </Folder>
-  <Folder>
-    <name>Aguardando altera&#231;&#245;es de dados inconsistentes</name>
-    <Placemark>
       <name>CGH Limeira</name>
       <Point>
         <coordinates>-51.4019469510276,-28.6365014666689</coordinates>
@@ -53,7 +36,7 @@ Corpo Hidrico: Rio Piai
       <description>
 Processo: 2020/012.232
 Usuario: VALE DO TURVO HIDREL&#201;TRICA LTDA
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
+Status: Aguardando an&#225;lise
 Municipio: Andr&#233; da Rocha
 Corpo Hidrico: Rio Turvo
     </description>
@@ -67,9 +50,54 @@ Corpo Hidrico: Rio Turvo
       <description>
 Processo: 2020/010.778
 Usuario: VALE DO TURVO HIDREL&#201;TRICA LTDA
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
+Status: Aguardando an&#225;lise
 Municipio: Andr&#233; da Rocha
 Corpo Hidrico: Rio Turvo
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>PCH Vinhedos</name>
+      <Point>
+        <coordinates>-51.8058,-28.8943</coordinates>
+      </Point>
+      <description>
+Processo: 2019/001.159
+Usuario: Enel Brasil S.A
+Status: Aguardando an&#225;lise
+Municipio: Fagundes Varela
+Corpo Hidrico: Rio Carreiro
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>PCH Forquilha IV Luciano Barancelli</name>
+      <Point>
+        <coordinates>-51.7498262903609,-27.6140889102323</coordinates>
+      </Point>
+      <description>
+Processo: 2017/028.636
+Usuario: CENTRAL GERADORA HIDREL&#201;TRICA FORQUILHA LTDA.
+Status: Aguardando an&#225;lise
+Municipio: Maximiliano de Almeida
+Corpo Hidrico: Rio Forquilha ou Inhandava
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Aguardando altera&#231;&#245;es de dados inconsistentes</name>
+    <Placemark>
+      <name>CGH Santo Anjo</name>
+      <Point>
+        <coordinates>-51.0881,-29.2021</coordinates>
+      </Point>
+      <description>
+Processo: 2020/014.974
+Usuario: CGH SANTO ANJO GERA&#199;&#195;O DE ENERGIA S.A
+Status: Aguardando altera&#231;&#245;es de dados inconsistentes
+Municipio: Caxias do Sul
+Corpo Hidrico: Rio Piai
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -368,20 +396,6 @@ Corpo Hidrico: Sem denomina&#231;&#227;o
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>N/D</name>
-      <Point>
-        <coordinates>-51.7498262903609,-27.6140889102323</coordinates>
-      </Point>
-      <description>
-Processo: 2017/028.636
-Usuario: CENTRAL GERADORA HIDREL&#201;TRICA FORQUILHA LTDA.
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Maximiliano de Almeida
-Corpo Hidrico: Rio Forquilha ou Inhandava
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
       <name>CGH Gramado Xavier</name>
       <Point>
         <coordinates>-52.6818554804459,-29.2587665674645</coordinates>
@@ -500,7 +514,7 @@ Corpo Hidrico: Rio Pardo
   <Folder>
     <name>Concedida</name>
     <Placemark>
-      <name>N/D</name>
+      <name>CGH Passo do Buraco</name>
       <Point>
         <coordinates>-50.8399415016174,-28.285675744838</coordinates>
       </Point>
@@ -514,7 +528,7 @@ Corpo Hidrico: Rio Socorro
       <styleUrl>#verde</styleUrl>
     </Placemark>
     <Placemark>
-      <name>N/D</name>
+      <name>CGH Augusto Pestana</name>
       <Point>
         <coordinates>-53.9496564832986,-28.4864035371879</coordinates>
       </Point>
@@ -705,7 +719,8 @@ Processo: 2020/000.360
 Usuario: COOPERATIVA DE DESENVOLVIMENTO SOCIAL ENTRE RIOS LTDA.
 Status: Concedida
 Municipio: Inhacor&#225;
-Corpo Hidrico: Rio Buric&#225;</description>
+Corpo Hidrico: Rio Buric&#225;
+    </description>
       <styleUrl>#verde</styleUrl>
     </Placemark>
     <Placemark>
