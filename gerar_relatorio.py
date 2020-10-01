@@ -205,8 +205,3 @@ f.write(kml_str)
 f.close()
 
 print('Feito!')
-
-
-
-
-
