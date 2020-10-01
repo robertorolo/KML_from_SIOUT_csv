@@ -28,9 +28,65 @@
   </Folder>
   <Folder>
     <name>Aguardando an&#225;lise</name>
+    <Placemark>
+      <name>N/D N/D</name>
+      <Point>
+        <coordinates>-51.4343480359275,-28.7280647929086</coordinates>
+      </Point>
+      <description>
+Processo: 2020/012.821
+Usuario: VALE DO TURVO HIDREL&#201;TRICA LTDA
+Status: Aguardando an&#225;lise
+Municipio: Ip&#234;
+Corpo Hidrico: Rio Turvo
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>N/D N/D</name>
+      <Point>
+        <coordinates>-51.435100273593,-28.7525216253112</coordinates>
+      </Point>
+      <description>
+Processo: 2020/011.303
+Usuario: VALE DO TURVO HIDREL&#201;TRICA LTDA
+Status: Aguardando an&#225;lise
+Municipio: Ip&#234;
+Corpo Hidrico: Rio Turvo
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Daltro Filho</name>
+      <Point>
+        <coordinates>-51.7493,-29.3301</coordinates>
+      </Point>
+      <description>
+Processo: 2018/031.548
+Usuario: SPE DALTRO FILHO GERA&#199;&#195;O DE ENERGIA LTDA
+Status: Aguardando an&#225;lise
+Municipio: Imigrante
+Corpo Hidrico: Arroio da Seca
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
   </Folder>
   <Folder>
     <name>Aguardando altera&#231;&#245;es de dados inconsistentes</name>
+    <Placemark>
+      <name>N/D N/D</name>
+      <Point>
+        <coordinates>-54.1959,-29.3891</coordinates>
+      </Point>
+      <description>
+Processo: 2020/012.601
+Usuario: Fernando Isoton
+Status: Aguardando altera&#231;&#245;es de dados inconsistentes
+Municipio: Quevedos
+Corpo Hidrico: Rio Toropi-Mirim
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
     <Placemark>
       <name>CGH Gl&#243;ria</name>
       <Point>
@@ -60,30 +116,16 @@ Corpo Hidrico: Rio Toropi-Mirim
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>N/D N/D</name>
+      <name>CGH S&#227;o Marcos</name>
       <Point>
-        <coordinates>-54.0045500199785,-28.3511124417778</coordinates>
+        <coordinates>-51.0080409049988,-29.0231519320435</coordinates>
       </Point>
       <description>
-Processo: 2020/002.866
-Usuario: LINHA ONZE OESTE ENERGIA LTDA
+Processo: 2020/002.905
+Usuario: HDE 01 PARTICIPACOES SOCIETARIAS EIRELI
 Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Coronel Barros
-Corpo Hidrico: Rio Iju&#237;
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>N/D N/D</name>
-      <Point>
-        <coordinates>-52.082783435041,-27.5152597908802</coordinates>
-      </Point>
-      <description>
-Processo: 2020/000.536
-Usuario: USINA HIDRELETRICA SUZANA I LTDA
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Gaurama
-Corpo Hidrico: Rio Suzana
+Municipio: Caxias do Sul
+Corpo Hidrico: Arroio S&#227;o Marcos
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -130,72 +172,16 @@ Corpo Hidrico: Rio Forqueta
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>N/D N/D</name>
+      <name>PCH Vinhedos</name>
       <Point>
-        <coordinates>-49.9945306777954,-28.5496954870663</coordinates>
+        <coordinates>-51.8058,-28.8943</coordinates>
       </Point>
       <description>
-Processo: 2019/005.166
-Usuario: SILVEIRA II ENERG&#201;TICA S.A.
+Processo: 2019/001.159
+Usuario: Enel Brasil S.A
 Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: S&#227;o Jos&#233; dos Ausentes
-Corpo Hidrico: Rio do Silveira
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>N/D N/D</name>
-      <Point>
-        <coordinates>-52.3982405662537,-27.3289150400905</coordinates>
-      </Point>
-      <description>
-Processo: 2019/004.975
-Usuario: PALOMA ENERGIA LTDA
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Barra do Rio Azul
-Corpo Hidrico: Rio Palomas
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>CGH Vanassi</name>
-      <Point>
-        <coordinates>-51.0092751160888,-29.1671439641435</coordinates>
-      </Point>
-      <description>
-Processo: 2019/004.961
-Usuario: APS Constru&#231;&#245;es EIRELI
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Caxias do Sul
-Corpo Hidrico: Rio Piai
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>CGH Touros III</name>
-      <Point>
-        <coordinates>-50.3776,-28.5343</coordinates>
-      </Point>
-      <description>
-Processo: 2019/003.312
-Usuario: TOUROS III ENERG&#201;TICA S.A.
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Bom Jesus
-Corpo Hidrico: Sem denomina&#231;&#227;o
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>CGH Touros III</name>
-      <Point>
-        <coordinates>-50.3528,-28.5774</coordinates>
-      </Point>
-      <description>
-Processo: 2019/002.931
-Usuario: TOUROS II ENERG&#201;TICA S.A.
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Bom Jesus
-Corpo Hidrico: Rio dos Touros
+Municipio: Fagundes Varela
+Corpo Hidrico: Rio Carreiro
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -210,20 +196,6 @@ Usuario: APS Constru&#231;&#245;es EIRELI
 Status: Aguardando altera&#231;&#245;es de dados inconsistentes
 Municipio: Caxias do Sul
 Corpo Hidrico: Rio Piai
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>PCH Silveira III</name>
-      <Point>
-        <coordinates>-49.9896,-28.52315</coordinates>
-      </Point>
-      <description>
-Processo: 2019/000.170
-Usuario: SILVEIRA III ENERG&#201;TICA S.A.
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: S&#227;o Jos&#233; dos Ausentes
-Corpo Hidrico: Rio do Silveira
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -266,48 +238,6 @@ Usuario: USINA PADRE POLO LTDA - ME
 Status: Aguardando altera&#231;&#245;es de dados inconsistentes
 Municipio: Jacutinga
 Corpo Hidrico: Sem denomina&#231;&#227;o
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>CGH Capivara Baixa</name>
-      <Point>
-        <coordinates>-53.4791,-27.465</coordinates>
-      </Point>
-      <description>
-Processo: 2018/031.022
-Usuario: PARTIALIS COMERCIO E GERA&#199;&#195;O DE ENERGIA S/A
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Erval Seco
-Corpo Hidrico: Rio Fortaleza
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>PCH Ijuzinho</name>
-      <Point>
-        <coordinates>-54.2893481254578,-28.4425062637246</coordinates>
-      </Point>
-      <description>
-Processo: 2018/027.596
-Usuario: Companhia Estadual de Gera&#231;&#227;o e Transmiss&#227;o de Energia El&#233;trica
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Eug&#234;nio de Castro
-Corpo Hidrico: Sem denomina&#231;&#227;o
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>UHE Passo Fundo</name>
-      <Point>
-        <coordinates>-52.7412629127502,-27.552758661097</coordinates>
-      </Point>
-      <description>
-Processo: 2018/022.736
-Usuario: ENGIE BRASIL ENERGIA S.A.
-Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Entre Rios do Sul
-Corpo Hidrico: Rio Passo Fundo
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -419,7 +349,7 @@ Processo: 2018/004.495
 Usuario: APS Constru&#231;&#245;es EIRELI
 Status: Aguardando altera&#231;&#245;es de dados inconsistentes
 Municipio: Caxias do Sul
-Corpo Hidrico: Arroio Caravaggio
+Corpo Hidrico: Sem denomina&#231;&#227;o
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -539,6 +469,205 @@ Corpo Hidrico: Rio Pardo
   <Folder>
     <name>Em an&#225;lise</name>
     <Placemark>
+      <name>N/D N/D</name>
+      <Point>
+        <coordinates>-51.4576005935669,-28.7937631941904</coordinates>
+      </Point>
+      <description>
+Processo: 2019/021.085
+Usuario: Hidrotermica s/a.
+Status: Em an&#225;lise
+Municipio: Ip&#234;
+Corpo Hidrico: Rio Turvo
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>PCH Ijuzinho</name>
+      <Point>
+        <coordinates>-54.2893481254578,-28.4425062637246</coordinates>
+      </Point>
+      <description>
+Processo: 2018/027.596
+Usuario: Companhia Estadual de Gera&#231;&#227;o e Transmiss&#227;o de Energia El&#233;trica
+Status: Em an&#225;lise
+Municipio: Eug&#234;nio de Castro
+Corpo Hidrico: Sem denomina&#231;&#227;o
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>PCH Forquilha IV Luciano Barancelli</name>
+      <Point>
+        <coordinates>-51.7498262903609,-27.6140889102323</coordinates>
+      </Point>
+      <description>
+Processo: 2017/028.636
+Usuario: CENTRAL GERADORA HIDREL&#201;TRICA FORQUILHA LTDA.
+Status: Em an&#225;lise
+Municipio: Maximiliano de Almeida
+Corpo Hidrico: Rio Forquilha ou Inhandava
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Concedida</name>
+    <Placemark>
+      <name>CGH Santo Anjo</name>
+      <Point>
+        <coordinates>-51.0881,-29.2021</coordinates>
+      </Point>
+      <description>
+Processo: 2020/014.974
+Usuario: CGH SANTO ANJO GERA&#199;&#195;O DE ENERGIA S.A
+Status: Concedida
+Municipio: Caxias do Sul
+Corpo Hidrico: Rio Piai
+    </description>
+      <styleUrl>#verde</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Passo do Buraco</name>
+      <Point>
+        <coordinates>-50.8399415016174,-28.285675744838</coordinates>
+      </Point>
+      <description>
+Processo: 2020/013.600
+Usuario: Z-4 Gera&#231;&#227;o de Energia El&#233;trica
+Status: Concedida
+Municipio: Vacaria
+Corpo Hidrico: Rio Socorro
+    </description>
+      <styleUrl>#verde</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Augusto Pestana</name>
+      <Point>
+        <coordinates>-53.9496564832986,-28.4864035371879</coordinates>
+      </Point>
+      <description>
+Processo: 2020/013.471
+Usuario: Cooperativa de Gera&#231;&#227;o de Energia e Desenvolvimento Social LTDA
+Status: Concedida
+Municipio: Augusto Pestana
+Corpo Hidrico: Arroio Concei&#231;&#227;o
+    </description>
+      <styleUrl>#verde</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>N/D N/D</name>
+      <Point>
+        <coordinates>-51.4359359036644,-28.6968624392378</coordinates>
+      </Point>
+      <description>
+Processo: 2020/012.816
+Usuario: VALE DO TURVO HIDREL&#201;TRICA LTDA
+Status: Concedida
+Municipio: Ip&#234;
+Corpo Hidrico: Rio Turvo
+    </description>
+      <styleUrl>#verde</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>N/D N/D</name>
+      <Point>
+        <coordinates>-51.450097967263,-28.6801505212404</coordinates>
+      </Point>
+      <description>
+Processo: 2020/012.793
+Usuario: VALE DO TURVO HIDREL&#201;TRICA LTDA
+Status: Concedida
+Municipio: Ip&#234;
+Corpo Hidrico: Rio Turvo
+    </description>
+      <styleUrl>#verde</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Limeira</name>
+      <Point>
+        <coordinates>-51.4019469510276,-28.6365014666689</coordinates>
+      </Point>
+      <description>
+Processo: 2020/012.232
+Usuario: VALE DO TURVO HIDREL&#201;TRICA LTDA
+Status: Concedida
+Municipio: Andr&#233; da Rocha
+Corpo Hidrico: Rio Turvo
+    </description>
+      <styleUrl>#verde</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Arroio da Reserva</name>
+      <Point>
+        <coordinates>-53.3473992347717,-29.1880600986026</coordinates>
+      </Point>
+      <description>
+Processo: 2020/011.687
+Usuario: SAULO SALLES BEVILACQUA NETO
+Status: Concedida
+Municipio: Pinhal Grande
+Corpo Hidrico: Arroio da Reserva
+    </description>
+      <styleUrl>#verde</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>PCH Lixiguana</name>
+      <Point>
+        <coordinates>-51.3851670514305,-28.6380834202961</coordinates>
+      </Point>
+      <description>
+Processo: 2020/010.833
+Usuario: VALE DO TURVO HIDREL&#201;TRICA LTDA
+Status: Concedida
+Municipio: Muitos Cap&#245;es
+Corpo Hidrico: Ituim
+    </description>
+      <styleUrl>#verde</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>PCH Barra do Ituim</name>
+      <Point>
+        <coordinates>-51.4116458188255,-28.6488482889169</coordinates>
+      </Point>
+      <description>
+Processo: 2020/010.778
+Usuario: VALE DO TURVO HIDREL&#201;TRICA LTDA
+Status: Concedida
+Municipio: Andr&#233; da Rocha
+Corpo Hidrico: Rio Turvo
+    </description>
+      <styleUrl>#verde</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>PCH Fazenda Velha</name>
+      <Point>
+        <coordinates>-51.406882215615,-28.5703394046889</coordinates>
+      </Point>
+      <description>
+Processo: 2020/010.683
+Usuario: VALE DO TURVO HIDREL&#201;TRICA LTDA
+Status: Concedida
+Municipio: Andr&#233; da Rocha
+Corpo Hidrico: Rio Turvo
+    </description>
+      <styleUrl>#verde</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Igrejinha</name>
+      <Point>
+        <coordinates>-53.9714683208623,-28.7956620902534</coordinates>
+      </Point>
+      <description>
+Processo: 2020/009.773
+Usuario: BOA VISTA DO CADEADO ENERGIA LTDA.
+Status: Concedida
+Municipio: Boa Vista do Cadeado
+Corpo Hidrico: Rio Ijuizinho
+    </description>
+      <styleUrl>#verde</styleUrl>
+    </Placemark>
+    <Placemark>
       <name>CGH Guabiju II</name>
       <Point>
         <coordinates>-51.0500254745448,-28.0138986023676</coordinates>
@@ -546,15 +675,26 @@ Corpo Hidrico: Rio Pardo
       <description>
 Processo: 2020/009.716
 Usuario: A&#199;O METAIS FRAIBURGO LTDA
-Status: Em an&#225;lise
+Status: Concedida
 Municipio: Esmeralda
 Corpo Hidrico: Arroio Guabij&#250;
     </description>
-      <styleUrl>#amarelo</styleUrl>
+      <styleUrl>#verde</styleUrl>
     </Placemark>
-  </Folder>
-  <Folder>
-    <name>Concedida</name>
+    <Placemark>
+      <name>CGH Collet</name>
+      <Point>
+        <coordinates>-51.5042064125009,-27.6967850415058</coordinates>
+      </Point>
+      <description>
+Processo: 2020/009.392
+Usuario: Cassiano Collet
+Status: Concedida
+Municipio: Barrac&#227;o
+Corpo Hidrico: Rio Marmeleiro
+    </description>
+      <styleUrl>#verde</styleUrl>
+    </Placemark>
     <Placemark>
       <name>PCH Sede II</name>
       <Point>
@@ -668,6 +808,20 @@ Corpo Hidrico: Arroio da Gl&#243;ria
       <styleUrl>#verde</styleUrl>
     </Placemark>
     <Placemark>
+      <name>CGH Bernardo Jos&#233;</name>
+      <Point>
+        <coordinates>-51.3604,-27.8621</coordinates>
+      </Point>
+      <description>
+Processo: 2019/024.861
+Usuario: Bernardo Jos&#233; Gera&#231;&#227;o de Energia Ltda
+Status: Concedida
+Municipio: Pinhal da Serra
+Corpo Hidrico: Rio Bernardo Jos&#233;
+    </description>
+      <styleUrl>#verde</styleUrl>
+    </Placemark>
+    <Placemark>
       <name>CGH di Franco</name>
       <Point>
         <coordinates>-51.122088432312,-29.0186486903895</coordinates>
@@ -706,20 +860,6 @@ Usuario: Cooperativa de Gera&#231;&#227;o de Energia e Desenvolvimento Social LT
 Status: Concedida
 Municipio: Coronel Barros
 Corpo Hidrico: Rio Concei&#231;&#227;o
-    </description>
-      <styleUrl>#verde</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>N/D N/D</name>
-      <Point>
-        <coordinates>-54.1852040655927,-28.5427428128476</coordinates>
-      </Point>
-      <description>
-Processo: 2019/021.194
-Usuario: EUGENIO DE CASTRO GERACAO E COMERCIO DE ENERGIA ELETRICA LTDA
-Status: Concedida
-Municipio: Eug&#234;nio de Castro
-Corpo Hidrico: Rio Ijuizinho
     </description>
       <styleUrl>#verde</styleUrl>
     </Placemark>
@@ -794,6 +934,20 @@ Corpo Hidrico: Rio Socorro
       <styleUrl>#verde</styleUrl>
     </Placemark>
     <Placemark>
+      <name>CGH Touros V</name>
+      <Point>
+        <coordinates>-50.4245209693909,-28.50290316766</coordinates>
+      </Point>
+      <description>
+Processo: 2019/005.157
+Usuario: TOUROS V ENERG&#201;TICA S.A.
+Status: Concedida
+Municipio: Bom Jesus
+Corpo Hidrico: Rio dos Touros
+    </description>
+      <styleUrl>#verde</styleUrl>
+    </Placemark>
+    <Placemark>
       <name>PCH Touros IV</name>
       <Point>
         <coordinates>-50.4083847999573,-28.5267355342475</coordinates>
@@ -850,16 +1004,30 @@ Corpo Hidrico: Lajeado Grande
       <styleUrl>#verde</styleUrl>
     </Placemark>
     <Placemark>
-      <name>N/D N/D</name>
+      <name>CGH Touros III</name>
       <Point>
-        <coordinates>-52.7264142036438,-28.6717251018477</coordinates>
+        <coordinates>-50.3776,-28.5343</coordinates>
       </Point>
       <description>
-Processo: 2019/002.997
-Usuario: COPREL Cooperativa de Gera&#231;&#227;o de Energia e Desenvolvimento
+Processo: 2019/003.312
+Usuario: TOUROS III ENERG&#201;TICA S.A.
 Status: Concedida
-Municipio: Victor Graeff
-Corpo Hidrico: Rio Jacu&#237;
+Municipio: Bom Jesus
+Corpo Hidrico: Sem denomina&#231;&#227;o
+    </description>
+      <styleUrl>#verde</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Touros III</name>
+      <Point>
+        <coordinates>-50.3528,-28.5774</coordinates>
+      </Point>
+      <description>
+Processo: 2019/002.931
+Usuario: TOUROS II ENERG&#201;TICA S.A.
+Status: Concedida
+Municipio: Bom Jesus
+Corpo Hidrico: Rio dos Touros
     </description>
       <styleUrl>#verde</styleUrl>
     </Placemark>
@@ -892,6 +1060,20 @@ Corpo Hidrico: Sem denomina&#231;&#227;o
       <styleUrl>#verde</styleUrl>
     </Placemark>
     <Placemark>
+      <name>PCH Silveira III</name>
+      <Point>
+        <coordinates>-49.9896,-28.52315</coordinates>
+      </Point>
+      <description>
+Processo: 2019/000.170
+Usuario: SILVEIRA III ENERG&#201;TICA S.A.
+Status: Concedida
+Municipio: S&#227;o Jos&#233; dos Ausentes
+Corpo Hidrico: Rio do Silveira
+    </description>
+      <styleUrl>#verde</styleUrl>
+    </Placemark>
+    <Placemark>
       <name>PCH Vale do Leite</name>
       <Point>
         <coordinates>-52.186331749017,-29.1564837956109</coordinates>
@@ -902,6 +1084,20 @@ Usuario: Certel Vale do Leite Gera&#231;&#227;o de Energia S/A
 Status: Concedida
 Municipio: Pouso Novo
 Corpo Hidrico: Rio Forqueta
+    </description>
+      <styleUrl>#verde</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>PCH S&#227;o Valentim</name>
+      <Point>
+        <coordinates>-51.714,-29.0709</coordinates>
+      </Point>
+      <description>
+Processo: 2018/034.955
+Usuario: Enel Brasil S.A
+Status: Concedida
+Municipio: S&#227;o Valentim do Sul
+Corpo Hidrico: Rio Carreiro
     </description>
       <styleUrl>#verde</styleUrl>
     </Placemark>
@@ -958,6 +1154,20 @@ Usuario: JCS Engenharia, Consultoria e Participa&#231;&#245;es EIRELLI - EPP
 Status: Concedida
 Municipio: Dom Feliciano
 Corpo Hidrico: Arroio Itaticui
+    </description>
+      <styleUrl>#verde</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Capivara Baixa</name>
+      <Point>
+        <coordinates>-53.4791,-27.465</coordinates>
+      </Point>
+      <description>
+Processo: 2018/031.022
+Usuario: PARTIALIS COMERCIO E GERA&#199;&#195;O DE ENERGIA S/A
+Status: Concedida
+Municipio: Erval Seco
+Corpo Hidrico: Rio Fortaleza
     </description>
       <styleUrl>#verde</styleUrl>
     </Placemark>
@@ -1130,6 +1340,20 @@ Corpo Hidrico: Rio Vieira
       <styleUrl>#verde</styleUrl>
     </Placemark>
     <Placemark>
+      <name>CGH Pozza I</name>
+      <Point>
+        <coordinates>-51.6129326820373,-27.5935766943117</coordinates>
+      </Point>
+      <description>
+Processo: 2017/011.290
+Usuario: ITASUL ENERGY GERA&#199;&#195;O DE ENERGIA LTDA
+Status: Concedida
+Municipio: Machadinho
+Corpo Hidrico: Lajeado Tigre
+    </description>
+      <styleUrl>#verde</styleUrl>
+    </Placemark>
+    <Placemark>
       <name>CGH Mirim</name>
       <Point>
         <coordinates>-53.1211,-28.2623</coordinates>
@@ -1140,6 +1364,20 @@ Usuario: CONQUISTA GERA&#199;&#195;O DE ENERGIA EL&#201;TRICA LTDA
 Status: Concedida
 Municipio: Carazinho
 Corpo Hidrico: Arroio da Ilha
+    </description>
+      <styleUrl>#verde</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Sperotto</name>
+      <Point>
+        <coordinates>-53.6951422691345,-27.8708722237738</coordinates>
+      </Point>
+      <description>
+Processo: 2016/013.809
+Usuario: Hidroel&#233;trica Sperotto Queda do Turvo Ltda
+Status: Concedida
+Municipio: Santo Augusto
+Corpo Hidrico: Rio Turvo
     </description>
       <styleUrl>#verde</styleUrl>
     </Placemark>
@@ -1157,6 +1395,20 @@ Usuario: ESB ENGENHARIA LTDA
 Status: Indeferida
 Municipio: Sananduva
 Corpo Hidrico: Rio Apua&#234; ou Ligeiro
+    </description>
+      <styleUrl>#vermelho</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Vanassi</name>
+      <Point>
+        <coordinates>-51.0092751160888,-29.1671439641435</coordinates>
+      </Point>
+      <description>
+Processo: 2019/004.961
+Usuario: APS Constru&#231;&#245;es EIRELI
+Status: Indeferida
+Municipio: Caxias do Sul
+Corpo Hidrico: Rio Piai
     </description>
       <styleUrl>#vermelho</styleUrl>
     </Placemark>
@@ -1241,6 +1493,20 @@ Usuario: ENERGETICA OTTO LTDA
 Status: Indeferida
 Municipio: Alpestre
 Corpo Hidrico: Lajeado Grande
+    </description>
+      <styleUrl>#vermelho</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>UHE Passo Fundo</name>
+      <Point>
+        <coordinates>-52.7412629127502,-27.552758661097</coordinates>
+      </Point>
+      <description>
+Processo: 2018/022.736
+Usuario: ENGIE BRASIL ENERGIA S.A.
+Status: Indeferida
+Municipio: Entre Rios do Sul
+Corpo Hidrico: Rio Passo Fundo
     </description>
       <styleUrl>#vermelho</styleUrl>
     </Placemark>
