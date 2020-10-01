@@ -13,9 +13,9 @@ warnings.filterwarnings("ignore")
 today = date.today()
 
 #arquivos para plotar os mapas
-shp_path = "estados_2010.shp"
+shp_path = "estados/estados_2010.shp"
 #arquivo de nomes
-nomes = 'nomes.csv'
+nomes = 'tabelas/nomes.csv'
 
 #lendo o relatorio
 numero = input('Numero do relatorio do SIOUT: ')
@@ -37,7 +37,7 @@ df_nomes = df_filtrado[['Número do cadastro', 'Número da portaria', 'Nome do u
 df_nomes['Prioridade'] = 'Não'
 df_nomes['Nome'] = 'N/D'
 df_nomes['AHE'] = 'N/D'
-nomes = pd.read_csv("nomes.csv", sep=",", encoding='utf8')
+nomes = pd.read_csv("tabelas/nomes.csv", sep=",", encoding='utf8')
 
 for index, row in nomes.iterrows():
     num = row['Número do cadastro']
@@ -56,12 +56,11 @@ df_nomes = df_nomes[['Prioridade', 'Número do cadastro', 'AHE', 'Nome', 'Nome d
 
 #gerando arquivos
 print('Gerando tabelas... \n')
-df_nomes.to_csv('nomes_dumped.csv', index=False)
-df_nomes.to_excel('processos_siout_{}.xlsx'.format(today), index=False, sheet_name='SIOUT')
+df_nomes.to_csv('tabelas/nomes_dumped.csv', index=False)
+df_nomes.to_excel('tabelas/processos_siout_{}.xlsx'.format(today), index=False, sheet_name='SIOUT')
 
 #aguardando análise
 aguardando = df_filtrado[df_filtrado['Status'] == 'Aguardando análise'][['Número do cadastro', 'Nome do usuário de água']]
-aguardando.to_csv('aguardando_analise.csv', index=False)
 print('PROCESSOS AGUARDANDO ANALISE:')
 print(aguardando.to_string(index=False))
 print('\n')
@@ -112,7 +111,7 @@ ax2.set_title('Distrubuição por STATUS - Total {}'.format(n_proc))
 ax1.legend()
 ax1.grid()
 fig.tight_layout()
-plt.savefig('Status_{}'.format(today), bbox_inches='tight', transparent=False)
+plt.savefig('imagens/Status_{}'.format(today), bbox_inches='tight', transparent=False)
 
 #writing kml
 print('Gerando arquivo KML... \n')
@@ -196,7 +195,7 @@ doc.append(fld_an)
 doc.append(fld_conc)
 doc.append(fld_ind)
 
-kml_file_path = 'hidreletricas_SIOUT_{}.kml'.format(today)
+kml_file_path = 'kml/hidreletricas_SIOUT_{}.kml'.format(today)
 
 kml_str = etree.tostring(doc, pretty_print=True).decode('utf-8')
 
