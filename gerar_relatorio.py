@@ -27,7 +27,7 @@ filtro_status2 = df['Status'] == 'Aguardando alterações de dados inconsistente
 filtro_status3 = df['Status'] == 'Concedida'
 filtro_status4 = df['Status'] == 'Indeferida'
 filtro_status5 = df['Status'] == 'Em análise'
-u_status = ['Concedida', 'Indeferida', 'Em análise', 'Aguardando análise', 'Aguardando alterações de dados inconsistentes']
+u_status = ['Concedida', 'Indeferida', 'Em análise', 'Aguardando alterações de dados inconsistentes', 'Aguardando análise']
 df_filtrado = df[filtro_status1 |filtro_status2 | filtro_status3 | filtro_status4 | filtro_status5]
 n_proc = df_filtrado.shape[0]
 
