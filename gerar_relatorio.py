@@ -65,6 +65,12 @@ print('PROCESSOS AGUARDANDO ANALISE:')
 print(aguardando.to_string(index=False))
 print('\n')
 
+#em análise
+em = df_filtrado[df_filtrado['Status'] == 'Em análise'][['Número do cadastro', 'Nome do usuário de água']]
+print('PROCESSOS EM ANALISE:')
+print(em.to_string(index=False))
+print('\n')
+
 #plotando o mapa
 print('Plotando gráficos... \n')
 estados = geopandas.read_file(shp_path)
