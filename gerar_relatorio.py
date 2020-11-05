@@ -6,6 +6,7 @@ from lxml import etree
 import matplotlib.pyplot as plt
 import numpy as np
 from datetime import date
+import re
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -13,7 +14,8 @@ warnings.filterwarnings("ignore")
 today = date.today()
 
 #arquivos para plotar os mapas
-shp_path = "estados/estados_2010.shp"
+#shp_path = "estados/estados_2010.shp"
+shp_path = "bacias/Bacia_Hidrografica.shp"
 #arquivo de nomes
 nomes = 'tabelas/nomes.csv'
 
@@ -104,18 +106,40 @@ fig, (ax1, ax2) = plt.subplots(1, 2,figsize=(15,10), gridspec_kw={'width_ratios'
 #fig.suptitle('Processos de hidrelétricas do SIOUT', size=16)
 ax2.pie(pie_dict.values(), autopct=make_autopct(pie_dict.values()), labels=pie_dict.keys())
 #plot_shape(22, ax1, sf)
-estados[estados['sigla'] == 'RS'].plot(color='silver', ax=ax1, alpha=1)
-#bacias.plot(edgecolor='black', color='gray', ax=ax1, alpha=0.1)
+estados.plot(color='gainsboro', edgecolor='silver', ax=ax1, alpha=1)
+
 for s in u_status:
     f = df_filtrado['Status'] == s
     y, x = df_filtrado[f]['Latitude'].values, df_filtrado[f]['Longitude'].values
     x, y = [float(i.replace(',','.')) for i in x], [float(i.replace(',','.')) for i in y]
     ax1.scatter(x, y, label = s, marker='x')
+    
+def conversion(coord):
+    deg, minutes, seconds, direction =  re.split('[°\'"]', coord)
+    return (float(deg) + float(minutes)/60 + float(seconds)/(60*60)) * (-1 if direction in ['W', 'S'] else 1)
+
+fisicos = pd.read_excel('tabelas/processos_fisicos.xlsx')
+xf = []
+yf = []
+for index, row in fisicos.iterrows():
+    if isinstance(row['Latitude'], str):
+        lat = conversion(row['Latitude'])
+        long = conversion(row['Longitude'])
+        xf.append(lat)
+        yf.append(long)
+    else:
+        xf.append(row['Latitude'])
+        yf.append(row['Longitude'])
+
+ax1.scatter(yf, xf, label='Processos físicos', color='grey', s=1)
+
 ax1.axis('scaled')
 ax1.set_title('Mapa de distribuição')
+ax1.set_ylabel('Latitude')
+ax1.set_xlabel('Longitude')
 ax2.set_title('Distrubuição por STATUS - Total {}'.format(n_proc))
 ax1.legend()
-ax1.grid()
+ax1.grid(alpha=0.5, linestyle='--')
 fig.tight_layout()
 plt.savefig('imagens/Status_{}'.format(today), bbox_inches='tight', transparent=False)
 
