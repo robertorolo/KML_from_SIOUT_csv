@@ -6,7 +6,7 @@ def import_or_install(package):
     except ImportError:
         pip.main(['install', package])  
 
-packages = ['pandas', 'numpy', 'pykml', 'matplotlib', 'geopandas', 'descartes']
+packages = ['pandas', 'numpy', 'pykml', 'matplotlib', 'geopandas', 'descartes', 'openpyxl']
 
 for package in packages:
     import_or_install(package)
