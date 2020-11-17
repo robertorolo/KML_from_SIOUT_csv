@@ -33,6 +33,27 @@ u_status = ['Concedida', 'Indeferida', 'Em análise', 'Aguardando alterações d
 df_filtrado = df[filtro_status1 |filtro_status2 | filtro_status3 | filtro_status4 | filtro_status5]
 n_proc = df_filtrado.shape[0]
 
+#verificando dominiliadde
+from shapely.geometry import Point, Polygon
+print('Verificando a dominialidade...')
+f1 = df['Status'] == 'Aguardando formalização de documentos'
+f2 = df['Status'] == 'Concluído'
+cadastros = df[f1 | f2]
+#Lendo geopandas dominialidade
+dom = [geopandas.read_file('Dominialidade/Dominialidade_Federal.shp'), geopandas.read_file('Dominialidade/espelhos_dagua_20ha_uniao_RS.shp'), geopandas.read_file('Dominialidade/rios_dominio_uniao_RS.shp'), geopandas.read_file('Dominialidade/rios_dominio_uniao_terras_publicas_RS.shp'), geopandas.read_file('Dominialidade/unidades_conservação_ANA_RS.shp')]
+#Loop nas coordenadas dos cadastros
+for index, row in cadastros.iterrows():
+    point = Point(float(row['Longitude'].replace(',','.')), float(row['Latitude'].replace(',','.')))
+    
+    #Loop nos doms
+    for d in dom:
+        #Loop nos shapes
+        for index1, row1 in d.iterrows():
+            #checando se o ponto pertence ao shape
+            if row1['geometry'].contains(point):
+                print(row['Número do cadastro']+' '+row['Nome do usuário de água'])
+print('\n')
+            
 #nomes
 print('Sincronizando nomes...\n')
 df_nomes = df_filtrado[['Número do cadastro', 'Número da portaria', 'Nome do usuário de água', 'Status', 'Data de saída do processo', 'Município']]
