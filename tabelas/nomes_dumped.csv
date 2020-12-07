@@ -1,11 +1,11 @@
 Prioridade,Número do cadastro,AHE,Nome,Nome do usuário de água,Município,Status,Data de saída do processo,Número da portaria
-Não,2020/020.928,N/D,N/D,CONSTRUNÍVEL ENERGIAS RENOVÁVEIS LTDA,Pinhal da Serra,Aguardando alterações de dados inconsistentes,04/11/2020,-
+Não,2020/020.928,N/D,N/D,CONSTRUNÍVEL ENERGIAS RENOVÁVEIS LTDA,Pinhal da Serra,Em análise,02/12/2020,-
 Não,2020/020.408,N/D,N/D,Companhia Estadual de Geração e Transmissão de Energia Elétrica,São Francisco de Paula,Aguardando análise,29/10/2020,-
-Não,2020/020.405,N/D,N/D,Companhia Estadual de Geração e Transmissão de Energia Elétrica,São Francisco de Paula,Aguardando análise,29/10/2020,-
-Não,2020/019.897,N/D,N/D,Enebras Projetos de Usinas Hidrelétricas Ltda.,Barracão,Em análise,13/11/2020,-
+Não,2020/020.405,N/D,N/D,Companhia Estadual de Geração e Transmissão de Energia Elétrica,São Francisco de Paula,Em análise,29/10/2020,-
+Não,2020/019.897,N/D,N/D,Enebras Projetos de Usinas Hidrelétricas Ltda.,Barracão,Concedida,13/11/2020,R-001.886/2020
 Não,2020/019.563,CGH,São Sepé,ENERBIO PARTICIPAÇÕES LTDA.,São Sepé,Aguardando alterações de dados inconsistentes,21/10/2020,-
 Não,2020/016.868,PCH,Lajeado do Meio,INHACORA GERADORA DE ENERGIA ELETRICA LTDA.,Alegria,Aguardando alterações de dados inconsistentes,16/09/2020,-
-Não,2020/014.974,N/D,N/D,CGH SANTO ANJO GERAÇÃO DE ENERGIA S.A,Caxias do Sul,Aguardando alterações de dados inconsistentes,24/09/2020,-
+Não,2020/014.974,N/D,N/D,CGH SANTO ANJO GERAÇÃO DE ENERGIA S.A,Caxias do Sul,Aguardando análise,04/12/2020,-
 Não,2020/013.600,CGH,Passo do Buraco,Z-4 Geração de Energia Elétrica,Vacaria,Concedida,18/08/2020,R-001.624/2020
 Não,2020/013.471,CGH,Augusto Pestana,Cooperativa de Geração de Energia e Desenvolvimento Social LTDA,Augusto Pestana,Concedida,26/08/2020,R-001.608/2020
 Não,2020/012.821,PCH,Dalsasso,VALE DO TURVO HIDRELÉTRICA LTDA,Ipê,Concedida,27/09/2020,R-001.740/2020
@@ -13,7 +13,7 @@ Não,2020/012.816,PCH,Foz do Segredinho,VALE DO TURVO HIDRELÉTRICA LTDA,Ipê,Co
 Não,2020/012.793,PCH,Linha Tafona,VALE DO TURVO HIDRELÉTRICA LTDA,Ipê,Concedida,11/09/2020,R-001.693/2020
 Não,2020/012.601,CGH,Fundão,Fernando Isoton,Quevedos,Aguardando alterações de dados inconsistentes,12/11/2020,-
 Não,2020/012.232,CGH,Limeira,VALE DO TURVO HIDRELÉTRICA LTDA,André da Rocha,Concedida,22/07/2020,R-001.677/2020
-Não,2020/011.908,CGH,Ligeirinho,ESB ENGENHARIA LTDA,Sananduva,Em análise,10/11/2020,-
+Não,2020/011.908,CGH,Ligeirinho,ESB ENGENHARIA LTDA,Sananduva,Indeferida,10/11/2020,-
 Não,2020/011.687,CGH,Arroio da Reserva,SAULO SALLES BEVILACQUA NETO,Pinhal Grande,Concedida,28/08/2020,R-001.607/2020
 Não,2020/011.305,CGH,São Caetano do Moinho,DELFES ENGENHARIA LTDA,Fagundes Varela,Concedida,26/10/2020,O-001.799/2020
 Não,2020/011.303,PCH,Segredo,VALE DO TURVO HIDRELÉTRICA LTDA,Ipê,Concedida,29/07/2020,R-001.739/2020
@@ -40,7 +40,7 @@ Não,2019/024.861,CGH,Bernardo José,Bernardo José Geração de Energia Ltda,Pi
 Não,2019/023.469,CGH,di Franco,ENERBIO SERVICOS DE ENGENHARIA LTDA,São Marcos,Concedida,15/04/2020,R-000.838/2020
 Não,2019/022.994,CGH,Santa Rita,ALS GERAÇÃO DE ENERGIA SPE LTDA,Estrela,Concedida,21/02/2020,O-001.710/2020
 Não,2019/021.472,PCH,Coronel Barros,Cooperativa de Geração de Energia e Desenvolvimento Social LTDA,Coronel Barros,Concedida,12/06/2020,R-001.142/2020
-Não,2019/021.085,PCH,Primavera do Rio Turvo,Hidrotermica s/a.,Ipê,Aguardando alterações de dados inconsistentes,31/07/2020,-
+Não,2019/021.085,PCH,Primavera do Rio Turvo,Hidrotermica s/a.,Protásio Alves,Aguardando alterações de dados inconsistentes,04/12/2020,-
 Não,2019/020.046,PCH,Forquilha II,Vertente Engenharia Ltda,Maximiliano de Almeida,Concedida,14/04/2020,R-000.839/2020
 Não,2019/014.749,CGH,Pedras Brancas 01,Aecogeo Soluções Ambientais Ltda,Campestre da Serra,Concedida,08/01/2020,R-000.523/2020
 Não,2019/013.226,PCH,Ijuizinho,COOPERATIVA DE DISTRIBUICAO E GERACAO DE ENERGIA DAS MISSOES,Entre-Ijuís,Aguardando alterações de dados inconsistentes,09/11/2020,-
@@ -49,7 +49,7 @@ Não,2019/008.795,CGH,Lorenz,LORENZ & FILHOS LTDA - EPP,Humaitá,Concedida,16/03
 Não,2019/008.576,CGH,Ligeirinho,ESB ENGENHARIA LTDA,Sananduva,Indeferida,16/05/2019,-
 Não,2019/008.343,CGH,Despraiado,X-6 Geração de Energia Eireli,Vacaria,Concedida,02/03/2020,O-000.644/2020
 Não,2019/006.177,CGH,Pedras Brancas,CERFOX  COOPERATIVA DE GERAÇÃO E DESENVOLVIMENTO FONTOURA XAVIER,Arvorezinha,Aguardando alterações de dados inconsistentes,03/11/2020,-
-Não,2019/005.166,N/D,N/D,SILVEIRA II ENERGÉTICA S.A.,São José dos Ausentes,Aguardando alterações de dados inconsistentes,22/05/2020,-
+Não,2019/005.166,N/D,N/D,SILVEIRA II ENERGÉTICA S.A.,São José dos Ausentes,Em análise,30/11/2020,-
 Não,2019/005.157,CGH,Touros V,TOUROS V ENERGÉTICA S.A.,Bom Jesus,Concedida,18/08/2020,O-001.537/2020
 Não,2019/005.142,PCH,Touros IV,TOUROS IV ENERGÉTICA S.A.,Bom Jesus,Concedida,20/04/2020,O-000.841/2020
 Não,2019/004.975,CGH,Palomas,PALOMA ENERGIA LTDA,Barra do Rio Azul,Concedida,09/11/2020,O-001.846/2020
@@ -63,7 +63,7 @@ Não,2019/002.931,CGH,Touros III,TOUROS II ENERGÉTICA S.A.,Bom Jesus,Concedida,
 Não,2019/001.898,PCH,Cerquinha II,CERQUINHA II ENERGÉTICA S.A.,Bom Jesus,Concedida,13/12/2019,O-000.464/2019
 Não,2019/001.476,PCH,Silveira II,SILVEIRA III ENERGÉTICA S.A.,São José dos Ausentes,Indeferida,06/02/2019,-
 Não,2019/001.316,CGH,Serrinha II,OLFAR S/A ALIMENTO E ENERGIA,Protásio Alves,Concedida,16/04/2020,R-000.897/2020
-Não,2019/001.159,PCH,Vinhedos,Enel Brasil S.A,Fagundes Varela,Em análise,05/11/2020,-
+Não,2019/001.159,PCH,Vinhedos,Enel Brasil S.A,Fagundes Varela,Concedida,05/11/2020,R-001.887/2020
 Não,2019/001.003,PCH,Rio Ijuizinho,COOPERATIVA DE DISTRIBUICAO E GERACAO DE ENERGIA DAS MISSOES,Entre-Ijuís,Indeferida,07/02/2019,-
 Não,2019/000.653,CGH,Foz do Cará,APS Construções EIRELI,Caxias do Sul,Aguardando alterações de dados inconsistentes,12/08/2020,-
 Não,2019/000.170,PCH,Silveira III,SILVEIRA III ENERGÉTICA S.A.,São José dos Ausentes,Concedida,10/08/2020,O-001.497/2020
@@ -96,7 +96,7 @@ Não,2018/012.671,CGH,Pedra Branca,"JCS Engenharia, Consultoria e Participaçõe
 Não,2018/012.255,PCH,Caçador,CAÇADOR ENERGÉTICA SA,Serafina Corrêa,Aguardando alterações de dados inconsistentes,16/11/2020,-
 Não,2018/011.438,PCH,Saltinho,SALTINHO ENERGÉTICA S/A,Ipê,Concedida,01/04/2019,R-000.207/2019
 Não,2018/010.895,CGH,Santa Rita,ALS GERAÇÃO DE ENERGIA SPE LTDA,Estrela,Indeferida,11/01/2019,-
-Não,2018/019.843,PCH,Chimarrão,CHIMARRÃO ENERGÉTICA S.A.,Muitos Capões,Em análise,14/11/2020,-
+Não,2018/019.843,PCH,Chimarrão,CHIMARRÃO ENERGÉTICA S.A.,Muitos Capões,Concedida,01/12/2020,O-001.888/2020
 Não,2018/005.528,PCH,Teste Amanda,Amanda Fadel,André da Rocha,Indeferida,05/03/2018,-
 Não,2018/003.531,CGH,Vanassi,APS Construções EIRELI,Caxias do Sul,Indeferida,22/03/2019,-
 Não,2018/003.530,CGH,Trator,APS Construções EIRELI,Caxias do Sul,Concedida,13/12/2019,R-000.738/2020
