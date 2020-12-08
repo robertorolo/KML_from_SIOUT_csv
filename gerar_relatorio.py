@@ -24,6 +24,10 @@ numero = input('Numero do relatorio do SIOUT: ')
 file_name = 'relatorios/relatorio_{}.csv'.format(numero)
 df = pd.read_csv(filepath_or_buffer=file_name, sep=';', encoding= 'unicode_escape')
 #filtrando o df
+filtro_tipo1 = df['Tipo de Intervenção'] == 'Canalização do curso d\'água'
+filtro_tipo2 = df['Tipo de Intervenção'] == 'Cadastro apenas da barragem'
+df = df[filtro_tipo1 | filtro_tipo2]
+
 filtro_status1 = df['Status'] == 'Aguardando análise'
 filtro_status2 = df['Status'] == 'Aguardando alterações de dados inconsistentes'
 filtro_status3 = df['Status'] == 'Concedida'
