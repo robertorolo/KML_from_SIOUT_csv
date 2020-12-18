@@ -87,7 +87,7 @@ df_nomes.to_csv('tabelas/nomes_dumped.csv', index=False)
 df_nomes.to_excel('tabelas/processos_siout_{}.xlsx'.format(today), index=False, sheet_name='SIOUT')
 
 #aguardando análise
-aguardando = df_filtrado[df_filtrado['Status'] == 'Aguardando análise'][['Número do cadastro', 'Nome do usuário de água']]
+aguardando = df_filtrado[df_filtrado['Status'] == 'Aguardando análise'][['Número do cadastro', 'Nome do usuário de água', 'Formação do responsável técnico']]
 print('PROCESSOS AGUARDANDO ANALISE:')
 print(aguardando.to_string(index=False))
 print('\n')
