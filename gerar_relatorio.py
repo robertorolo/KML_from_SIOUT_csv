@@ -183,8 +183,8 @@ nr = nr[args]
 nr = np.cumsum(nr)
 rd = rd[args]
         
-ax3.plot(od, no, label='Outorgas')
-ax3.plot(rd, nr, label='RDHs')
+ax3.plot(od, no, label='Outorgas - {}'.format(no[-1]))
+ax3.plot(rd, nr, label='RDHs - {}'.format(nr[-1]))
 
 for s in u_status:
     f = df_filtrado['Status'] == s
@@ -219,8 +219,8 @@ ax3.set_ylabel('Número de portarias emitidas')
 ax3.set_xlabel('Dias corridos')
 ax1.set_ylabel('Latitude')
 ax1.set_xlabel('Longitude')
-ax2.set_title('Distrubuição por STATUS - Total {}'.format(n_proc))
-ax4.set_title('Distrubuição por potência - Total {}'.format(n_proc))
+ax2.set_title('Distrubuição por STATUS - Total no SIOUT {}'.format(n_proc))
+ax4.set_title('Distrubuição por potência - Total no SIOUT {}'.format(n_proc))
 ax1.legend(framealpha=0.0)
 ax3.legend(framealpha=0.0)
 ax3.grid(alpha=0.5, linestyle='--')
