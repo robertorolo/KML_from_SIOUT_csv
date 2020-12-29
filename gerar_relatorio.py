@@ -12,6 +12,8 @@ import warnings
 warnings.filterwarnings("ignore")
 
 today = date.today()
+ano = today.year
+primeiro_dia = date(ano, 1, 1)
 
 #arquivos para plotar os mapas
 #shp_path = "estados/estados_2010.shp"
@@ -102,22 +104,17 @@ print('\n')
 print('Plotando gráficos... \n')
 estados = geopandas.read_file(shp_path)
 
-def plot_shape(idt, ax, sf):
-    shape_ex = sf.shape(idt)
-    x_lon = np.zeros((len(shape_ex.points),1))
-    y_lat = np.zeros((len(shape_ex.points),1))
-    for ip in range(len(shape_ex.points)):
-        x_lon[ip] = shape_ex.points[ip][0]
-        y_lat[ip] = shape_ex.points[ip][1]
-    ax.plot(x_lon,y_lat,c='gray') 
-    x0 = np.mean(x_lon)
-    y0 = np.mean(y_lat)
-
 pie_dict = {}
 for s in u_status:
     ns = sum(df_filtrado['Status'] == s)
     if ns > 0:
         pie_dict[s] = ns
+        
+pie_dict_ahe = {}
+for s in np.unique(df_filtrado['AHE']):
+    ns = sum(df_filtrado['AHE'] == s)
+    if ns > 0:
+        pie_dict_ahe[s] = ns
 
 def make_autopct(values):
     def my_autopct(pct):
@@ -127,11 +124,67 @@ def make_autopct(values):
     return my_autopct
 
 plt.rcParams['figure.facecolor'] = 'white'
-fig, (ax1, ax2) = plt.subplots(1, 2,figsize=(15,10), gridspec_kw={'width_ratios': [1, 0.84]})
-#fig.suptitle('Processos de hidrelétricas do SIOUT', size=16)
+fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(nrows=2, ncols=2,figsize=(15,10))
+
 ax2.pie(pie_dict.values(), autopct=make_autopct(pie_dict.values()), labels=pie_dict.keys())
-#plot_shape(22, ax1, sf)
 estados.plot(color='gainsboro', edgecolor='silver', ax=ax1, alpha=1)
+
+ax4.pie(pie_dict_ahe.values(), autopct=make_autopct(pie_dict_ahe.values()), labels=pie_dict_ahe.keys())
+
+filtro_outorga = []
+for idx, row in df[['Número da portaria', 'Data de saída do processo']].iterrows():
+    if row['Número da portaria'].split('-')[0] == 'O' and row['Data de saída do processo'].split('/')[-1] == str(ano):
+        filtro_outorga.append(True)
+    else:
+        filtro_outorga.append(False)
+        
+no = []
+od = []
+
+dias_unicos = np.unique(df[filtro_outorga]['Data de saída do processo'])
+for d in dias_unicos:
+    out_dia = np.sum(df[filtro_outorga]['Data de saída do processo'] == d)
+    dia = date(int(d.split('/')[-1]), int(d.split('/')[-2]), int(d.split('/')[-3]))
+    dias_corridos = dia - primeiro_dia
+    no.append(out_dia)
+    od.append(dias_corridos.days)
+
+no = np.array(no)
+od = np.array(od)
+
+args = np.argsort(od)
+no = no[args]
+no = np.cumsum(no)
+od = od[args]
+
+filtro_rdh = []
+for idx, row in df[['Número da portaria', 'Data de saída do processo']].iterrows():
+    if row['Número da portaria'].split('-')[0] == 'R' and row['Data de saída do processo'].split('/')[-1] == str(ano):
+        filtro_rdh.append(True)
+    else:
+        filtro_rdh.append(False)
+        
+nr = []
+rd = []
+
+dias_unicos = np.unique(df[filtro_rdh]['Data de saída do processo'])
+for d in dias_unicos:
+    rdh_dia = np.sum(df[filtro_rdh]['Data de saída do processo'] == d)
+    dia = date(int(d.split('/')[-1]), int(d.split('/')[-2]), int(d.split('/')[-3]))
+    dias_corridos = dia - primeiro_dia
+    nr.append(rdh_dia)
+    rd.append(dias_corridos.days)
+
+nr = np.array(nr)
+rd = np.array(rd)
+
+args = np.argsort(rd)
+nr = nr[args]
+nr = np.cumsum(nr)
+rd = rd[args]
+        
+ax3.plot(od, no, label='Outorgas')
+ax3.plot(rd, nr, label='RDHs')
 
 for s in u_status:
     f = df_filtrado['Status'] == s
@@ -160,10 +213,17 @@ ax1.scatter(yf, xf, label='Processos físicos', color='grey', s=1)
 
 ax1.axis('scaled')
 ax1.set_title('Mapa de distribuição')
+ax3.set_title('Portarias emitidas no ano de {}'.format(ano))
+#ax3.set_aspect('equal')
+ax3.set_ylabel('Número de portarias emitidas')
+ax3.set_xlabel('Dias corridos')
 ax1.set_ylabel('Latitude')
 ax1.set_xlabel('Longitude')
 ax2.set_title('Distrubuição por STATUS - Total {}'.format(n_proc))
-ax1.legend()
+ax4.set_title('Distrubuição por potência - Total {}'.format(n_proc))
+ax1.legend(framealpha=0.0)
+ax3.legend(framealpha=0.0)
+ax3.grid(alpha=0.5, linestyle='--')
 ax1.grid(alpha=0.5, linestyle='--')
 fig.tight_layout()
 plt.savefig('imagens/Status_{}'.format(today), bbox_inches='tight', transparent=False)
