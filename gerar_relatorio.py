@@ -182,9 +182,11 @@ args = np.argsort(rd)
 nr = nr[args]
 nr = np.cumsum(nr)
 rd = rd[args]
-        
-ax3.plot(od, no, label='Outorgas - {}'.format(no[-1]))
-ax3.plot(rd, nr, label='RDHs - {}'.format(nr[-1]))
+
+if len(no) > 0:
+    ax3.plot(od, no, label='Outorgas - {}'.format(no[-1]))
+if len(nr) > 0:
+    ax3.plot(rd, nr, label='RDHs - {}'.format(nr[-1]))
 
 for s in u_status:
     f = df_filtrado['Status'] == s
@@ -226,7 +228,7 @@ ax3.legend(framealpha=0.0)
 ax3.grid(alpha=0.5, linestyle='--')
 ax1.grid(alpha=0.5, linestyle='--')
 fig.tight_layout()
-plt.savefig('imagens/Status_{}'.format(today), bbox_inches='tight', transparent=False)
+plt.savefig('imagens/Status_{}'.format(today), bbox_inches='tight', transparent=False, dpi=200)
 
 #writing kml
 print('Gerando arquivo KML... \n')
