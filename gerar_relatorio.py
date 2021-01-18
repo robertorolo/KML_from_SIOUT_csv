@@ -358,7 +358,6 @@ h = '''
 				<li><a href="monitoramentograficos.html">Gráficos</a></li>
 			</ul>
 		</li>
-		<li><a href="legislação.html">Legislação</a></li>
 	</ul>
 '''.format(
 date=today
