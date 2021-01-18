@@ -29,16 +29,44 @@
   <Folder>
     <name>Aguardando an&#225;lise</name>
     <Placemark>
-      <name>CGH Augusto Pestana</name>
+      <name>CGH Formigueiro</name>
       <Point>
-        <coordinates>-53.9496564832986,-28.4864035371879</coordinates>
+        <coordinates>-53.8602407948835,-28.5372003031468</coordinates>
       </Point>
       <description>
-Processo: 2020/013.471
-Usuario: Cooperativa de Gera&#231;&#227;o de Energia e Desenvolvimento Social LTDA
+Processo: 2020/025.661
+Usuario: FORMIGUEIRO GERACAO E COMERCIO DE ENERGIA ELETRICA LTDA
 Status: Aguardando an&#225;lise
-Municipio: Augusto Pestana
+Municipio: Boa Vista do Cadeado
 Corpo Hidrico: Arroio Concei&#231;&#227;o
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Eleut&#233;rio</name>
+      <Point>
+        <coordinates>-51.3836650143821,-27.6758149896291</coordinates>
+      </Point>
+      <description>
+Processo: 2020/020.535
+Usuario: ENTRE RIOS GERACAO DE ENERGIA LTDA
+Status: Aguardando an&#225;lise
+Municipio: Barrac&#227;o
+Corpo Hidrico: Lajeado Eleut&#233;rio
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Coopermil</name>
+      <Point>
+        <coordinates>-54.543149471283,-28.1407998190117</coordinates>
+      </Point>
+      <description>
+Processo: 2020/015.305
+Usuario: COOPERATIVA MISTA S&#195;O LUIZ LTDA
+Status: Aguardando an&#225;lise
+Municipio: Guarani das Miss&#245;es
+Corpo Hidrico: Rio Comanda&#237;
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -172,16 +200,30 @@ Corpo Hidrico: Arroio Boa Vista
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
     <Placemark>
-      <name>CGH Coopermil</name>
+      <name>PCH Lajeado do Meio</name>
       <Point>
-        <coordinates>-54.543149471283,-28.1407998190117</coordinates>
+        <coordinates>-54.0079522132874,-27.7543421403806</coordinates>
       </Point>
       <description>
-Processo: 2020/015.305
-Usuario: COOPERATIVA MISTA S&#195;O LUIZ LTDA
+Processo: 2020/016.868
+Usuario: INHACORA GERADORA DE ENERGIA ELETRICA LTDA.
 Status: Aguardando altera&#231;&#245;es de dados inconsistentes
-Municipio: Guarani das Miss&#245;es
-Corpo Hidrico: Rio Comanda&#237;
+Municipio: Alegria
+Corpo Hidrico: Rio Inhacora
+    </description>
+      <styleUrl>#amarelo</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CGH Augusto Pestana</name>
+      <Point>
+        <coordinates>-53.9496564832986,-28.4864035371879</coordinates>
+      </Point>
+      <description>
+Processo: 2020/013.471
+Usuario: Cooperativa de Gera&#231;&#227;o de Energia e Desenvolvimento Social LTDA
+Status: Aguardando altera&#231;&#245;es de dados inconsistentes
+Municipio: Augusto Pestana
+Corpo Hidrico: Arroio Concei&#231;&#227;o
     </description>
       <styleUrl>#amarelo</styleUrl>
     </Placemark>
@@ -440,34 +482,6 @@ Corpo Hidrico: Rio Pardo
   </Folder>
   <Folder>
     <name>Em an&#225;lise</name>
-    <Placemark>
-      <name>CGH Formigueiro</name>
-      <Point>
-        <coordinates>-53.8602407948835,-28.5372003031468</coordinates>
-      </Point>
-      <description>
-Processo: 2020/025.661
-Usuario: FORMIGUEIRO GERACAO E COMERCIO DE ENERGIA ELETRICA LTDA
-Status: Em an&#225;lise
-Municipio: Boa Vista do Cadeado
-Corpo Hidrico: Arroio Concei&#231;&#227;o
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
-    <Placemark>
-      <name>PCH Lajeado do Meio</name>
-      <Point>
-        <coordinates>-54.0079522132874,-27.7543421403806</coordinates>
-      </Point>
-      <description>
-Processo: 2020/016.868
-Usuario: INHACORA GERADORA DE ENERGIA ELETRICA LTDA.
-Status: Em an&#225;lise
-Municipio: Alegria
-Corpo Hidrico: Rio Inhacora
-    </description>
-      <styleUrl>#amarelo</styleUrl>
-    </Placemark>
   </Folder>
   <Folder>
     <name>Concedida</name>

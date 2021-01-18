@@ -354,7 +354,7 @@ h = '''
 		<li><a href="manual/Manual_SIOUT_hidreletricas.pdf" download>Manual SIOUT</a></li>
 		<li><a href="#">Monitoramento</a>
 			<ul>
-				<li><a href="monitoramentotabela.html">Tabelas</a></li>
+				<li><a href="monitoramentotabela.html">Tabela</a></li>
 				<li><a href="monitoramentograficos.html">Gráficos</a></li>
 			</ul>
 		</li>
