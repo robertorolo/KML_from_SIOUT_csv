@@ -363,12 +363,23 @@ h = '''
 date=today
 )
 
+numerodanoticia = input('Numero da noticia: ')
+text_as_string = open('noticias/n{}.txt'.format(numerodanoticia), 'r').read()
+
 home_str = '''
 {header}
 	
 	<h1>Apresentação</h1>
     
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque tortor ultricies diam maximus fringilla. Phasellus in venenatis ex, at ornare quam. Fusce euismod lectus felis, eu consequat massa dignissim non. In venenatis faucibus ante, id rhoncus metus. Fusce vel ullamcorper odio. Nulla in pellentesque leo, fringilla dictum justo. Nunc dignissim ipsum et sapien luctus mattis. Proin at condimentum justo.</p>
+    
+    <h1>Notícias</h1>
+    
+    <table style="width:100%">
+      <tr>
+        <td><img class="left", src="noticias/{img}.jpg" alt="Imagem notícia" title="Imagem notícia", width="200"></td>
+        <td>{text}</td>
+    </table>
 	
 	<div class="footer">
 	  <p>Secretaria do Meio Ambiente e Infraestrutura - Atualizado em: {date}</p>
@@ -379,6 +390,8 @@ home_str = '''
 '''.format(
 header=h,
 date=today,
+text=text_as_string,
+img='n{}'.format(numerodanoticia)
 )
 
 Html_file= open("index.html","w", encoding='utf-8')
