@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from datetime import date
 import re
+from pretty_html_table import build_table
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -126,7 +127,7 @@ def make_autopct(values):
 plt.rcParams['figure.facecolor'] = 'white'
 fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(nrows=2, ncols=2,figsize=(15,10))
 
-ax2.pie(pie_dict.values(), autopct=make_autopct(pie_dict.values()), labels=pie_dict.keys())
+ax3.pie(pie_dict.values(), autopct=make_autopct(pie_dict.values()), labels=pie_dict.keys())
 estados.plot(color='gainsboro', edgecolor='silver', ax=ax1, alpha=1)
 
 ax4.pie(pie_dict_ahe.values(), autopct=make_autopct(pie_dict_ahe.values()), labels=pie_dict_ahe.keys())
@@ -184,9 +185,9 @@ nr = np.cumsum(nr)
 rd = rd[args]
 
 if len(no) > 0:
-    ax3.plot(od, no, label='Outorgas - {}'.format(no[-1]))
+    ax2.plot(od, no, label='Outorgas - {}'.format(no[-1]))
 if len(nr) > 0:
-    ax3.plot(rd, nr, label='RDHs - {}'.format(nr[-1]))
+    ax2.plot(rd, nr, label='RDHs - {}'.format(nr[-1]))
 
 for s in u_status:
     f = df_filtrado['Status'] == s
@@ -215,17 +216,17 @@ ax1.scatter(yf, xf, label='Processos físicos', color='grey', s=1)
 
 ax1.axis('scaled')
 ax1.set_title('Mapa de distribuição')
-ax3.set_title('Portarias emitidas no ano de {}'.format(ano))
+ax2.set_title('Portarias emitidas no ano de {}'.format(ano))
 #ax3.set_aspect('equal')
-ax3.set_ylabel('Número de portarias emitidas')
-ax3.set_xlabel('Dias corridos')
+ax2.set_ylabel('Número de portarias emitidas')
+ax2.set_xlabel('Dias corridos')
 ax1.set_ylabel('Latitude')
 ax1.set_xlabel('Longitude')
-ax2.set_title('Distribuição por STATUS - Total no SIOUT {}'.format(n_proc))
+ax3.set_title('Distribuição por STATUS - Total no SIOUT {}'.format(n_proc))
 ax4.set_title('Distribuição por potência - Total no SIOUT {}'.format(n_proc))
 ax1.legend(framealpha=0.0)
-ax3.legend(framealpha=0.0)
-ax3.grid(alpha=0.5, linestyle='--')
+ax2.legend(framealpha=0.0)
+ax2.grid(alpha=0.5, linestyle='--')
 ax1.grid(alpha=0.5, linestyle='--')
 fig.tight_layout()
 plt.savefig('imagens/Status_{}'.format(today), bbox_inches='tight', transparent=False, dpi=200)
@@ -319,5 +320,115 @@ kml_str = etree.tostring(doc, pretty_print=True).decode('utf-8')
 f = open(kml_file_path, "w")
 f.write(kml_str)
 f.close()
+
+#generating html files
+print('Gerando arquivos html... \n')
+t = build_table(df_nomes, color='blue_dark', font_size = '10px')
+
+h = '''
+<!DOCTYPE html>
+<html lan="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Hidrelétricas RS</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+<body>
+	<div><img src="header.png" alt="Header" title="Header"></div>
+
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="#">SIOUT</a>
+			<ul>
+				<li><a href="siouttabela.html">Tabela</a></li>
+				<li><a href="sioutgraficos.html">Gráficos</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Arquivos KML</a>
+			<ul>
+				<li><a href="kml/hidreletricas_SIOUT_{date}.kml">Processos SIOUT</a></li>
+				<li><a href="kml/hidreletricas_fisicos.kml">Processos físicos</a></li>
+			</ul>
+		</li>
+		<li><a href="manual/Manual_SIOUT_hidreletricas.pdf" download>Manual SIOUT</a></li>
+		<li><a href="#">Monitoramento</a>
+			<ul>
+				<li><a href="monitoramentotabela.html">Tabelas</a></li>
+				<li><a href="monitoramentograficos.html">Gráficos</a></li>
+			</ul>
+		</li>
+		<li><a href="legislação.html">Legislação</a></li>
+	</ul>
+'''.format(
+date=today
+)
+
+home_str = '''
+{header}
+	
+	<h1>Apresentação</h1>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque tortor ultricies diam maximus fringilla. Phasellus in venenatis ex, at ornare quam. Fusce euismod lectus felis, eu consequat massa dignissim non. In venenatis faucibus ante, id rhoncus metus. Fusce vel ullamcorper odio. Nulla in pellentesque leo, fringilla dictum justo. Nunc dignissim ipsum et sapien luctus mattis. Proin at condimentum justo.</p>
+	
+	<div class="footer">
+	  <p>Secretaria do Meio Ambiente e Infraestrutura - Atualizado em: {date}</p>
+	</div>
+
+</body>
+</html>
+'''.format(
+header=h,
+date=today,
+)
+
+Html_file= open("index.html","w", encoding='utf-8')
+Html_file.write(home_str)
+Html_file.close()
+
+siouttabela_str = '''
+{header}
+	
+	<h1>Tabela SIOUT</h1>
+    
+    {content}
+	
+	<div class="footer">
+	  <p>Secretaria do Meio Ambiente e Infraestrutura - Atualizado em: {date}</p>
+	</div>
+
+</body>
+</html>
+'''.format(
+header=h,
+date=today,
+content=t,
+)
+
+Html_file= open("siouttabela.html","w", encoding='utf-8')
+Html_file.write(siouttabela_str)
+Html_file.close()
+
+sioutgrafico_str = '''
+{header}
+	
+	<h1>Gráficos SIOUT</h1>
+    
+    <img class="center", src="imagens/Status_{date}.png" alt="Gráficos SIOUT" title="Gráficos SIOUT", width="900">
+	
+	<div class="footer">
+	  <p>Secretaria do Meio Ambiente e Infraestrutura - Atualizado em: {date}</p>
+	</div>
+
+</body>
+</html>
+'''.format(
+header=h,
+date=today,
+)
+
+Html_file= open("sioutgraficos.html","w", encoding='utf-8')
+Html_file.write(sioutgrafico_str)
+Html_file.close()
 
 print('Feito!')

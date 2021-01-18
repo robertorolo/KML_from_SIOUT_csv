@@ -1,21 +1,22 @@
 Prioridade,Número do cadastro,AHE,Nome,Nome do usuário de água,Município,Status,Data de saída do processo,Número da portaria
-Não,2020/025.661,N/D,N/D,FORMIGUEIRO GERACAO E COMERCIO DE ENERGIA ELETRICA LTDA,Boa Vista do Cadeado,Aguardando análise,30/12/2020,-
-Não,2020/025.556,N/D,N/D,RIO DO FRADE GERAÇÃO DE ENERGIA LTDA,Esmeralda,Aguardando análise,28/12/2020,-
-Não,2020/024.843,N/D,N/D,CGH ENERGETICA DAS MISSOES LTDA,Guarani das Missões,Aguardando alterações de dados inconsistentes,20/12/2020,-
-Não,2020/024.682,N/D,N/D,RIO DO FRADE GERAÇÃO DE ENERGIA LTDA,Vacaria,Aguardando análise,17/12/2020,-
-Não,2020/024.678,N/D,N/D,RIO DO FRADE GERAÇÃO DE ENERGIA LTDA,Vacaria,Aguardando alterações de dados inconsistentes,17/12/2020,-
+Não,2020/025.661,CGH,Formigueiro,FORMIGUEIRO GERACAO E COMERCIO DE ENERGIA ELETRICA LTDA,Boa Vista do Cadeado,Em análise,08/01/2021,-
+Não,2020/025.556,CGH,Tomaz,RIO DO FRADE GERAÇÃO DE ENERGIA LTDA,Esmeralda,Aguardando alterações de dados inconsistentes,28/12/2020,-
+Não,2020/024.843,CGH,das Missões,CGH ENERGETICA DAS MISSOES LTDA,Guarani das Missões,Aguardando alterações de dados inconsistentes,20/12/2020,-
+Não,2020/024.682,CGH,Nicole,RIO DO FRADE GERAÇÃO DE ENERGIA LTDA,Vacaria,Aguardando alterações de dados inconsistentes,17/12/2020,-
+Não,2020/024.678,CGH,Eliane,RIO DO FRADE GERAÇÃO DE ENERGIA LTDA,Vacaria,Aguardando alterações de dados inconsistentes,17/12/2020,-
 Não,2020/023.308,CGH,Ligeirinho,ESB ENGENHARIA LTDA,Sananduva,Concedida,03/12/2020,R-001.990/2020
 Não,2020/021.892,PCH,Leão,Central Elétrica Caibi LTDA,Vacaria,Aguardando alterações de dados inconsistentes,18/11/2020,-
 Não,2020/020.408,PCH,Bugres,Companhia Estadual de Geração e Transmissão de Energia Elétrica,São Francisco de Paula,Aguardando alterações de dados inconsistentes,29/10/2020,-
 Não,2020/020.405,PCH,Bugres,Companhia Estadual de Geração e Transmissão de Energia Elétrica,São Francisco de Paula,Aguardando alterações de dados inconsistentes,29/10/2020,-
 Não,2020/019.897,PCH,Barracão,Enebras Projetos de Usinas Hidrelétricas Ltda.,Barracão,Concedida,13/11/2020,R-001.886/2020
 Não,2020/019.563,CGH,São Sepé,ENERBIO PARTICIPAÇÕES LTDA.,São Sepé,Aguardando alterações de dados inconsistentes,21/10/2020,-
-Não,2020/018.439,N/D,N/D,HT GERAÇÃO DE ENERGIA ELÉTRICA LTDA,Teutônia,Aguardando análise,26/10/2020,-
-Não,2020/016.868,PCH,Lajeado do Meio,INHACORA GERADORA DE ENERGIA ELETRICA LTDA.,Alegria,Aguardando alterações de dados inconsistentes,16/09/2020,-
+Não,2020/018.439,CGH,Pontes Filho,HT GERAÇÃO DE ENERGIA ELÉTRICA LTDA,Teutônia,Aguardando alterações de dados inconsistentes,26/10/2020,-
+Não,2020/016.868,PCH,Lajeado do Meio,INHACORA GERADORA DE ENERGIA ELETRICA LTDA.,Alegria,Em análise,07/01/2021,-
 Não,2020/015.305,CGH,Coopermil,COOPERATIVA MISTA SÃO LUIZ LTDA,Guarani das Missões,Aguardando alterações de dados inconsistentes,11/12/2020,-
 Não,2020/014.974,CGH,Santo Anjo,CGH SANTO ANJO GERAÇÃO DE ENERGIA S.A,Caxias do Sul,Concedida,14/12/2020,O-001.978/2020
 Não,2020/013.600,CGH,Passo do Buraco,Z-4 Geração de Energia Elétrica,Vacaria,Concedida,18/08/2020,R-001.624/2020
-Não,2020/013.091,N/D,N/D,RIO DO FRADE GERAÇÃO DE ENERGIA LTDA,Esmeralda,Aguardando análise,17/12/2020,-
+Não,2020/013.471,CGH,Augusto Pestana,Cooperativa de Geração de Energia e Desenvolvimento Social LTDA,Augusto Pestana,Aguardando análise,26/08/2020,-
+Não,2020/013.091,CGH,Estrela,RIO DO FRADE GERAÇÃO DE ENERGIA LTDA,Esmeralda,Aguardando alterações de dados inconsistentes,17/12/2020,-
 Não,2020/012.821,PCH,Dalsasso,VALE DO TURVO HIDRELÉTRICA LTDA,Ipê,Concedida,27/09/2020,R-001.740/2020
 Não,2020/012.816,PCH,Foz do Segredinho,VALE DO TURVO HIDRELÉTRICA LTDA,Ipê,Concedida,11/09/2020,R-001.692/2020
 Não,2020/012.793,PCH,Linha Tafona,VALE DO TURVO HIDRELÉTRICA LTDA,Ipê,Concedida,11/09/2020,R-001.693/2020
@@ -29,7 +30,7 @@ Não,2020/010.833,PCH,Lixiguana,VALE DO TURVO HIDRELÉTRICA LTDA,Muitos Capões,
 Não,2020/010.778,PCH,Barra do Ituim,VALE DO TURVO HIDRELÉTRICA LTDA,André da Rocha,Concedida,21/07/2020,R-001.678/2020
 Não,2020/010.683,PCH,Fazenda Velha,VALE DO TURVO HIDRELÉTRICA LTDA,André da Rocha,Concedida,07/08/2020,R-001.539/2020
 Não,2020/010.620,PCH,Bugres,Companhia Estadual de Geração e Transmissão de Energia Elétrica,São Francisco de Paula,Aguardando alterações de dados inconsistentes,03/11/2020,-
-Não,2020/010.278,N/D,N/D,CLÊNIO ANTÔNIO PIVOTO,São Francisco de Assis,Aguardando alterações de dados inconsistentes,22/06/2020,-
+Não,2020/010.278,CGH,Pivoto,CLÊNIO ANTÔNIO PIVOTO,São Francisco de Assis,Aguardando alterações de dados inconsistentes,22/06/2020,-
 Não,2020/009.773,CGH,Igrejinha,BOA VISTA DO CADEADO ENERGIA LTDA.,Boa Vista do Cadeado,Concedida,21/07/2020,O-001.394/2020
 Não,2020/009.716,CGH,Guabiju II,AÇO METAIS FRAIBURGO LTDA,Esmeralda,Concedida,11/06/2020,R-001.236/2020
 Não,2020/008.760,PCH,Sede II,IJUI CENTENARIA GERACAO SPE LTDA,Ijuí,Concedida,02/06/2020,O-001.056/2020
@@ -42,13 +43,13 @@ Não,2020/002.905,CGH,São Marcos,HDE 01 PARTICIPACOES SOCIETARIAS EIRELI,Caxias
 Não,2020/002.866,PCH,Linha Onze Oeste,LINHA ONZE OESTE ENERGIA LTDA,Coronel Barros,Concedida,09/11/2020,O-001.845/2020
 Não,2020/001.754,CGH,Três Marias,BORTOLON AGROCOMERCIAL EIRELI,Vacaria,Concedida,11/05/2020,O-000.956/2020
 Não,2020/001.523,CGH,Fortaleza,ENERBIO SERVICOS DE ENGENHARIA LTDA,Erval Seco,Concedida,09/04/2020,R-000.836/2020
-Não,2020/000.536,CGH,Suzana,USINA HIDRELETRICA SUZANA I LTDA,Gaurama,Em análise,17/12/2020,-
+Não,2020/000.536,CGH,Suzana,USINA HIDRELETRICA SUZANA I LTDA,Gaurama,Concedida,04/01/2021,O-000.001/2021
 Não,2020/000.360,CGH,Buricá,COOPERATIVA DE DESENVOLVIMENTO SOCIAL ENTRE RIOS LTDA.,Inhacorá,Concedida,02/03/2020,O-001.790/2020
 Não,2019/025.605,CGH,São Jorge,CONSTRUNÍVEL ENERGIAS RENOVÁVEIS LTDA,Pinhal da Serra,Concedida,08/04/2020,R-000.837/2020
 Não,2019/024.861,CGH,Bernardo José,Bernardo José Geração de Energia Ltda,Pinhal da Serra,Concedida,19/06/2020,R-001.333/2020
 Não,2019/023.469,CGH,di Franco,ENERBIO SERVICOS DE ENGENHARIA LTDA,São Marcos,Concedida,15/04/2020,R-000.838/2020
 Não,2019/022.994,CGH,Santa Rita,ALS GERAÇÃO DE ENERGIA SPE LTDA,Estrela,Concedida,21/02/2020,O-001.710/2020
-Não,2019/022.169,N/D,N/D,GUARITA GERADORA DE ENERGIA LTDA,Erval Seco,Aguardando alterações de dados inconsistentes,14/10/2020,-
+Não,2019/022.169,PCH,Edelweiss,GUARITA GERADORA DE ENERGIA LTDA,Erval Seco,Aguardando alterações de dados inconsistentes,14/10/2020,-
 Não,2019/021.472,PCH,Coronel Barros,Cooperativa de Geração de Energia e Desenvolvimento Social LTDA,Coronel Barros,Concedida,12/06/2020,R-001.142/2020
 Não,2019/021.085,PCH,Primavera do Rio Turvo,Hidrotermica s/a.,Protásio Alves,Aguardando alterações de dados inconsistentes,04/12/2020,-
 Não,2019/020.046,PCH,Forquilha II,Vertente Engenharia Ltda,Maximiliano de Almeida,Concedida,14/04/2020,R-000.839/2020
