@@ -185,9 +185,9 @@ nr = np.cumsum(nr)
 rd = rd[args]
 
 if len(no) > 0:
-    ax2.plot(od, no, label='Outorgas - {}'.format(no[-1]))
+    ax2.plot(od, no, label='Outorgas - {}'.format(no[-1]), marker='s')
 if len(nr) > 0:
-    ax2.plot(rd, nr, label='RDHs - {}'.format(nr[-1]))
+    ax2.plot(rd, nr, label='RDHs - {}'.format(nr[-1]), marker='H')
 
 for s in u_status:
     f = df_filtrado['Status'] == s
@@ -229,7 +229,7 @@ ax2.legend(framealpha=0.0)
 ax2.grid(alpha=0.5, linestyle='--')
 ax1.grid(alpha=0.5, linestyle='--')
 fig.tight_layout()
-plt.savefig('imagens/Status_{}'.format(today), bbox_inches='tight', transparent=False, dpi=200)
+plt.savefig('imagens/Status_{}'.format(today), bbox_inches='tight', transparent=False, dpi=100)
 
 #writing kml
 print('Gerando arquivo KML... \n')
@@ -321,6 +321,52 @@ f = open(kml_file_path, "w")
 f.write(kml_str)
 f.close()
 
+#monitoramento
+print('Lendo tabela de monitoramento... \n')
+monitoramento = pd.read_excel('tabelas/2019_Cruzamento_dados_DIOUT-ANA_4.xlsx', sheet_name=5, skiprows=1)
+
+ahe = monitoramento['Unnamed: 0']
+labels, count = np.unique(ahe, return_counts=True)
+
+numero = monitoramento['Unnamed: 13']
+ncounts = []
+for i in labels:
+    f = ahe == i
+    numerof = numero[f]
+    nlabels, ncount = np.unique(numerof, return_counts=True)
+    ncounts.append(ncount[0])
+
+emissao = monitoramento['Conformidade emissão de dados\n(ANO BASE: 2019)']
+ecounts = []
+for i in labels:
+    f = ahe == i
+    emissaof = emissao[f]
+    elabels, ecount = np.unique(emissaof, return_counts=True)
+    ecounts.append(ecount[1])
+
+fig = plt.figure(figsize=(10,10))
+plt.grid(linestyle='--', axis='y')
+plt.bar(x=[i for i in range(len(labels))], height=count, color='red', label='não conforme')
+plt.bar(x=[i for i in range(len(labels))], height=ncounts, color='green', label='conforme em relação ao número de estações')
+
+for idx, i in enumerate(labels):
+    p = round(ncounts[idx]/count[idx]*100, 1)
+    plt.annotate(str(p)+'%', (idx, ncounts[idx]))
+
+    
+plt.bar(x=[i for i in range(len(labels))], height=ecounts, color='blue', label='conforme em relação a emissão de dados')
+
+for idx, i in enumerate(labels):
+    p = round(ecounts[idx]/ncounts[idx]*100, 1)
+    plt.annotate(str(p)+'%', (idx, ecounts[idx]))
+
+plt.xticks([i for i in range(len(labels))], labels)
+plt.yticks([i for i in range(0, max(count)+10, 5)])
+plt.legend()
+plt.ylabel('Número de estações')
+plt.title('Conformidade em relação as estações')
+plt.savefig('imagens/monitoramento_{}'.format(today), transparent=False, dpi=100)
+
 #generating html files
 print('Gerando arquivos html... \n')
 t = build_table(df_nomes, color='blue_dark', font_size = '10px')
@@ -355,7 +401,7 @@ h = '''
 		<li><a href="#">Monitoramento</a>
 			<ul>
 				<li><a href="monitoramentotabela.html">Tabela</a></li>
-				<li><a href="monitoramentograficos.html">Gráficos</a></li>
+				<li><a href="monitoramentografico.html">Gráficos</a></li>
 			</ul>
 		</li>
 	</ul>
@@ -442,5 +488,60 @@ date=today,
 Html_file= open("sioutgraficos.html","w", encoding='utf-8')
 Html_file.write(sioutgrafico_str)
 Html_file.close()
+
+new_df = pd.DataFrame()
+new_df['AHE'] = monitoramento['Unnamed: 0']
+new_df['Nome'] = monitoramento['Unnamed: 1']
+new_df['Usuário de água'] = monitoramento['Unnamed: 2']
+new_df['Conformidade em relação ao número'] = monitoramento['Unnamed: 13']
+new_df['Conformidade em relação a emissão'] = monitoramento['Conformidade emissão de dados\n(ANO BASE: 2019)']
+
+t = build_table(new_df, color='blue_dark', font_size = '10px')
+
+monitoramentotabela_str = '''
+{header}
+	
+	<h1>Tabela Monitoramento</h1>
+    
+    {content}
+	
+	<div class="footer">
+	  <p>Secretaria do Meio Ambiente e Infraestrutura - Atualizado em: {date}</p>
+	</div>
+
+</body>
+</html>
+'''.format(
+header=h,
+date=today,
+content=t,
+)
+
+Html_file= open("monitoramentotabela.html","w", encoding='utf-8')
+Html_file.write(monitoramentotabela_str)
+Html_file.close()
+
+monitoramentografico_str = '''
+{header}
+	
+	<h1>Gráfico monitoramento</h1>
+    
+    <img class="center", src="imagens/monitoramento_{date}.png" alt="Gráfico monitoramento" title="Gráficos monitoramento", width="700">
+	
+	<div class="footer">
+	  <p>Secretaria do Meio Ambiente e Infraestrutura - Atualizado em: {date}</p>
+	</div>
+
+</body>
+</html>
+'''.format(
+header=h,
+date=today,
+)
+
+Html_file= open("monitoramentografico.html","w", encoding='utf-8')
+Html_file.write(monitoramentografico_str)
+Html_file.close()
+
 
 print('Feito!')
