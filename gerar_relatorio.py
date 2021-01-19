@@ -365,7 +365,7 @@ plt.yticks([i for i in range(0, max(count)+10, 5)])
 plt.legend()
 plt.ylabel('Número de estações')
 plt.title('Conformidade em relação as estações')
-plt.savefig('imagens/monitoramento_{}'.format(today), transparent=False, dpi=100)
+plt.savefig('imagens/monitoramento_{}'.format(today), transparent=False, dpi=100, bbox_inches='tight')
 
 #generating html files
 print('Gerando arquivos html... \n')
