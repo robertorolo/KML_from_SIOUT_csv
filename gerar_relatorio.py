@@ -526,7 +526,7 @@ monitoramentografico_str = '''
 	
 	<h1>Gráfico monitoramento</h1>
     
-    <img class="center", src="imagens/monitoramento_{date}.png" alt="Gráfico monitoramento" title="Gráficos monitoramento", width="700">
+    <img class="center", src="imagens/monitoramento_{date}.png" alt="Gráfico monitoramento" title="Gráficos monitoramento", width="600">
 	
 	<div class="footer">
 	  <p>Secretaria do Meio Ambiente e Infraestrutura - Atualizado em: {date}</p>
