@@ -323,12 +323,12 @@ f.close()
 
 #monitoramento
 print('Lendo tabela de monitoramento... \n')
-monitoramento = pd.read_excel('tabelas/2019_Cruzamento_dados_DIOUT-ANA_4.xlsx', sheet_name=5, skiprows=1)
+monitoramento = pd.read_csv('tabelas/monitoramento_simplificado.csv')
 
-ahe = monitoramento['Unnamed: 0']
+ahe = monitoramento['ahe']
 labels, count = np.unique(ahe, return_counts=True)
 
-numero = monitoramento['Unnamed: 13']
+numero = monitoramento['numero']
 ncounts = []
 for i in labels:
     f = ahe == i
@@ -336,7 +336,7 @@ for i in labels:
     nlabels, ncount = np.unique(numerof, return_counts=True)
     ncounts.append(ncount[0])
 
-emissao = monitoramento['Conformidade emissão de dados\n(ANO BASE: 2019)']
+emissao = monitoramento['emissao']
 ecounts = []
 for i in labels:
     f = ahe == i
@@ -490,11 +490,11 @@ Html_file.write(sioutgrafico_str)
 Html_file.close()
 
 new_df = pd.DataFrame()
-new_df['AHE'] = monitoramento['Unnamed: 0']
-new_df['Nome'] = monitoramento['Unnamed: 1']
-new_df['Usuário de água'] = monitoramento['Unnamed: 2']
-new_df['Conformidade em relação ao número'] = monitoramento['Unnamed: 13']
-new_df['Conformidade em relação a emissão'] = monitoramento['Conformidade emissão de dados\n(ANO BASE: 2019)']
+new_df['AHE'] = monitoramento['ahe']
+new_df['Nome'] = monitoramento['nome']
+new_df['Usuário de água'] = monitoramento['usuario']
+new_df['Conformidade em relação ao número'] = monitoramento['numero']
+new_df['Conformidade em relação a emissão'] = monitoramento['emissao']
 
 t = build_table(new_df, color='blue_dark', font_size = '10px')
 
