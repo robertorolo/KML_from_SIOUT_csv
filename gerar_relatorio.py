@@ -91,15 +91,17 @@ df_nomes.to_excel('tabelas/processos_siout_{}.xlsx'.format(today), index=False, 
 
 #aguardando análise
 aguardando = df_filtrado[df_filtrado['Status'] == 'Aguardando análise'][['Número do cadastro', 'Nome do usuário de água', 'Formação do responsável técnico']]
-print('PROCESSOS AGUARDANDO ANALISE:')
-print(aguardando.to_string(index=False))
-print('\n')
+if aguardando.shape[0] > 0:
+	print('PROCESSOS AGUARDANDO ANALISE:')
+	print(aguardando.to_string(index=False))
+	print('\n')
 
 #em análise
 em = df_filtrado[df_filtrado['Status'] == 'Em análise'][['Número do cadastro', 'Nome do usuário de água']]
-print('PROCESSOS EM ANALISE:')
-print(em.to_string(index=False))
-print('\n')
+if em.shape[0] > 0:
+	print('PROCESSOS EM ANALISE:')
+	print(em.to_string(index=False))
+	print('\n')
 
 #plotando o mapa
 print('Plotando gráficos... \n')
