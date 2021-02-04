@@ -63,7 +63,7 @@ print('\n')
             
 #nomes
 print('Sincronizando nomes...\n')
-df_nomes = df_filtrado[['Número do cadastro', 'Número da portaria', 'Nome do usuário de água', 'Status', 'Data de saída do processo', 'Município']]
+df_nomes = df_filtrado[['Número do cadastro', 'Número da portaria', 'Nome do usuário de água', 'Status', 'Data de início do cadastro', 'Data de saída do processo', 'Município']]
 df_nomes['Prioridade'] = 'Não'
 df_nomes['Nome'] = 'N/D'
 df_nomes['AHE'] = 'N/D'
@@ -82,7 +82,7 @@ for index, row in nomes.iterrows():
 df_filtrado['Nome'] = df_nomes['Nome']
 df_filtrado['AHE'] = df_nomes['AHE']
 
-df_nomes = df_nomes[['Prioridade', 'Número do cadastro', 'AHE', 'Nome', 'Nome do usuário de água', 'Município', 'Status', 'Data de saída do processo', 'Número da portaria']]
+df_nomes = df_nomes[['Prioridade', 'Número do cadastro', 'AHE', 'Nome', 'Nome do usuário de água', 'Município', 'Status', 'Data de início do cadastro','Data de saída do processo', 'Número da portaria']]
 
 #gerando arquivos
 print('Gerando tabelas... \n')
