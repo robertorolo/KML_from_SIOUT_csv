@@ -40,6 +40,9 @@ u_status = ['Concedida', 'Indeferida', 'Em análise', 'Aguardando alterações d
 df_filtrado = df[filtro_status1 |filtro_status2 | filtro_status3 | filtro_status4 | filtro_status5]
 n_proc = df_filtrado.shape[0]
 
+if df[filtro_tipo1 & filtro_status1].shape[0] > 0:
+    print(df[filtro_tipo1][['Número do cadastro', 'Nome do usuário de água']])
+
 #verificando dominiliadde
 from shapely.geometry import Point, Polygon
 print('Verificando a dominialidade...')
