@@ -138,8 +138,9 @@ estados.plot(color='gainsboro', edgecolor='silver', ax=ax1, alpha=1)
 ax4.pie(pie_dict_ahe.values(), autopct=make_autopct(pie_dict_ahe.values()), labels=pie_dict_ahe.keys())
 
 filtro_outorga = []
-for idx, row in df[['Número da portaria', 'Data de saída do processo']].iterrows():
-    if row['Número da portaria'].split('-')[0] == 'O' and row['Data de saída do processo'].split('/')[-1] == str(ano):
+for idx, row in df[['Classificação', 'Status', 'Data de saída do processo']].iterrows():
+    #if row['Número da portaria'].split('-')[0] == 'O' and row['Data de saída do processo'].split('/')[-1] == str(ano):
+    if row['Classificação'] == 'Outorga' and row['Status'] == 'Concedida' and row['Data de saída do processo'].split('/')[-1] == str(ano):
         filtro_outorga.append(True)
     else:
         filtro_outorga.append(False)
@@ -164,8 +165,9 @@ no = np.cumsum(no)
 od = od[args]
 
 filtro_rdh = []
-for idx, row in df[['Número da portaria', 'Data de saída do processo']].iterrows():
-    if row['Número da portaria'].split('-')[0] == 'R' and row['Data de saída do processo'].split('/')[-1] == str(ano):
+for idx, row in df[['Classificação', 'Status', 'Data de saída do processo']].iterrows():
+    #if row['Número da portaria'].split('-')[0] == 'R' and row['Data de saída do processo'].split('/')[-1] == str(ano):
+    if row['Classificação'] == 'Reserva de disponibilidade hídrica' and row['Status'] == 'Concedida' and row['Data de saída do processo'].split('/')[-1] == str(ano):
         filtro_rdh.append(True)
     else:
         filtro_rdh.append(False)
