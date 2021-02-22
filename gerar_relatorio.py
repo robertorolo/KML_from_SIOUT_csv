@@ -329,6 +329,7 @@ f = open(kml_file_path, "w")
 f.write(kml_str)
 f.close()
 
+"""
 #monitoramento
 print('Lendo tabela de monitoramento... \n')
 monitoramento = pd.read_csv('tabelas/monitoramento_simplificado.csv')
@@ -550,6 +551,6 @@ date=today,
 Html_file= open("monitoramentografico.html","w", encoding='utf-8')
 Html_file.write(monitoramentografico_str)
 Html_file.close()
-
+"""
 
 print('Feito!')
