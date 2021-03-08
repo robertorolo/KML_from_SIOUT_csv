@@ -1,7 +1,8 @@
 Prioridade,Número do cadastro,AHE,Nome,Nome do usuário de água,Município,Status,Data de início do cadastro,Data de saída do processo,Número da portaria,Classificação
-Não,2021/000.771,N/D,N/D,COOPERATIVA DE GERAÇÃO DE ENERGIA E DESENVOLVIMENTO,Veranópolis,Em análise,20/01/2021,11/02/2021,-,Cadastro
-Não,2021/000.511,N/D,N/D,Cooperativa de Geração de Energia e Desenvolvimento Social LTDA,Ijuí,Em análise,13/01/2021,17/02/2021,-,Cadastro
-Não,2021/000.469,N/D,N/D,Cooperativa de Geração de Energia e Desenvolvimento Social LTDA,Augusto Pestana,Em análise,13/01/2021,11/02/2021,-,Cadastro
+Não,2021/002.512,N/D,N/D,Central Elétrica Caibi LTDA,Vacaria,Aguardando análise,26/02/2021,26/02/2021,-,Cadastro
+Não,2021/000.771,N/D,N/D,COOPERATIVA DE GERAÇÃO DE ENERGIA E DESENVOLVIMENTO,Veranópolis,Concedida,20/01/2021,11/02/2021,000.253/2021,Reserva de disponibilidade hídrica
+Não,2021/000.511,N/D,N/D,Cooperativa de Geração de Energia e Desenvolvimento Social LTDA,Ijuí,Concedida,13/01/2021,17/02/2021,000.255/2021,Reserva de disponibilidade hídrica
+Não,2021/000.469,N/D,N/D,Cooperativa de Geração de Energia e Desenvolvimento Social LTDA,Augusto Pestana,Concedida,13/01/2021,11/02/2021,000.254/2021,Reserva de disponibilidade hídrica
 Não,2020/025.661,CGH,Formigueiro,FORMIGUEIRO GERACAO E COMERCIO DE ENERGIA ELETRICA LTDA,Boa Vista do Cadeado,Concedida,29/12/2020,08/02/2021,000.028/2021,Outorga
 Não,2020/025.556,CGH,Tomaz,RIO DO FRADE GERAÇÃO DE ENERGIA LTDA,Esmeralda,Aguardando alterações de dados inconsistentes,28/12/2020,28/12/2020,-,Cadastro
 Não,2020/024.854,N/D,N/D,BITENCORTE SERVICOS ADMINISTRATIVOS EIRELI,Santo Ângelo,Concedida,20/12/2020,15/01/2021,000.030/2021,Reserva de disponibilidade hídrica
@@ -11,14 +12,14 @@ Não,2020/024.678,CGH,Eliane,RIO DO FRADE GERAÇÃO DE ENERGIA LTDA,Vacaria,Agua
 Não,2020/023.316,N/D,N/D,Enebras Projetos de Usinas Hidrelétricas Ltda.,Muitos Capões,Concedida,02/12/2020,12/02/2021,000.212/2021,Reserva de disponibilidade hídrica
 Não,2020/023.308,CGH,Ligeirinho,ESB ENGENHARIA LTDA,Sananduva,Concedida,02/12/2020,03/12/2020,R-001.990/2020,Reserva de disponibilidade hídrica
 Não,2020/021.892,PCH,Leão,Central Elétrica Caibi LTDA,Vacaria,Concedida,16/11/2020,22/01/2021,000.031/2021,Reserva de disponibilidade hídrica
-Não,2020/020.791,N/D,N/D,WATER ENERGY OPERAÇÃO E MANUTENÇÃO EIRELI,Nova Araçá,Aguardando análise,03/11/2020,04/02/2021,-,Cadastro
+Não,2020/020.791,N/D,N/D,WATER ENERGY OPERAÇÃO E MANUTENÇÃO EIRELI,Nova Araçá,Em análise,03/11/2020,04/02/2021,-,Cadastro
 Não,2020/020.535,CGH,Eleutério,ENTRE RIOS GERACAO DE ENERGIA LTDA,Barracão,Concedida,28/10/2020,22/01/2021,000.032/2021,Reserva de disponibilidade hídrica
 Não,2020/020.408,PCH,Bugres,Companhia Estadual de Geração e Transmissão de Energia Elétrica,São Francisco de Paula,Concedida,27/10/2020,08/02/2021,000.033/2021,Outorga
 Não,2020/020.405,PCH,Bugres,Companhia Estadual de Geração e Transmissão de Energia Elétrica,São Francisco de Paula,Concedida,27/10/2020,08/02/2021,000.034/2021,Outorga
 Não,2020/019.897,PCH,Barracão,Enebras Projetos de Usinas Hidrelétricas Ltda.,Barracão,Concedida,20/10/2020,13/11/2020,R-001.886/2020,Reserva de disponibilidade hídrica
 Não,2020/019.563,CGH,São Sepé,ENERBIO PARTICIPAÇÕES LTDA.,São Sepé,Aguardando alterações de dados inconsistentes,15/10/2020,21/10/2020,-,Cadastro
 Não,2020/018.439,CGH,Pontes Filho,HT GERAÇÃO DE ENERGIA ELÉTRICA LTDA,Teutônia,Aguardando alterações de dados inconsistentes,29/09/2020,17/02/2021,-,Cadastro
-Não,2020/016.868,PCH,Lajeado do Meio,INHACORA GERADORA DE ENERGIA ELETRICA LTDA.,Alegria,Em análise,08/09/2020,07/01/2021,-,Cadastro
+Não,2020/016.868,PCH,Lajeado do Meio,INHACORA GERADORA DE ENERGIA ELETRICA LTDA.,Alegria,Concedida,08/09/2020,07/01/2021,000.256/2021,Reserva de disponibilidade hídrica
 Não,2020/015.305,CGH,Coopermil,COOPERATIVA MISTA SÃO LUIZ LTDA,Guarani das Missões,Concedida,26/08/2020,25/01/2021,O-000.050/2021,Outorga
 Não,2020/014.974,CGH,Santo Anjo,CGH SANTO ANJO GERAÇÃO DE ENERGIA S.A,Caxias do Sul,Concedida,24/08/2020,14/12/2020,O-001.978/2020,Outorga
 Não,2020/013.600,CGH,Passo do Buraco,Z-4 Geração de Energia Elétrica,Vacaria,Concedida,10/08/2020,18/08/2020,R-001.624/2020,Reserva de disponibilidade hídrica
@@ -61,12 +62,12 @@ Não,2019/021.472,PCH,Coronel Barros,Cooperativa de Geração de Energia e Desen
 Não,2019/021.085,PCH,Primavera do Rio Turvo,Hidrotermica s/a.,Protásio Alves,Concedida,28/10/2019,04/12/2020,000.037/2021,Reserva de disponibilidade hídrica
 Não,2019/020.046,PCH,Forquilha II,Vertente Engenharia Ltda,Maximiliano de Almeida,Concedida,15/10/2019,14/04/2020,R-000.839/2020,Reserva de disponibilidade hídrica
 Não,2019/014.749,CGH,Pedras Brancas 01,Aecogeo Soluções Ambientais Ltda,Campestre da Serra,Concedida,09/08/2019,08/01/2020,R-000.523/2020,Reserva de disponibilidade hídrica
-Não,2019/013.226,PCH,Ijuizinho,COOPERATIVA DE DISTRIBUICAO E GERACAO DE ENERGIA DAS MISSOES,Entre-Ijuís,Aguardando alterações de dados inconsistentes,22/07/2019,09/11/2020,-,Cadastro
+Não,2019/013.226,PCH,Ijuizinho,COOPERATIVA DE DISTRIBUICAO E GERACAO DE ENERGIA DAS MISSOES,Entre-Ijuís,Aguardando análise,22/07/2019,04/03/2021,-,Cadastro
 Não,2019/009.268,CGH,Bruna,RIO DO FRADE GERAÇÃO DE ENERGIA LTDA,Esmeralda,Concedida,27/05/2019,20/04/2020,O-000.840/2020,Outorga
 Não,2019/008.795,CGH,Lorenz,LORENZ & FILHOS LTDA - EPP,Humaitá,Concedida,20/05/2019,16/03/2020,O-000.675/2020,Outorga
 Não,2019/008.576,CGH,Ligeirinho,ESB ENGENHARIA LTDA,Sananduva,Indeferida,16/05/2019,16/05/2019,-,Reserva de disponibilidade hídrica
 Não,2019/008.343,CGH,Despraiado,X-6 Geração de Energia Eireli,Vacaria,Concedida,14/05/2019,02/03/2020,O-000.644/2020,Outorga
-Não,2019/006.177,CGH,Pedras Brancas,CERFOX  COOPERATIVA DE GERAÇÃO E DESENVOLVIMENTO FONTOURA XAVIER,Arvorezinha,Em análise,15/04/2019,18/02/2021,-,Cadastro
+Não,2019/006.177,CGH,Pedras Brancas,CERFOX  COOPERATIVA DE GERAÇÃO E DESENVOLVIMENTO FONTOURA XAVIER,Arvorezinha,Concedida,15/04/2019,18/02/2021,000.252/2021,Reserva de disponibilidade hídrica
 Não,2019/005.166,PCH,Silveira II,SILVEIRA II ENERGÉTICA S.A.,São José dos Ausentes,Concedida,02/04/2019,14/12/2020,O-001.977/2020,Outorga
 Não,2019/005.157,CGH,Touros V,TOUROS V ENERGÉTICA S.A.,Bom Jesus,Concedida,01/04/2019,18/08/2020,O-001.537/2020,Outorga
 Não,2019/005.142,PCH,Touros IV,TOUROS IV ENERGÉTICA S.A.,Bom Jesus,Concedida,01/04/2019,20/04/2020,O-000.841/2020,Outorga
@@ -134,11 +135,11 @@ Não,2017/011.290,CGH,Pozza I,ITASUL ENERGY GERAÇÃO DE ENERGIA LTDA,Machadinho
 Não,2017/005.275,CGH,Mirim,CONQUISTA GERAÇÃO DE ENERGIA ELÉTRICA LTDA,Carazinho,Concedida,06/03/2017,11/05/2020,O-000.957/2020,Outorga
 Não,2017/000.678,PCH,Sede II,IJUI CENTENARIA GERACAO SPE LTDA,Ijuí,Indeferida,11/01/2017,26/05/2020,-,Outorga
 Não,2016/013.809,CGH,Sperotto,Hidroelétrica Sperotto Queda do Turvo Ltda,Santo Augusto,Concedida,23/08/2016,21/07/2020,O-001.392/2020,Outorga
-Não,2016/008.018,CGH,Gramado Xavier,TRES FRONTEIRAS GERAÇÃO DE ENERGIA,Gramado Xavier,Em análise,22/06/2016,08/07/2020,-,Cadastro
+Não,2016/008.018,CGH,Gramado Xavier,TRES FRONTEIRAS GERAÇÃO DE ENERGIA,Gramado Xavier,Concedida,22/06/2016,08/07/2020,000.259/2021,Reserva de disponibilidade hídrica
 Não,2016/008.016,CGH,Gramado dos Francos,TRES FRONTEIRAS GERAÇÃO DE ENERGIA,Barros Cassal,Aguardando alterações de dados inconsistentes,22/06/2016,10/02/2021,-,Cadastro
-Não,2016/007.976,PCH,Foz do Biriba,TRES FRONTEIRAS GERAÇÃO DE ENERGIA,Passa Sete,Em análise,21/06/2016,07/07/2020,-,Cadastro
+Não,2016/007.976,PCH,Foz do Biriba,TRES FRONTEIRAS GERAÇÃO DE ENERGIA,Passa Sete,Concedida,21/06/2016,07/07/2020,000.260/2021,Reserva de disponibilidade hídrica
 Não,2016/007.970,PCH,Linha Carvalho,TRES FRONTEIRAS GERAÇÃO DE ENERGIA,Passa Sete,Aguardando alterações de dados inconsistentes,21/06/2016,10/02/2021,-,Cadastro
-Não,2016/007.963,PCH,Linha Pinhal,TRES FRONTEIRAS GERAÇÃO DE ENERGIA,Lagoão,Em análise,21/06/2016,07/07/2020,-,Cadastro
-Não,2016/007.777,CGH,Passo da Grama,TRES FRONTEIRAS GERAÇÃO DE ENERGIA,Lagoão,Em análise,20/06/2016,22/10/2020,-,Cadastro
+Não,2016/007.963,PCH,Linha Pinhal,TRES FRONTEIRAS GERAÇÃO DE ENERGIA,Lagoão,Concedida,21/06/2016,07/07/2020,000.258/2021,Reserva de disponibilidade hídrica
+Não,2016/007.777,CGH,Passo da Grama,TRES FRONTEIRAS GERAÇÃO DE ENERGIA,Lagoão,Concedida,20/06/2016,22/10/2020,000.257/2021,Reserva de disponibilidade hídrica
 Não,2016/007.736,CGH,Lagoão,TRES FRONTEIRAS GERAÇÃO DE ENERGIA,Sinimbu,Aguardando alterações de dados inconsistentes,20/06/2016,10/02/2021,-,Cadastro
-Não,2016/007.957,PCH,Barra de ferro,TRES FRONTEIRAS GERAÇÃO DE ENERGIA,Gramado Xavier,Em análise,04/05/2016,21/10/2020,-,Cadastro
+Não,2016/007.957,PCH,Barra de ferro,TRES FRONTEIRAS GERAÇÃO DE ENERGIA,Gramado Xavier,Concedida,04/05/2016,21/10/2020,000.261/2021,Reserva de disponibilidade hídrica
