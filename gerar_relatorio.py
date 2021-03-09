@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from datetime import date
 import re
-from pretty_html_table import build_table
+#from pretty_html_table import build_table
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -45,6 +45,7 @@ if df[filtro_tipo1 & filtro_status1].shape[0] > 0:
     print("Mandar para o Kevin cobrar o boleto!")
     print(df[filtro_tipo1][['Número do cadastro', 'Nome do usuário de água']])
 
+
 #verificando dominiliadde
 from shapely.geometry import Point, Polygon
 print('Verificando a dominialidade...')
@@ -65,11 +66,10 @@ for index, row in cadastros.iterrows():
             if row1['geometry'].contains(point):
                 print(row['Número do cadastro']+' '+row['Nome do usuário de água'])
 print('\n')
-            
+
 #nomes
 print('Sincronizando nomes...\n')
-df_nomes = df_filtrado[['Número do cadastro', 'Número da portaria',
-    'Classificação', 'Nome do usuário de água', 'Status', 'Data de início do cadastro', 'Data de saída do processo', 'Município']]
+df_nomes = df_filtrado[['Número do cadastro', 'Número da portaria', 'Classificação', 'Nome do usuário de água', 'Status', 'Data de início do cadastro', 'Data de saída do processo', 'Município', 'E-mail do usuário de água']]
 df_nomes['Prioridade'] = 'Não'
 df_nomes['Nome'] = 'N/D'
 df_nomes['AHE'] = 'N/D'
@@ -88,7 +88,7 @@ for index, row in nomes.iterrows():
 df_filtrado['Nome'] = df_nomes['Nome']
 df_filtrado['AHE'] = df_nomes['AHE']
 
-df_nomes = df_nomes[['Prioridade', 'Número do cadastro', 'AHE', 'Nome', 'Nome do usuário de água', 'Município', 'Status', 'Data de início do cadastro','Data de saída do processo', 'Número da portaria', 'Classificação']]
+df_nomes = df_nomes[['Prioridade', 'Número do cadastro', 'AHE', 'Nome', 'Nome do usuário de água', 'Município', 'Status', 'Data de início do cadastro','Data de saída do processo', 'Número da portaria', 'Classificação', 'E-mail do usuário de água']]
 
 #gerando arquivos
 print('Gerando tabelas... \n')
