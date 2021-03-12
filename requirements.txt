@@ -1,10 +1,8 @@
-pyproj==2.6.0
+pyproj
 pandas
 numpy
-pykml
 matplotlib
 geopandas
 descartes
 openpyxl
-pretty_html_table
 cartopy
