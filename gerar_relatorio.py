@@ -229,17 +229,34 @@ df_concedida = df_portaria[fs]
 entrada = df_concedida['Data de início do cadastro']
 entrada = [date(int(i.split('/')[2]), int(i.split('/')[1]), int(i.split('/')[0])) for i in entrada]
 entrada = np.array(entrada)
+
 saida = df_concedida['Data de saída do processo']
 saida = [date(int(i.split('/')[2]), int(i.split('/')[1]), int(i.split('/')[0])) for i in saida]
 saida = np.array(saida)
 tspan = saida - entrada
 tspan = [tspan[i].days for i in range(len(tspan))]
-ax3.hist(tspan)
-ax3.axvline(np.median(tspan), c='red', label='mediana {}'.format(np.median(tspan)))
+
+cutoffdate = date(2020,1,1)
+datefilter = []
+for idx, i in enumerate(entrada):
+    if i > cutoffdate:
+        datefilter.append(True)
+    else:
+        datefilter.append(False)
+
+tspan_new = saida[datefilter] - entrada[datefilter]
+tspan_new = [tspan_new[i].days for i in range(len(tspan_new))]
+
+ax3.hist(tspan, color="blue", label="todos")
+ax3.axvline(np.median(tspan), c='blue', label='mediana {}'.format(np.median(tspan)))
+ax3.axvline(np.median(tspan_new), c='red', label='mediana {}'.format(np.median(tspan_new)))
+ax3.hist(tspan_new, color="red", label='após 2020')
+
 ax3.set_title('(Ínicio do cadasto - Saída do processo) em dias')
 ax3.legend()
 ax3.set_xlabel('Dias')
 ax3.set_ylabel('Número de processos')
+
 
 #portarias total
 entradas = df_filtrado['Data de início do cadastro'].values
@@ -257,8 +274,8 @@ y = np.cumsum(cad_dia)
 ax4.plot(x, y)
 ax4.grid(alpha=0.5, linestyle='--')
 ax4.set_xlabel('Data')
-ax4.set_ylabel('Cadastros no sistema')
-ax4.set_title('Total de cadastros: {}'.format(y[-1]))
+ax4.set_ylabel('Número de processos')
+ax4.set_title('Total de processos: {}'.format(y[-1]))
 tcks = [d_unique[i] for i in range(0, len(d_unique), 10)]
 ax4.set_xticks([i for i in range(0, len(d_unique), 10)])
 ax4.set_xticklabels(tcks, rotation=45)
