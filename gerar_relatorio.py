@@ -109,37 +109,50 @@ if em.shape[0] > 0:
 	print(em.to_string(index=False))
 	print('\n')
 
-#plotando o mapa
+#plotando
 print('Plotando gráficos... \n')
+fig, axes = plt.subplots(nrows=3, ncols=2,figsize=(20,20))
+ax1, ax2, ax3, ax4, ax5, ax6 = axes.flatten()
+
+fig.text(0.5,1.02,
+        'Relatório hidrelétricas SIOUT - {}'.format(today),
+        horizontalalignment='center', fontsize=30)
+
+#mapa
+def conversion(coord):
+    deg, minutes, seconds, direction =  re.split('[°\'"]', coord)
+    return (float(deg) + float(minutes)/60 + float(seconds)/(60*60)) * (-1 if direction in ['W', 'S'] else 1)
+
+fisicos = pd.read_excel('tabelas/processos_fisicos.xlsx')
+xf = []
+yf = []
+for index, row in fisicos.iterrows():
+    if isinstance(row['Latitude'], str):
+        lat = conversion(row['Latitude'])
+        long = conversion(row['Longitude'])
+        xf.append(lat)
+        yf.append(long)
+    else:
+        xf.append(row['Latitude'])
+        yf.append(row['Longitude'])
 estados = geopandas.read_file(shp_path)
-
-pie_dict = {}
-for s in u_status:
-    ns = sum(df_filtrado['Status'] == s)
-    if ns > 0:
-        pie_dict[s] = ns
-        
-pie_dict_ahe = {}
-for s in np.unique(df_filtrado['AHE']):
-    ns = sum(df_filtrado['AHE'] == s)
-    if ns > 0:
-        pie_dict_ahe[s] = ns
-
-def make_autopct(values):
-    def my_autopct(pct):
-        total = sum(values)
-        val = int(round(pct*total/100.0))
-        return '{p:.2f}%  ({v:d})'.format(p=pct,v=val)
-    return my_autopct
-
-plt.rcParams['figure.facecolor'] = 'white'
-fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(nrows=2, ncols=2,figsize=(15,10))
-
-ax3.pie(pie_dict.values(), autopct=make_autopct(pie_dict.values()), labels=pie_dict.keys())
 estados.plot(color='gainsboro', edgecolor='silver', ax=ax1, alpha=1)
+ax1.scatter(yf, xf, label='Processos físicos', color='grey', s=1)
 
-ax4.pie(pie_dict_ahe.values(), autopct=make_autopct(pie_dict_ahe.values()), labels=pie_dict_ahe.keys())
+for s in u_status:
+    f = df_filtrado['Status'] == s
+    y, x = df_filtrado[f]['Latitude'].values, df_filtrado[f]['Longitude'].values
+    x, y = [float(i.replace(',','.')) for i in x], [float(i.replace(',','.')) for i in y]
+    ax1.scatter(x, y, label = s, marker='x')
 
+ax1.axis('scaled')
+ax1.set_title('Mapa de distribuição')
+ax1.set_ylabel('Latitude')
+ax1.set_xlabel('Longitude')
+ax1.legend(framealpha=0.0)
+ax1.grid(alpha=0.5, linestyle='--')
+
+#portarias ano
 filtro_outorga = []
 for idx, row in df[['Classificação', 'Status', 'Data de saída do processo']].iterrows():
     #if row['Número da portaria'].split('-')[0] == 'O' and row['Data de saída do processo'].split('/')[-1] == str(ano):
@@ -199,48 +212,36 @@ if len(no) > 0:
 if len(nr) > 0:
     ax2.plot(rd, nr, label='RDHs - {}'.format(nr[-1]), marker='H')
 
-for s in u_status:
-    f = df_filtrado['Status'] == s
-    y, x = df_filtrado[f]['Latitude'].values, df_filtrado[f]['Longitude'].values
-    x, y = [float(i.replace(',','.')) for i in x], [float(i.replace(',','.')) for i in y]
-    ax1.scatter(x, y, label = s, marker='x')
-    
-def conversion(coord):
-    deg, minutes, seconds, direction =  re.split('[°\'"]', coord)
-    return (float(deg) + float(minutes)/60 + float(seconds)/(60*60)) * (-1 if direction in ['W', 'S'] else 1)
-
-fisicos = pd.read_excel('tabelas/processos_fisicos.xlsx')
-xf = []
-yf = []
-for index, row in fisicos.iterrows():
-    if isinstance(row['Latitude'], str):
-        lat = conversion(row['Latitude'])
-        long = conversion(row['Longitude'])
-        xf.append(lat)
-        yf.append(long)
-    else:
-        xf.append(row['Latitude'])
-        yf.append(row['Longitude'])
-
-ax1.scatter(yf, xf, label='Processos físicos', color='grey', s=1)
-
-ax1.axis('scaled')
-ax1.set_title('Mapa de distribuição')
 ax2.set_title('Portarias emitidas no ano de {}'.format(ano))
-#ax3.set_aspect('equal')
 ax2.set_ylabel('Número de portarias emitidas')
 ax2.set_xlabel('Dias corridos')
-ax1.set_ylabel('Latitude')
-ax1.set_xlabel('Longitude')
-ax3.set_title('Distribuição por status - Total no SIOUT {}'.format(n_proc))
-ax4.set_title('Distribuição por potência - Total no SIOUT {}'.format(n_proc))
-ax1.legend(framealpha=0.0)
 ax2.legend(framealpha=0.0)
 ax2.grid(alpha=0.5, linestyle='--')
-ax1.grid(alpha=0.5, linestyle='--')
-fig.tight_layout()
-plt.savefig('imagens/Status_{}'.format(today), bbox_inches='tight', transparent=False, dpi=100)
 
+#histograma
+fo = df['Classificação'] == 'Outorga'
+fr = df['Classificação'] == 'Reserva de disponibilidade hídrica'
+fs = df['Status'] == 'Concedida'
+
+df_portaria = df[fo | fr]
+df_concedida = df_portaria[fs]
+
+entrada = df_concedida['Data de início do cadastro']
+entrada = [date(int(i.split('/')[2]), int(i.split('/')[1]), int(i.split('/')[0])) for i in entrada]
+entrada = np.array(entrada)
+saida = df_concedida['Data de saída do processo']
+saida = [date(int(i.split('/')[2]), int(i.split('/')[1]), int(i.split('/')[0])) for i in saida]
+saida = np.array(saida)
+tspan = saida - entrada
+tspan = [tspan[i].days for i in range(len(tspan))]
+ax3.hist(tspan)
+ax3.axvline(np.median(tspan), c='red', label='mediana {}'.format(np.median(tspan)))
+ax3.set_title('(Ínicio do cadasto - Saída do processo) em dias')
+ax3.legend()
+ax3.set_xlabel('Dias')
+ax3.set_ylabel('Número de processos')
+
+#portarias total
 entradas = df_filtrado['Data de início do cadastro'].values
 entradas = [date(int(i.split('/')[2]), int(i.split('/')[1]), int(i.split('/')[0])) for i in entradas]
 entradas.sort()
@@ -251,17 +252,50 @@ d_unique = np.unique(entradas)
 for d in d_unique:
     cad_dia.append(np.sum(entradas == d))
 
-fig = plt.figure(figsize=(10,5))
 x = [x for x in range(len(d_unique))]
 y = np.cumsum(cad_dia)
-plt.plot(x, y)
-plt.grid(alpha=0.5, linestyle='--')
-plt.xlabel('Data')
-plt.ylabel('Cadastros no sistema')
-plt.title('Total de cadastros: {}'.format(y[-1]))
+ax4.plot(x, y)
+ax4.grid(alpha=0.5, linestyle='--')
+ax4.set_xlabel('Data')
+ax4.set_ylabel('Cadastros no sistema')
+ax4.set_title('Total de cadastros: {}'.format(y[-1]))
 tcks = [d_unique[i] for i in range(0, len(d_unique), 10)]
-plt.xticks([i for i in range(0, len(d_unique), 10)], tcks, rotation=45)
-plt.savefig('imagens/evolut_{}'.format(today), bbox_inches='tight', transparent=False, dpi=100)
+ax4.set_xticks([i for i in range(0, len(d_unique), 10)])
+ax4.set_xticklabels(tcks, rotation=45)
+
+#piecharts
+pie_dict = {}
+for s in u_status:
+    ns = sum(df_filtrado['Status'] == s)
+    if ns > 0:
+        pie_dict[s] = ns
+        
+pie_dict_ahe = {}
+for s in np.unique(df_filtrado['AHE']):
+    ns = sum(df_filtrado['AHE'] == s)
+    if ns > 0:
+        pie_dict_ahe[s] = ns
+
+def make_autopct(values):
+    def my_autopct(pct):
+        total = sum(values)
+        val = int(round(pct*total/100.0))
+        return '{p:.2f}%  ({v:d})'.format(p=pct,v=val)
+    return my_autopct
+
+plt.rcParams['figure.facecolor'] = 'white'
+
+ax5.pie(pie_dict.values(), autopct=make_autopct(pie_dict.values()), labels=pie_dict.keys())
+ax6.pie(pie_dict_ahe.values(), autopct=make_autopct(pie_dict_ahe.values()), labels=pie_dict_ahe.keys())
+
+
+ax5.set_title('Distribuição por status')
+ax6.set_title('Distribuição por potência')
+
+#saving
+fig.tight_layout()
+plt.savefig('imagens/Status_{}'.format(today), bbox_inches='tight', transparent=False, dpi=100)
+
 
 #writing kml
 print('Gerando arquivo KML... \n')
