@@ -1,5 +1,5 @@
 Prioridade,Número do cadastro,AHE,Nome,Nome do usuário de água,Município,Status,Data de início do cadastro,Data de saída do processo,Número da portaria,Classificação,E-mail do usuário de água
-Não,2021/002.512,CGH,da Barra,Central Elétrica Caibi LTDA,Vacaria,Aguardando análise,26/02/2021,26/02/2021,-,Cadastro,bona.mrb@gmail.com
+Não,2021/002.512,CGH,da Barra,Central Elétrica Caibi LTDA,Vacaria,Em análise,26/02/2021,26/02/2021,-,Cadastro,bona.mrb@gmail.com
 Não,2021/002.275,N/D,N/D,Cris Participações e Administração de Bens LTDA,Barracão,Aguardando análise,22/02/2021,22/02/2021,-,Cadastro,engenharia1@construnivelenergias.com.br
 Não,2021/000.771,UHE,Foz do Prata,COOPERATIVA DE GERAÇÃO DE ENERGIA E DESENVOLVIMENTO,Veranópolis,Concedida,20/01/2021,11/02/2021,000.253/2021,Reserva de disponibilidade hídrica,alderi@creral.com.br
 Não,2021/000.511,CGH,Santana,Cooperativa de Geração de Energia e Desenvolvimento Social LTDA,Ijuí,Concedida,13/01/2021,17/02/2021,000.255/2021,Reserva de disponibilidade hídrica,debitencorte@gmail.com
@@ -23,8 +23,7 @@ Não,2020/018.439,CGH,Pontes Filho,HT GERAÇÃO DE ENERGIA ELÉTRICA LTDA,Teutô
 Não,2020/016.868,PCH,Lajeado do Meio,INHACORA GERADORA DE ENERGIA ELETRICA LTDA.,Alegria,Concedida,08/09/2020,07/01/2021,000.256/2021,Reserva de disponibilidade hídrica,eng.rafaelvendruscolo@gmail.com
 Não,2020/015.305,CGH,Coopermil,COOPERATIVA MISTA SÃO LUIZ LTDA,Guarani das Missões,Concedida,26/08/2020,25/01/2021,O-000.050/2021,Outorga,copermil@copermil.com.br
 Não,2020/014.974,CGH,Santo Anjo,CGH SANTO ANJO GERAÇÃO DE ENERGIA S.A,Caxias do Sul,Concedida,24/08/2020,14/12/2020,O-001.978/2020,Outorga,meioambiente@tracado.com.br
-Não,2020/013.600,CGH,Passo do Buraco,Z-4 Geração de Energia Elétrica,Vacaria,Concedida,10/08/2020,18/08/2020,R-001.624/2020,Reserva de disponibilidade hídrica,denny@inovaenergia.net.br
-Não,2020/013.471,CGH,Augusto Pestana,Cooperativa de Geração de Energia e Desenvolvimento Social LTDA,Augusto Pestana,Aguardando alterações de dados inconsistentes,07/08/2020,12/03/2021,-,Cadastro,debitencorte@gmail.com
+Não,2020/013.471,CGH,Augusto Pestana,Cooperativa de Geração de Energia e Desenvolvimento Social LTDA,Augusto Pestana,Aguardando análise,07/08/2020,12/03/2021,-,Cadastro,debitencorte@gmail.com
 Não,2020/013.091,CGH,Estrela,RIO DO FRADE GERAÇÃO DE ENERGIA LTDA,Esmeralda,Aguardando alterações de dados inconsistentes,03/08/2020,17/12/2020,-,Cadastro,hyv.proenge@gmail.com
 Não,2020/012.821,PCH,Dalsasso,VALE DO TURVO HIDRELÉTRICA LTDA,Ipê,Concedida,29/07/2020,27/09/2020,R-001.740/2020,Reserva de disponibilidade hídrica,paulo@paineirapar.com.br
 Não,2020/012.816,PCH,Foz do Segredinho,VALE DO TURVO HIDRELÉTRICA LTDA,Ipê,Concedida,29/07/2020,11/09/2020,R-001.692/2020,Reserva de disponibilidade hídrica,paulo@paineirapar.com.br
@@ -102,7 +101,7 @@ Não,2018/027.635,CGH,Otto I,ENERGETICA OTTO LTDA,Alpestre,Indeferida,20/09/2018
 Não,2018/027.627,CGH,Otto II,ENERGETICA OTTO LTDA,Alpestre,Indeferida,20/09/2018,20/09/2018,-,Reserva de disponibilidade hídrica,fernando.pagliari@hotmail.com
 Não,2018/027.596,PCH,Ijuzinho,Companhia Estadual de Geração e Transmissão de Energia Elétrica,Eugênio de Castro,Aguardando alterações de dados inconsistentes,19/09/2018,11/01/2021,-,Cadastro,licenciamento.amb@ceee.com.br
 Não,2018/025.979,CGH,Recanto,Vertente Engenharia Ltda,Ipê,Concedida,31/08/2018,16/01/2020,R-000.643/2020,Reserva de disponibilidade hídrica,gustavo@vertente.eng.br
-Não,2018/025.491,CGH,Invernada,Vertente Engenharia Ltda,Campestre da Serra,Aguardando análise,27/08/2018,11/12/2018,-,Cadastro,gustavo@vertente.eng.br
+Não,2018/025.491,CGH,Invernada,Vertente Engenharia Ltda,Campestre da Serra,Aguardando alterações de dados inconsistentes,27/08/2018,11/12/2018,-,Cadastro,gustavo@vertente.eng.br
 Não,2018/023.145,CGH,das Cabras,CABRAS GERADORA DE ENERGIA ELÉTRICA LTDA,Erval Seco,Concedida,01/08/2018,16/08/2019,O-000.298/2019,Outorga,bragante@tcheturbo.com.br
 Não,2018/022.736,UHE,Passo Fundo,ENGIE BRASIL ENERGIA S.A.,Entre Rios do Sul,Indeferida,27/07/2018,04/04/2019,-,Outorga,jose.rescigno@engie.com
 Não,2018/020.674,CGH,Focchezan,Focchezan Energia Ltda,Nova Bassano,Concedida,11/07/2018,15/06/2020,O-001.143/2020,Outorga,gilmar.g@grupoadr.com

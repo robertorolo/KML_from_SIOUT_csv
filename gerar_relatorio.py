@@ -241,6 +241,28 @@ ax1.grid(alpha=0.5, linestyle='--')
 fig.tight_layout()
 plt.savefig('imagens/Status_{}'.format(today), bbox_inches='tight', transparent=False, dpi=100)
 
+entradas = df_filtrado['Data de início do cadastro'].values
+entradas = [date(int(i.split('/')[2]), int(i.split('/')[1]), int(i.split('/')[0])) for i in entradas]
+entradas.sort()
+entradas = np.array(entradas)
+
+cad_dia = []
+d_unique = np.unique(entradas)
+for d in d_unique:
+    cad_dia.append(np.sum(entradas == d))
+
+fig = plt.figure(figsize=(10,5))
+x = [x for x in range(len(d_unique))]
+y = np.cumsum(cad_dia)
+plt.plot(x, y)
+plt.grid(alpha=0.5, linestyle='--')
+plt.xlabel('Data')
+plt.ylabel('Cadastros no sistema')
+plt.title('Total de cadastros: {}'.format(y[-1]))
+tcks = [d_unique[i] for i in range(0, len(d_unique), 10)]
+plt.xticks([i for i in range(0, len(d_unique), 10)], tcks, rotation=45)
+plt.savefig('imagens/evolut_{}'.format(today), bbox_inches='tight', transparent=False, dpi=100)
+
 #writing kml
 print('Gerando arquivo KML... \n')
 doc = KML.Document()
