@@ -5,6 +5,7 @@ import geopandas
 from pykml.factory import KML_ElementMaker as KML
 from lxml import etree
 import matplotlib.pyplot as plt
+import matplotlib.gridspec as gridspec
 import numpy as np
 from datetime import date
 import re
@@ -112,8 +113,15 @@ if em.shape[0] > 0:
 
 #plotando
 print('Plotando gráficos... \n')
-fig, axes = plt.subplots(nrows=3, ncols=2,figsize=(20,20))
-ax1, ax2, ax3, ax4, ax5, ax6 = axes.flatten()
+fig = plt.figure(constrained_layout=True, figsize=(20,20))
+spec = gridspec.GridSpec(ncols=3, nrows=3, figure=fig)
+ax1 = fig.add_subplot(spec[0, :])
+ax5 = fig.add_subplot(spec[1, 0])
+ax7 = fig.add_subplot(spec[1, 1])
+ax6 = fig.add_subplot(spec[1, 2])
+ax4 = fig.add_subplot(spec[2, 0])
+ax2 = fig.add_subplot(spec[2, 1])
+ax3 = fig.add_subplot(spec[2, 2])
 
 fig.text(0.5,1.02,
         'Relatório hidrelétricas SIOUT - {}'.format(today),
@@ -274,7 +282,7 @@ x = [x for x in range(len(d_unique))]
 y = np.cumsum(cad_dia)
 ax4.plot(x, y)
 ax4.grid(alpha=0.5, linestyle='--')
-ax4.set_xlabel('Data')
+ax4.set_xlabel('Data de início do cadastro')
 ax4.set_ylabel('Número de processos')
 ax4.set_title('Total de processos: {} - Total usuários {}'.format(y[-1], n_usu))
 tcks = [d_unique[i] for i in range(0, len(d_unique), 10)]
@@ -286,6 +294,8 @@ pie_dict = {}
 for s in u_status:
     ns = sum(df_filtrado['Status'] == s)
     if ns > 0:
+        if s == "Aguardando alterações de dados inconsistentes":
+            s = "Correções"
         pie_dict[s] = ns
         
 pie_dict_ahe = {}
@@ -309,6 +319,16 @@ ax6.pie(pie_dict_ahe.values(), autopct=make_autopct(pie_dict_ahe.values()), labe
 
 ax5.set_title('Distribuição por status')
 ax6.set_title('Distribuição por potência')
+
+#portarias emitidas
+filtro_concedida = df['Status'] == "Concedida"
+filtro_outorga = df['Classificação'] == 'Outorga'
+filtro_rdh = df['Classificação'] == 'Reserva de disponibilidade hídrica'
+outorga = len(df[filtro_concedida][filtro_outorga])
+rdh = len(df[filtro_concedida][filtro_rdh])
+pie_dict_potarias = {"RDH":rdh,"Outorga":outorga}
+ax7.pie(pie_dict_potarias.values(), autopct=make_autopct(pie_dict_potarias.values()), labels=pie_dict_potarias.keys())
+ax7.set_title("Distribuição das portarias emitidas")
 
 #saving
 fig.tight_layout()
