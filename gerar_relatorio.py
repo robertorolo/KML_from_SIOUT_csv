@@ -40,6 +40,7 @@ filtro_status5 = df['Status'] == 'Em análise'
 u_status = ['Concedida', 'Indeferida', 'Em análise', 'Aguardando alterações de dados inconsistentes', 'Aguardando análise']
 df_filtrado = df[filtro_status1 |filtro_status2 | filtro_status3 | filtro_status4 | filtro_status5]
 n_proc = df_filtrado.shape[0]
+n_usu = len(np.unique(df_filtrado['Nome do usuário de água']))
 
 if df[filtro_tipo1 & filtro_status1].shape[0] > 0:
     print("Mandar para o Kevin cobrar o boleto!")
@@ -275,7 +276,7 @@ ax4.plot(x, y)
 ax4.grid(alpha=0.5, linestyle='--')
 ax4.set_xlabel('Data')
 ax4.set_ylabel('Número de processos')
-ax4.set_title('Total de processos: {}'.format(y[-1]))
+ax4.set_title('Total de processos: {} - Total usuários {}'.format(y[-1], n_usu))
 tcks = [d_unique[i] for i in range(0, len(d_unique), 10)]
 ax4.set_xticks([i for i in range(0, len(d_unique), 10)])
 ax4.set_xticklabels(tcks, rotation=45)
