@@ -16,6 +16,7 @@ warnings.filterwarnings("ignore")
 
 today = date.today()
 ano = today.year
+#ano = 2020 
 primeiro_dia = date(ano, 1, 1)
 
 #arquivos para plotar os mapas
