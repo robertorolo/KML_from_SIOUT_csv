@@ -46,7 +46,7 @@ n_usu = len(np.unique(df_filtrado['Nome do usuário de água']))
 
 if df[filtro_tipo1 & filtro_status1].shape[0] > 0:
     print("Mandar para o Kevin cobrar o boleto!")
-    print(df[filtro_tipo1][['Número do cadastro', 'Nome do usuário de água']])
+    print(df[filtro_tipo1 & filtro_status1][['Número do cadastro', 'Nome do usuário de água']])
 
 
 #verificando dominiliadde
