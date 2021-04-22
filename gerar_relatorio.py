@@ -9,7 +9,7 @@ import matplotlib.gridspec as gridspec
 import numpy as np
 from datetime import date
 import re
-#from pretty_html_table import build_table
+from pretty_html_table import build_table
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -426,7 +426,7 @@ f = open(kml_file_path, "w")
 f.write(kml_str)
 f.close()
 
-"""
+
 #monitoramento
 print('Lendo tabela de monitoramento... \n')
 monitoramento = pd.read_csv('tabelas/monitoramento_simplificado.csv')
@@ -471,129 +471,16 @@ plt.yticks([i for i in range(0, max(count)+10, 5)])
 plt.legend()
 plt.ylabel('Número de estações')
 plt.title('Conformidade em relação as estações')
-plt.savefig('imagens/monitoramento_{}'.format(today), transparent=False, dpi=100, bbox_inches='tight')
+#plt.savefig('imagens/monitoramento_{}'.format(today), transparent=False, dpi=100, bbox_inches='tight')
 
 #generating html files
 print('Gerando arquivos html... \n')
-t = build_table(df_nomes, color='blue_dark', font_size = '10px')
+df_nomes = df_nomes[['Número do cadastro', 'AHE', 'Nome', 'Nome do usuário de água', 'Município', 'Status', 'Número da portaria', 'Classificação']]
+t = build_table(df_nomes, color='green_light', font_size = '10px')
 
-h = '''
-<!DOCTYPE html>
-<html lan="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<title>Hidrelétricas RS</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-
-<body>
-	<div><img src="header.png" alt="Header" title="Header"></div>
-
-	<ul>
-		<li><a href="index.html">Home</a></li>
-		<li><a href="#">SIOUT</a>
-			<ul>
-				<li><a href="siouttabela.html">Tabela</a></li>
-				<li><a href="sioutgraficos.html">Gráficos</a></li>
-			</ul>
-		</li>
-		<li><a href="#">Arquivos KML</a>
-			<ul>
-				<li><a href="kml/hidreletricas_SIOUT_{date}.kml">Processos SIOUT</a></li>
-				<li><a href="kml/hidreletricas_fisicos.kml">Processos físicos</a></li>
-			</ul>
-		</li>
-		<li><a href="manual/Manual_SIOUT_hidreletricas.pdf" download>Manual SIOUT</a></li>
-		<li><a href="#">Monitoramento</a>
-			<ul>
-				<li><a href="monitoramentotabela.html">Tabela</a></li>
-				<li><a href="monitoramentografico.html">Gráficos</a></li>
-			</ul>
-		</li>
-	</ul>
-'''.format(
-date=today
-)
-
-numerodanoticia = input('Numero da noticia: ')
-text_as_string = open('noticias/n{}.txt'.format(numerodanoticia), 'r').read()
-
-home_str = '''
-{header}
-	
-	<h1>Apresentação</h1>
-    
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque tortor ultricies diam maximus fringilla. Phasellus in venenatis ex, at ornare quam. Fusce euismod lectus felis, eu consequat massa dignissim non. In venenatis faucibus ante, id rhoncus metus. Fusce vel ullamcorper odio. Nulla in pellentesque leo, fringilla dictum justo. Nunc dignissim ipsum et sapien luctus mattis. Proin at condimentum justo.</p>
-    
-    <h1>Notícias</h1>
-    
-    <table style="width:100%">
-      <tr>
-        <td><img class="left", src="noticias/{img}.jpg" alt="Imagem notícia" title="Imagem notícia", width="200"></td>
-        <td>{text}</td>
-    </table>
-	
-	<div class="footer">
-	  <p>Secretaria do Meio Ambiente e Infraestrutura - Atualizado em: {date}</p>
-	</div>
-
-</body>
-</html>
-'''.format(
-header=h,
-date=today,
-text=text_as_string,
-img='n{}'.format(numerodanoticia)
-)
-
-Html_file= open("index.html","w", encoding='utf-8')
-Html_file.write(home_str)
-Html_file.close()
-
-siouttabela_str = '''
-{header}
-	
-	<h1>Tabela SIOUT</h1>
-    
-    {content}
-	
-	<div class="footer">
-	  <p>Secretaria do Meio Ambiente e Infraestrutura - Atualizado em: {date}</p>
-	</div>
-
-</body>
-</html>
-'''.format(
-header=h,
-date=today,
-content=t,
-)
-
-Html_file= open("siouttabela.html","w", encoding='utf-8')
-Html_file.write(siouttabela_str)
-Html_file.close()
-
-sioutgrafico_str = '''
-{header}
-	
-	<h1>Gráficos SIOUT</h1>
-    
-    <img class="center", src="imagens/Status_{date}.png" alt="Gráficos SIOUT" title="Gráficos SIOUT", width="900">
-	
-	<div class="footer">
-	  <p>Secretaria do Meio Ambiente e Infraestrutura - Atualizado em: {date}</p>
-	</div>
-
-</body>
-</html>
-'''.format(
-header=h,
-date=today,
-)
-
-Html_file= open("sioutgraficos.html","w", encoding='utf-8')
-Html_file.write(sioutgrafico_str)
-Html_file.close()
+tabsiout = open("tabelas/tabela_siout_{}.html".format(today),"w", encoding='utf-8')
+tabsiout.write(t)
+tabsiout.close()
 
 new_df = pd.DataFrame()
 new_df['AHE'] = monitoramento['ahe']
@@ -602,52 +489,10 @@ new_df['Usuário de água'] = monitoramento['usuario']
 new_df['Conformidade em relação ao número'] = monitoramento['numero']
 new_df['Conformidade em relação a emissão'] = monitoramento['emissao']
 
-t = build_table(new_df, color='blue_dark', font_size = '10px')
+t = build_table(new_df, color='green_light', font_size = '10px')
 
-monitoramentotabela_str = '''
-{header}
-	
-	<h1>Tabela Monitoramento</h1>
-    
-    {content}
-	
-	<div class="footer">
-	  <p>Secretaria do Meio Ambiente e Infraestrutura - Atualizado em: {date}</p>
-	</div>
-
-</body>
-</html>
-'''.format(
-header=h,
-date=today,
-content=t,
-)
-
-Html_file= open("monitoramentotabela.html","w", encoding='utf-8')
-Html_file.write(monitoramentotabela_str)
-Html_file.close()
-
-monitoramentografico_str = '''
-{header}
-	
-	<h1>Gráfico monitoramento</h1>
-    
-    <img class="center", src="imagens/monitoramento_{date}.png" alt="Gráfico monitoramento" title="Gráficos monitoramento", width="600">
-	
-	<div class="footer">
-	  <p>Secretaria do Meio Ambiente e Infraestrutura - Atualizado em: {date}</p>
-	</div>
-
-</body>
-</html>
-'''.format(
-header=h,
-date=today,
-)
-
-Html_file= open("monitoramentografico.html","w", encoding='utf-8')
-Html_file.write(monitoramentografico_str)
-Html_file.close()
-"""
+tabmonit = open("tabelas/tabela_monit_{}.html".format(today),"w", encoding='utf-8')
+tabmonit.write(t)
+tabmonit.close()
 
 print('Feito!')
