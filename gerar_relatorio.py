@@ -162,6 +162,14 @@ ax1.set_xlabel('Longitude')
 ax1.legend(framealpha=0.0)
 ax1.grid(alpha=0.5, linestyle='--')
 
+fisicos = fisicos.drop(columns=['Longitude', 'Latitude', 'Obs'])
+
+t = build_table(fisicos, color='green_light', font_size = '10px')
+
+tabfis = open("tabelas/tabela_fisicos.html","w", encoding='utf-8')
+tabfis.write(t)
+tabfis.close()
+
 #portarias ano
 filtro_outorga = []
 for idx, row in df[['Classificação', 'Status', 'Data de saída do processo']].iterrows():
