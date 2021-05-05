@@ -343,6 +343,25 @@ ax7.set_title("Distribuição das portarias emitidas")
 fig.tight_layout()
 plt.savefig('imagens/Status_{}'.format(today), bbox_inches='tight', transparent=False, dpi=100)
 
+fig1, axs = plt.subplots(1, 2, figsize=(10,5), constrained_layout =True)
+
+if len(no) > 0:
+    axs[0].plot(od, no, label='Outorgas - {}'.format(no[-1]), marker='s')
+if len(nr) > 0:
+    axs[0].plot(rd, nr, label='RDHs - {}'.format(nr[-1]), marker='H')
+
+axs[0].set_title('Portarias emitidas no ano de {}'.format(ano))
+axs[0].set_ylabel('Número de portarias emitidas')
+axs[0].set_xlabel('Dias corridos')
+axs[0].legend(framealpha=0.0)
+axs[0].grid(alpha=0.5, linestyle='--')
+
+axs[1].pie(pie_dict_potarias.values(), autopct=make_autopct(pie_dict_potarias.values()), labels=pie_dict_potarias.keys())
+axs[1].set_title("Total de portarias portarias emitidas")
+
+fig1.tight_layout()
+plt.savefig('imagens/status_site_{}'.format(today), bbox_inches='tight', transparent=False, dpi=100)
+
 
 #writing kml
 print('Gerando arquivo KML... \n')
