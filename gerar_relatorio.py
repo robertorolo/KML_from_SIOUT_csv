@@ -84,7 +84,7 @@ df_nomes = df_filtrado[['Número do cadastro', 'Número da portaria', 'Classific
 df_nomes['Prioridade'] = 'Não'
 df_nomes['Nome'] = 'N/D'
 df_nomes['AHE'] = 'N/D'
-nomes = pd.read_csv("tabelas/nomes.csv", sep=",", encoding='utf8')
+nomes = pd.read_csv("deps/nomes.csv", sep=",", encoding='utf8')
 
 for index, row in nomes.iterrows():
     num = row['Número do cadastro']
