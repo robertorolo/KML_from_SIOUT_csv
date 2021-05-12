@@ -20,7 +20,6 @@ ano = today.year
 primeiro_dia = date(ano, 1, 1)
 
 #arquivos para plotar os mapas
-#shp_path = "estados/estados_2010.shp"
 shp_path = "bacias/Bacia_Hidrografica.shp"
 #arquivo de nomes
 nomes = 'tabelas/nomes.csv'
@@ -284,7 +283,6 @@ ax3.legend()
 ax3.set_xlabel('Dias')
 ax3.set_ylabel('Número de processos')
 
-
 #portarias total
 entradas = df_filtrado['Data de início do cadastro'].values
 entradas = [date(int(i.split('/')[2]), int(i.split('/')[1]), int(i.split('/')[0])) for i in entradas]
@@ -370,7 +368,6 @@ axs[1].set_title("Total de portarias portarias emitidas")
 
 fig1.tight_layout()
 plt.savefig('imagens/status_site_{}'.format(today), bbox_inches='tight', transparent=False, dpi=100)
-
 
 #writing kml
 print('Gerando arquivo KML... \n')
@@ -462,53 +459,6 @@ f = open(kml_file_path, "w")
 f.write(kml_str)
 f.close()
 
-
-#monitoramento
-print('Lendo tabela de monitoramento... \n')
-monitoramento = pd.read_csv('tabelas/monitoramento_simplificado.csv')
-
-ahe = monitoramento['ahe']
-labels, count = np.unique(ahe, return_counts=True)
-
-numero = monitoramento['numero']
-ncounts = []
-for i in labels:
-    f = ahe == i
-    numerof = numero[f]
-    nlabels, ncount = np.unique(numerof, return_counts=True)
-    ncounts.append(ncount[0])
-
-emissao = monitoramento['emissao']
-ecounts = []
-for i in labels:
-    f = ahe == i
-    emissaof = emissao[f]
-    elabels, ecount = np.unique(emissaof, return_counts=True)
-    ecounts.append(ecount[1])
-
-fig = plt.figure(figsize=(10,10))
-plt.grid(linestyle='--', axis='y')
-plt.bar(x=[i for i in range(len(labels))], height=count, color='red', label='não conforme')
-plt.bar(x=[i for i in range(len(labels))], height=ncounts, color='green', label='conforme em relação ao número de estações')
-
-for idx, i in enumerate(labels):
-    p = round(ncounts[idx]/count[idx]*100, 1)
-    plt.annotate(str(p)+'%', (idx, ncounts[idx]))
-
-    
-plt.bar(x=[i for i in range(len(labels))], height=ecounts, color='blue', label='conforme em relação a emissão de dados')
-
-for idx, i in enumerate(labels):
-    p = round(ecounts[idx]/ncounts[idx]*100, 1)
-    plt.annotate(str(p)+'%', (idx, ecounts[idx]))
-
-plt.xticks([i for i in range(len(labels))], labels)
-plt.yticks([i for i in range(0, max(count)+10, 5)])
-plt.legend()
-plt.ylabel('Número de estações')
-plt.title('Conformidade em relação as estações')
-#plt.savefig('imagens/monitoramento_{}'.format(today), transparent=False, dpi=100, bbox_inches='tight')
-
 #generating html files
 print('Gerando arquivos html... \n')
 df_nomes = df_nomes[['Número do cadastro', 'AHE', 'Nome', 'Nome do usuário de água', 'Município', 'Status', 'Número da portaria', 'Classificação']]
@@ -517,18 +467,5 @@ t = build_table(df_nomes, color='green_light', font_size = '10px')
 tabsiout = open("tabelas/tabela_siout_{}.html".format(today),"w", encoding='utf-8')
 tabsiout.write(t)
 tabsiout.close()
-
-new_df = pd.DataFrame()
-new_df['AHE'] = monitoramento['ahe']
-new_df['Nome'] = monitoramento['nome']
-new_df['Usuário de água'] = monitoramento['usuario']
-new_df['Conformidade em relação ao número'] = monitoramento['numero']
-new_df['Conformidade em relação a emissão'] = monitoramento['emissao']
-
-t = build_table(new_df, color='green_light', font_size = '10px')
-
-#tabmonit = open("tabelas/tabela_monit_{}.html".format(today),"w", encoding='utf-8')
-#tabmonit.write(t)
-#tabmonit.close()
 
 print('Feito!')
