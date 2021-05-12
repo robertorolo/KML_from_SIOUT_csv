@@ -20,9 +20,9 @@ ano = today.year
 primeiro_dia = date(ano, 1, 1)
 
 #arquivos para plotar os mapas
-shp_path = "bacias/Bacia_Hidrografica.shp"
+shp_path = "deps/bacias/Bacia_Hidrografica.shp"
 #arquivo de nomes
-nomes = 'tabelas/nomes.csv'
+nomes = 'deps/nomes.csv'
 
 #lendo o relatorio
 numero = input('Numero do relatorio do SIOUT: ')
@@ -56,7 +56,7 @@ f1 = df['Status'] == 'Aguardando formalização de documentos'
 f2 = df['Status'] == 'Concluído'
 cadastros = df[f1 | f2]
 #Lendo geopandas dominialidade
-dom = [geopandas.read_file('Dominialidade/Dominialidade_Federal.shp'), geopandas.read_file('Dominialidade/espelhos_dagua_20ha_uniao_RS.shp'), geopandas.read_file('Dominialidade/rios_dominio_uniao_RS.shp'), geopandas.read_file('Dominialidade/rios_dominio_uniao_terras_publicas_RS.shp'), geopandas.read_file('Dominialidade/unidades_conservação_ANA_RS.shp')]
+dom = [geopandas.read_file('deps/Dominialidade/Dominialidade_Federal.shp'), geopandas.read_file('deps/Dominialidade/espelhos_dagua_20ha_uniao_RS.shp'), geopandas.read_file('deps/Dominialidade/rios_dominio_uniao_RS.shp'), geopandas.read_file('deps/Dominialidade/rios_dominio_uniao_terras_publicas_RS.shp'), geopandas.read_file('deps/Dominialidade/unidades_conservação_ANA_RS.shp')]
 
 #Loop nas coordenadas dos cadastros
 linhas = []
@@ -141,7 +141,7 @@ def conversion(coord):
     deg, minutes, seconds, direction =  re.split('[°\'"]', coord)
     return (float(deg) + float(minutes)/60 + float(seconds)/(60*60)) * (-1 if direction in ['W', 'S'] else 1)
 
-fisicos = pd.read_excel('tabelas/processos_fisicos.xlsx')
+fisicos = pd.read_excel('deps/processos_fisicos.xlsx')
 xf = []
 yf = []
 for index, row in fisicos.iterrows():
