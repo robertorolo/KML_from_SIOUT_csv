@@ -10,13 +10,13 @@ import numpy as np
 from datetime import date
 import re
 from pretty_html_table import build_table
+from tabulate import tabulate
 
 import warnings
 warnings.filterwarnings("ignore")
 
 today = date.today()
 ano = today.year
-#ano = 2020 
 primeiro_dia = date(ano, 1, 1)
 
 #arquivos para plotar os mapas
@@ -45,9 +45,10 @@ n_proc = df_filtrado.shape[0]
 n_usu = len(np.unique(df_filtrado['Nome do usuário de água']))
 
 if df[filtro_tipo1 & filtro_status1].shape[0] > 0:
-    print("Mandar para o Kevin cobrar o boleto!")
-    print(df[filtro_tipo1 & filtro_status1][['Número do cadastro', 'Nome do usuário de água']])
-
+    print("PROCESSOS SEM BARRAMENTO: *cobrar boleto")
+    t = df[filtro_tipo1 & filtro_status1][['Número do cadastro', 'Nome do usuário de água']]
+    print(tabulate(t, headers='keys', tablefmt='psql'))
+    print('\n')
 
 #verificando dominiliadde
 from shapely.geometry import Point, Polygon
@@ -57,7 +58,9 @@ f2 = df['Status'] == 'Concluído'
 cadastros = df[f1 | f2]
 #Lendo geopandas dominialidade
 dom = [geopandas.read_file('Dominialidade/Dominialidade_Federal.shp'), geopandas.read_file('Dominialidade/espelhos_dagua_20ha_uniao_RS.shp'), geopandas.read_file('Dominialidade/rios_dominio_uniao_RS.shp'), geopandas.read_file('Dominialidade/rios_dominio_uniao_terras_publicas_RS.shp'), geopandas.read_file('Dominialidade/unidades_conservação_ANA_RS.shp')]
+
 #Loop nas coordenadas dos cadastros
+linhas = []
 for index, row in cadastros.iterrows():
     point = Point(float(row['Longitude'].replace(',','.')), float(row['Latitude'].replace(',','.')))
     
@@ -67,8 +70,14 @@ for index, row in cadastros.iterrows():
         for index1, row1 in d.iterrows():
             #checando se o ponto pertence ao shape
             if row1['geometry'].contains(point):
-                print(row['Número do cadastro']+' '+row['Nome do usuário de água'])
-print('\n')
+                p = [row['Número do cadastro'], row['Nome do usuário de água']]
+                linhas.append(p)
+                
+if len(linhas) > 0:
+    df_fed = pd.DataFrame(columns=['Número do cadastro', 'Nome do usuário de água'], data=linhas)
+    print('PROCESSOS EM DOMÍNIO FEDERAL:')
+    print(tabulate(df_fed, headers='keys', tablefmt='psql'))
+    print('\n')
 
 #nomes
 print('Sincronizando nomes...\n')
@@ -101,16 +110,16 @@ df_nomes.to_excel('tabelas/processos_siout_{}.xlsx'.format(today), index=False, 
 #aguardando análise
 aguardando = df_filtrado[df_filtrado['Status'] == 'Aguardando análise'][['Número do cadastro', 'Nome do usuário de água', 'Formação do responsável técnico']]
 if aguardando.shape[0] > 0:
-	print('PROCESSOS AGUARDANDO ANALISE:')
-	print(aguardando.to_string(index=False))
-	print('\n')
+    print('PROCESSOS AGUARDANDO ANALISE:')
+    print(tabulate(aguardando, headers='keys', tablefmt='psql'))
+    print('\n')
 
 #em análise
 em = df_filtrado[df_filtrado['Status'] == 'Em análise'][['Número do cadastro', 'Nome do usuário de água']]
 if em.shape[0] > 0:
-	print('PROCESSOS EM ANALISE:')
-	print(em.to_string(index=False))
-	print('\n')
+    print('PROCESSOS EM ANALISE:')
+    print(tabulate(em, headers='keys', tablefmt='psql'))
+    print('\n')
 
 #plotando
 print('Plotando gráficos... \n')
@@ -518,8 +527,8 @@ new_df['Conformidade em relação a emissão'] = monitoramento['emissao']
 
 t = build_table(new_df, color='green_light', font_size = '10px')
 
-tabmonit = open("tabelas/tabela_monit_{}.html".format(today),"w", encoding='utf-8')
-tabmonit.write(t)
-tabmonit.close()
+#tabmonit = open("tabelas/tabela_monit_{}.html".format(today),"w", encoding='utf-8')
+#tabmonit.write(t)
+#tabmonit.close()
 
 print('Feito!')
