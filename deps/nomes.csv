@@ -1,16 +1,26 @@
 Prioridade,Número do cadastro,AHE,Nome,Nome do usuário de água,Município,Status,Data de início do cadastro,Data de saída do processo,Número da portaria,Classificação,E-mail do usuário de água
-Não,2021/003.035,CGH,Bico de Pato,BICO DE PATO ENERGIA LTDA,Erval Seco,Aguardando análise,11/03/2021,06/04/2021,-,Cadastro,bona.mrb@gmail.com
-Não,2021/002.831,CGH,Passo da Lage,ARNALDO JACQUES MOURA,Tupanciretã,Aguardando análise,05/03/2021,05/03/2021,-,Cadastro,escritoriocontabilandres@gmail.com
-Não,2021/002.826,CGH,Ariquindin,ARNALDO JACQUES MOURA,Jari,Aguardando análise,05/03/2021,05/03/2021,-,Cadastro,escritoriocontabilandres@gmail.com
-Não,2021/002.815,CGH,Santo Inácio,INACIO ANDRES GASTALDO,Tupanciretã,Aguardando análise,05/03/2021,05/03/2021,-,Cadastro,n-gastaldo@hotmail.com
-Não,2021/002.275,CGH,Passo da Ilha,Cris Participações e Administração de Bens LTDA,Barracão,Aguardando alterações de dados inconsistentes,22/02/2021,22/02/2021,-,Cadastro,engenharia1@construnivelenergias.com.br
+Não,2021/004.739,CGH,Passo do Buraoc,Z-4 Geração de Energia Elétrica,Vacaria,Indeferida,14/04/2021,14/04/2021,-,Outorga,denny@inovaenergia.net.br
+Não,2021/004.528,CGH,dos Reis,CGH DOS REIS GERADORA DE ENERGIA SPE LTDA,São Francisco de Paula,Aguardando alterações de dados inconsistentes,12/04/2021,12/04/2021,-,Cadastro,robson@grupoh2o.com.br
+Não,2021/004.393,CGH,Abaúna,COOPERATIVA DE GERAÇÃO DE ENERGIA E DESENVOLVIMENTO,Floriano Peixoto,Aguardando análise,08/04/2021,21/04/2021,-,Cadastro,alderi@creral.com.br
+Não,2021/004.375,CGH,Toniquinho,USINAS HIDRELETRICAS BRINGHENTI LTDA,Nonoai,Aguardando alterações de dados inconsistentes,08/04/2021,11/05/2021,-,Cadastro,engenharia1@construnivelenergias.com.br
+Não,2021/004.347,CGH,Três Fonteiras,USINAS HIDRELETRICAS BRINGHENTI LTDA,Entre Rios do Sul,Aguardando alterações de dados inconsistentes,08/04/2021,10/05/2021,-,Cadastro,engenharia1@construnivelenergias.com.br
+Não,2021/003.312,CGH,Stasiak,CGH STASIAK USINA HIDRELETRICA LTDA,Sete de Setembro,Aguardando análise,17/03/2021,22/03/2021,-,Cadastro,seguranca@fortneer.com.br
+Não,2021/003.035,CGH,Bico de Pato,BICO DE PATO ENERGIA LTDA,Erval Seco,Concedida,11/03/2021,06/04/2021,000.828/2021,Reserva de disponibilidade hídrica,bona.mrb@gmail.com
+Não,2021/002.954,PCH,Saltinho,SALTINHO ENERGÉTICA S/A,Ipê,Concedida,09/03/2021,11/03/2021,001.010/2021,Reserva de disponibilidade hídrica,hpires@hp.eng.br
+Não,2021/002.831,CGH,Passo da Lage,ARNALDO JACQUES MOURA,Tupanciretã,Concedida,05/03/2021,05/03/2021,000.883/2021,Reserva de disponibilidade hídrica,escritoriocontabilandres@gmail.com
+Não,2021/002.826,CGH,Ariquindin,ARNALDO JACQUES MOURA,Jari,Concedida,05/03/2021,05/03/2021,000.885/2021,Reserva de disponibilidade hídrica,escritoriocontabilandres@gmail.com
+Não,2021/002.815,CGH,Santo Inácio,INACIO ANDRES GASTALDO,Tupanciretã,Aguardando análise,05/03/2021,10/05/2021,-,Cadastro,n-gastaldo@hotmail.com
+Não,2021/002.512,CGH,da Barra,Central Elétrica Caibi LTDA,Vacaria,Concedida,26/02/2021,26/02/2021,000.887/2021,Reserva de disponibilidade hídrica,bona.mrb@gmail.com
+Não,2021/002.392,CGH,Barros Cassal,KIELING EMPREENDIMENTOS IMOBILIÁRIOS LTDA,Barros Cassal,Concedida,24/02/2021,29/03/2021,000.888/2021,Reserva de disponibilidade hídrica,kieling@hidroenergia.com.br
+Não,2021/002.275,CGH,Passo da Ilha,Cris Participações e Administração de Bens LTDA,Barracão,Aguardando análise,22/02/2021,22/02/2021,-,Cadastro,engenharia1@construnivelenergias.com.br
 Não,2021/000.771,UHE,Foz do Prata,COOPERATIVA DE GERAÇÃO DE ENERGIA E DESENVOLVIMENTO,Veranópolis,Concedida,20/01/2021,11/02/2021,000.253/2021,Reserva de disponibilidade hídrica,alderi@creral.com.br
 Não,2021/000.511,CGH,Santana,Cooperativa de Geração de Energia e Desenvolvimento Social LTDA,Ijuí,Concedida,13/01/2021,17/02/2021,000.255/2021,Reserva de disponibilidade hídrica,debitencorte@gmail.com
 Não,2021/000.469,CGH,Ponte Nova,Cooperativa de Geração de Energia e Desenvolvimento Social LTDA,Augusto Pestana,Concedida,13/01/2021,11/02/2021,000.254/2021,Reserva de disponibilidade hídrica,debitencorte@gmail.com
 Não,2020/025.661,CGH,Formigueiro,FORMIGUEIRO GERACAO E COMERCIO DE ENERGIA ELETRICA LTDA,Boa Vista do Cadeado,Concedida,29/12/2020,08/02/2021,000.028/2021,Outorga,joao.ceriluz@gmail.com
+Não,2020/025.556,CGH,Tomaz,RIO DO FRADE GERAÇÃO DE ENERGIA LTDA,Esmeralda,Concedida,28/12/2020,30/03/2021,000.889/2021,Reserva de disponibilidade hídrica,hyv.proenge@gmail.com
 Não,2020/024.854,CGH,Esquina Gaúcha,BITENCORTE SERVICOS ADMINISTRATIVOS EIRELI,Santo Ângelo,Concedida,20/12/2020,15/01/2021,000.030/2021,Reserva de disponibilidade hídrica,DANIEL.CIVIL@HOTMAIL.COM
-Não,2020/024.843,CGH,das Missões,CGH ENERGETICA DAS MISSOES LTDA,Guarani das Missões,Aguardando análise,19/12/2020,08/04/2021,-,Cadastro,vanemarchioro@gmail.com
-Não,2020/024.682,CGH,Nicole,RIO DO FRADE GERAÇÃO DE ENERGIA LTDA,Vacaria,Aguardando análise,17/12/2020,10/04/2021,-,Cadastro,hyv.proenge@gmail.com
+Não,2020/024.843,CGH,das Missões,CGH ENERGETICA DAS MISSOES LTDA,Guarani das Missões,Concedida,19/12/2020,08/04/2021,000.890/2021,Reserva de disponibilidade hídrica,vanemarchioro@gmail.com
+Não,2020/024.682,CGH,Nicole,RIO DO FRADE GERAÇÃO DE ENERGIA LTDA,Vacaria,Concedida,17/12/2020,10/04/2021,000.829/2021,Reserva de disponibilidade hídrica,hyv.proenge@gmail.com
 Não,2020/024.678,CGH,Eliane,RIO DO FRADE GERAÇÃO DE ENERGIA LTDA,Vacaria,Concedida,17/12/2020,22/03/2021,000.622/2021,Reserva de disponibilidade hídrica,hyv.proenge@gmail.com
 Não,2020/023.316,PCH,Barra do Telha,Enebras Projetos de Usinas Hidrelétricas Ltda.,Muitos Capões,Concedida,02/12/2020,12/02/2021,000.212/2021,Reserva de disponibilidade hídrica,engenharia@enebrasenergia.com.br
 Não,2020/023.308,CGH,Ligeirinho,ESB ENGENHARIA LTDA,Sananduva,Concedida,02/12/2020,03/12/2020,R-001.990/2020,Reserva de disponibilidade hídrica,leonardob@esbengenharia.com
@@ -25,11 +35,13 @@ Não,2020/018.439,CGH,Pontes Filho,HT GERAÇÃO DE ENERGIA ELÉTRICA LTDA,Teutô
 Não,2020/016.868,PCH,Lajeado do Meio,INHACORA GERADORA DE ENERGIA ELETRICA LTDA.,Alegria,Concedida,08/09/2020,07/01/2021,000.256/2021,Reserva de disponibilidade hídrica,eng.rafaelvendruscolo@gmail.com
 Não,2020/015.305,CGH,Coopermil,COOPERATIVA MISTA SÃO LUIZ LTDA,Guarani das Missões,Concedida,26/08/2020,25/01/2021,O-000.050/2021,Outorga,copermil@copermil.com.br
 Não,2020/014.974,CGH,Santo Anjo,CGH SANTO ANJO GERAÇÃO DE ENERGIA S.A,Caxias do Sul,Concedida,24/08/2020,14/12/2020,O-001.978/2020,Outorga,meioambiente@tracado.com.br
+Não,2020/013.600,CGH,Passo do Buraco,Z-4 Geração de Energia Elétrica,Vacaria,Concedida,10/08/2020,16/04/2021,000.816/2021,Outorga,denny@inovaenergia.net.br
 Não,2020/013.471,CGH,Augusto Pestana,Cooperativa de Geração de Energia e Desenvolvimento Social LTDA,Augusto Pestana,Concedida,07/08/2020,22/03/2021,000.500/2021,Outorga,debitencorte@gmail.com
+Não,2020/013.091,CGH,Estrela,RIO DO FRADE GERAÇÃO DE ENERGIA LTDA,Esmeralda,Concedida,03/08/2020,01/04/2021,000.892/2021,Reserva de disponibilidade hídrica,hyv.proenge@gmail.com
 Não,2020/012.821,PCH,Dalsasso,VALE DO TURVO HIDRELÉTRICA LTDA,Ipê,Concedida,29/07/2020,27/09/2020,R-001.740/2020,Reserva de disponibilidade hídrica,paulo@paineirapar.com.br
 Não,2020/012.816,PCH,Foz do Segredinho,VALE DO TURVO HIDRELÉTRICA LTDA,Ipê,Concedida,29/07/2020,11/09/2020,R-001.692/2020,Reserva de disponibilidade hídrica,paulo@paineirapar.com.br
 Não,2020/012.793,PCH,Linha Tafona,VALE DO TURVO HIDRELÉTRICA LTDA,Ipê,Concedida,29/07/2020,11/09/2020,R-001.693/2020,Reserva de disponibilidade hídrica,paulo@paineirapar.com.br
-Não,2020/012.601,CGH,Fundão,Fernando Isoton,Quevedos,Em análise,28/07/2020,23/02/2021,-,Cadastro,cev.energia@outlook.com
+Não,2020/012.601,CGH,Fundão,Fernando Isoton,Quevedos,Concedida,28/07/2020,23/02/2021,000.761/2021,Reserva de disponibilidade hídrica,cev.energia@outlook.com
 Não,2020/012.232,CGH,Limeira,VALE DO TURVO HIDRELÉTRICA LTDA,André da Rocha,Concedida,22/07/2020,22/07/2020,R-001.677/2020,Reserva de disponibilidade hídrica,paulo@paineirapar.com.br
 Não,2020/011.908,CGH,Ligeirinho,ESB ENGENHARIA LTDA,Sananduva,Indeferida,16/07/2020,10/11/2020,-,Reserva de disponibilidade hídrica,leonardob@esbengenharia.com
 Não,2020/011.687,CGH,Arroio da Reserva,SAULO SALLES BEVILACQUA NETO,Pinhal Grande,Concedida,13/07/2020,28/08/2020,R-001.607/2020,Reserva de disponibilidade hídrica,CABANHASTOANTONIO@HOTMAIL.COM
@@ -39,7 +51,8 @@ Não,2020/010.833,PCH,Lixiguana,VALE DO TURVO HIDRELÉTRICA LTDA,Muitos Capões,
 Não,2020/010.778,PCH,Barra do Ituim,VALE DO TURVO HIDRELÉTRICA LTDA,André da Rocha,Concedida,29/06/2020,21/07/2020,R-001.678/2020,Reserva de disponibilidade hídrica,paulo@paineirapar.com.br
 Não,2020/010.683,PCH,Fazenda Velha,VALE DO TURVO HIDRELÉTRICA LTDA,André da Rocha,Concedida,26/06/2020,07/08/2020,R-001.539/2020,Reserva de disponibilidade hídrica,paulo@paineirapar.com.br
 Não,2020/010.620,PCH,Bugres,Companhia Estadual de Geração e Transmissão de Energia Elétrica,São Francisco de Paula,Concedida,26/06/2020,02/02/2021,000.005/2021,Outorga,licenciamento.amb@ceee.com.br
-Não,2020/009.773,CGH,Igrejinha,BOA VISTA DO CADEADO ENERGIA LTDA.,Boa Vista do Cadeado,Concedida,12/06/2020,21/07/2020,O-001.394/2020,Outorga,juarezceriluz@gmail.com
+Não,2020/010.278,CGH,Pivoto,CLÊNIO ANTÔNIO PIVOTO,São Francisco de Assis,Aguardando alterações de dados inconsistentes,22/06/2020,12/03/2021,-,Cadastro,vielmo.engir@gmail.com
+Não,2020/009.773,CGH,Igrejinha,BOA VISTA DO CADEADO ENERGIA LTDA.,Boa Vista do Cadeado,Concedida,12/06/2020,21/07/2020,O-000.080/2021,Outorga,juarezceriluz@gmail.com
 Não,2020/009.716,CGH,Guabiju II,AÇO METAIS FRAIBURGO LTDA,Esmeralda,Concedida,11/06/2020,11/06/2020,R-001.236/2020,Reserva de disponibilidade hídrica,VANEMARCHIORO@GMAIL.COM
 Não,2020/008.760,PCH,Sede II,IJUI CENTENARIA GERACAO SPE LTDA,Ijuí,Concedida,28/05/2020,02/06/2020,O-001.056/2020,Outorga,joao@ceriluz.com.br
 Não,2020/007.726,CGH,Guabiju I,AÇO METAIS FRAIBURGO LTDA,Esmeralda,Concedida,16/05/2020,29/05/2020,R-001.106/2020,Reserva de disponibilidade hídrica,VANEMARCHIORO@GMAIL.COM
@@ -93,16 +106,17 @@ Não,2018/033.655,CGH,Governador,Pablo Rodrigo Ferreira Romeiro,Monte Alegre dos
 Não,2018/033.376,CGH,Caxambu,Agropecuaria Fockink Ltda,Panambi,Concedida,29/11/2018,19/10/2020,O-001.742/2020,Outorga,sirlei@fockink.ind.br
 Não,2018/033.220,CGH,Linha Curuçu,Trópico Energia Renovável LTDA,Soledade,Indeferida,28/11/2018,12/02/2019,-,Reserva de disponibilidade hídrica,epitacio@tropicorenovavel.com.br
 Não,2018/032.593,CGH,Padre Polo,USINA PADRE POLO LTDA - ME,Jacutinga,Concedida,20/11/2018,09/11/2020,O-001.844/2020,Outorga,aconchego@tolrs.com.br
-Não,2018/032.067,CGH,Formigueiro,SCHIRMER & CORREA CONSULTORIA FLORESTAL LTDA,Boa Vista do Cadeado,Concedida,13/11/2018,04/03/2020,O-000.647/2020,Outorga,joao@ceriluz.com.br
 Não,2018/031.725,CGH,Capivari II,"JCS Engenharia, Consultoria e Participações EIRELLI - EPP",Dom Feliciano,Concedida,09/11/2018,12/03/2020,R-001.102/2020,Reserva de disponibilidade hídrica,jean@jcsengenharia.com
 Não,2018/031.548,CGH,Daltro Filho,SPE DALTRO FILHO GERAÇÃO DE ENERGIA LTDA,Imigrante,Concedida,07/11/2018,06/10/2020,O-001.713/2020,Outorga,edison@geocenterconsultoria.com.br
 Não,2018/031.421,CGH,Capivari II,"JCS Engenharia, Consultoria e Participações EIRELLI - EPP",Dom Feliciano,Concedida,06/11/2018,12/03/2020,R-001.103/2020,Reserva de disponibilidade hídrica,jean@jcsengenharia.com
-Não,2018/031.022,CGH,Capivara Baixa,PARTIALIS COMERCIO E GERAÇÃO DE ENERGIA S/A,Erval Seco,Aguardando alterações de dados inconsistentes,31/10/2018,16/07/2020,-,Cadastro,JAMES.DAMO@BRTURBO.COM.BR
+Não,2018/031.334,CGH,Mattana II,"JCS Engenharia, Consultoria e Participações EIRELLI - EPP",São Francisco de Paula,Aguardando análise,05/11/2018,06/11/2018,-,Cadastro,jean@jcsengenharia.com
+Não,2018/031.022,CGH,Capivara Baixa,PARTIALIS COMERCIO E GERAÇÃO DE ENERGIA S/A,Erval Seco,Concedida,31/10/2018,03/05/2021,001.011/2021,Outorga,JAMES.DAMO@BRTURBO.COM.BR
+Não,2018/030.801,CGH,Pessegueiro,CGH PESSEGUEIRO GERADORA DE ENERGIA ELÉTRICA LTDA,Barros Cassal,Aguardando alterações de dados inconsistentes,29/10/2018,17/07/2020,-,Cadastro,CGHPESSEGUEIRO@GMAIL.COM
 Não,2018/027.635,CGH,Otto I,ENERGETICA OTTO LTDA,Alpestre,Indeferida,20/09/2018,28/11/2018,-,Reserva de disponibilidade hídrica,fernando.pagliari@hotmail.com
 Não,2018/027.627,CGH,Otto II,ENERGETICA OTTO LTDA,Alpestre,Indeferida,20/09/2018,20/09/2018,-,Reserva de disponibilidade hídrica,fernando.pagliari@hotmail.com
-Não,2018/027.596,PCH,Ijuzinho,Companhia Estadual de Geração e Transmissão de Energia Elétrica,Eugênio de Castro,Aguardando alterações de dados inconsistentes,19/09/2018,11/01/2021,-,Cadastro,licenciamento.amb@ceee.com.br
+Não,2018/027.596,PCH,Ijuzinho,Companhia Estadual de Geração e Transmissão de Energia Elétrica,Eugênio de Castro,Aguardando análise,19/09/2018,11/01/2021,-,Cadastro,licenciamento.amb@ceee.com.br
 Não,2018/025.979,CGH,Recanto,Vertente Engenharia Ltda,Ipê,Concedida,31/08/2018,16/01/2020,R-000.643/2020,Reserva de disponibilidade hídrica,gustavo@vertente.eng.br
-Não,2018/025.491,CGH,Invernada,Vertente Engenharia Ltda,Campestre da Serra,Aguardando alterações de dados inconsistentes,27/08/2018,26/03/2021,-,Cadastro,gustavo@vertente.eng.br
+Não,2018/025.491,CGH,Invernada,Vertente Engenharia Ltda,Campestre da Serra,Concedida,27/08/2018,26/04/2021,000.893/2021,Outorga,gustavo@vertente.eng.br
 Não,2018/023.145,CGH,das Cabras,CABRAS GERADORA DE ENERGIA ELÉTRICA LTDA,Erval Seco,Concedida,01/08/2018,16/08/2019,O-000.298/2019,Outorga,bragante@tcheturbo.com.br
 Não,2018/022.736,UHE,Passo Fundo,ENGIE BRASIL ENERGIA S.A.,Entre Rios do Sul,Indeferida,27/07/2018,04/04/2019,-,Outorga,jose.rescigno@engie.com
 Não,2018/020.674,CGH,Focchezan,Focchezan Energia Ltda,Nova Bassano,Concedida,11/07/2018,15/06/2020,O-001.143/2020,Outorga,gilmar.g@grupoadr.com
