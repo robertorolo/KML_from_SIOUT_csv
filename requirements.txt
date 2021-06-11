@@ -5,6 +5,7 @@ matplotlib
 geopandas
 descartes
 openpyxl
-cartopy
 tabulate
 pretty_html_table
+pykml
+hydrobr
