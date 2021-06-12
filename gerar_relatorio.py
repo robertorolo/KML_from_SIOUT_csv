@@ -62,7 +62,7 @@ dom = [geopandas.read_file('deps/Dominialidade/Dominialidade_Federal.shp'), geop
 linhas = []
 for index, row in cadastros.iterrows():
     point = Point(float(row['Longitude'].replace(',','.')), float(row['Latitude'].replace(',','.')))
-    
+
     #Loop nos doms
     for d in dom:
         #Loop nos shapes
@@ -71,7 +71,7 @@ for index, row in cadastros.iterrows():
             if row1['geometry'].contains(point):
                 p = [row['Número do cadastro'], row['Nome do usuário de água']]
                 linhas.append(p)
-                
+
 if len(linhas) > 0:
     df_fed = pd.DataFrame(columns=['Número do cadastro', 'Nome do usuário de água'], data=linhas)
     print('PROCESSOS EM DOMÍNIO FEDERAL:')
@@ -132,7 +132,7 @@ ax4 = fig.add_subplot(spec[2, 0])
 ax2 = fig.add_subplot(spec[2, 1])
 ax3 = fig.add_subplot(spec[2, 2])
 
-fig.text(0.5,1.02,
+fig.text(0.5,0.9,
         'Relatório hidrelétricas SIOUT - {}'.format(today),
         horizontalalignment='center', fontsize=30)
 
@@ -186,7 +186,7 @@ for idx, row in df[['Classificação', 'Status', 'Data de saída do processo']].
         filtro_outorga.append(True)
     else:
         filtro_outorga.append(False)
-        
+
 no = []
 od = []
 
@@ -213,7 +213,7 @@ for idx, row in df[['Classificação', 'Status', 'Data de saída do processo']].
         filtro_rdh.append(True)
     else:
         filtro_rdh.append(False)
-        
+
 nr = []
 rd = []
 
@@ -313,7 +313,7 @@ for s in u_status:
         if s == "Aguardando alterações de dados inconsistentes":
             s = "Correções"
         pie_dict[s] = ns
-        
+
 pie_dict_ahe = {}
 for s in np.unique(df_filtrado['AHE']):
     ns = sum(df_filtrado['AHE'] == s)
@@ -380,7 +380,7 @@ icons = {
 }
 
 for color in icons:
-    
+
     s = KML.Style(
             KML.IconStyle(
                 KML.scale(1.2),
@@ -390,7 +390,7 @@ for color in icons:
             ),
             id=color,
         )
-    
+
     doc.append(s)
 
 fld_ag_doc = KML.Folder(KML.name('Aguardando formalização de documentos'))
@@ -417,20 +417,20 @@ Corpo Hidrico: {}
     long = row['Latitude'].replace(',','.')
     lat = row['Longitude'].replace(',','.')
     coordinates = lat+','+long
-    
+
     if status == 'Concedida':
         style = '#verde'
     elif status == 'Indeferida':
         style = '#vermelho'
     else:
         style = '#amarelo'
-    
+
     p = KML.Placemark(
         KML.name(nome),
         KML.Point(KML.coordinates(coordinates)),
         KML.description(description),
         KML.styleUrl(style))
-    
+
     if status == 'Aguardando formalização de documentos':
         fld_ag_doc.append(p)
     elif status == 'Aguardando análise':
