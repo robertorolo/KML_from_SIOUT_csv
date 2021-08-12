@@ -132,9 +132,9 @@ ax4 = fig.add_subplot(spec[2, 0])
 ax2 = fig.add_subplot(spec[2, 1])
 ax3 = fig.add_subplot(spec[2, 2])
 
-fig.text(0.5,0.9,
-        'Relatório hidrelétricas SIOUT - {}'.format(today),
-        horizontalalignment='center', fontsize=30)
+#fig.text(0.5,0.9,
+#        'Relatório hidrelétricas SIOUT - {}'.format(today),
+#        horizontalalignment='center', fontsize=30)
 
 #mapa
 def conversion(coord):
