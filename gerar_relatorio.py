@@ -11,9 +11,25 @@ from datetime import date
 import re
 from pretty_html_table import build_table
 from tabulate import tabulate
+from shapely.geometry import Point
 
 import warnings
 warnings.filterwarnings("ignore")
+
+def pandas_to_shape(df, lat, long, flname):
+    lat = [float(i.replace(',','.')) for i in df[lat]]
+    long = [float(i.replace(',','.')) for i in df[long]]
+    pts = [Point(y, x) for x, y in zip(lat, long)]
+    colunas = df.columns.tolist()
+    for idx, i in enumerate(colunas):
+        if i == lat or i==long:
+            del colunas[idx]
+    data = df[colunas].values.T
+    data = np.vstack([data, pts])
+    data = data.T
+    colunas.append('geometry')
+    geodf = geopandas.GeoDataFrame(columns=colunas, data=data)
+    geodf.to_file(flname, encoding='utf-8')
 
 today = date.today()
 ano = today.year
@@ -80,7 +96,7 @@ if len(linhas) > 0:
 
 #nomes
 print('Sincronizando nomes...\n')
-df_nomes = df_filtrado[['Número do cadastro', 'Número da portaria', 'Classificação', 'Nome do usuário de água', 'Status', 'Data de início do cadastro', 'Data de saída do processo', 'Município', 'E-mail do usuário de água']]
+df_nomes = df_filtrado[['Número do cadastro', 'Número da portaria', 'Classificação', 'Nome do usuário de água', 'Status', 'Data de início do cadastro', 'Data de saída do processo', 'Município', 'E-mail do usuário de água', 'Latitude', 'Longitude']]
 df_nomes['Prioridade'] = 'Não'
 df_nomes['Nome'] = 'N/D'
 df_nomes['AHE'] = 'N/D'
@@ -99,11 +115,12 @@ for index, row in nomes.iterrows():
 df_filtrado['Nome'] = df_nomes['Nome']
 df_filtrado['AHE'] = df_nomes['AHE']
 
-df_nomes = df_nomes[['Prioridade', 'Número do cadastro', 'AHE', 'Nome', 'Nome do usuário de água', 'Município', 'Status', 'Data de início do cadastro','Data de saída do processo', 'Número da portaria', 'Classificação', 'E-mail do usuário de água']]
+df_nomes = df_nomes[['Prioridade', 'Número do cadastro', 'AHE', 'Nome', 'Nome do usuário de água', 'Município', 'Status', 'Data de início do cadastro','Data de saída do processo', 'Número da portaria', 'Classificação', 'E-mail do usuário de água', 'Latitude', 'Longitude']]
 
 #gerando arquivos
 print('Gerando tabelas... \n')
 df_nomes.to_csv('tabelas/nomes_dumped.csv', index=False)
+pandas_to_shape(df_nomes, lat='Latitude', long='Longitude', flname='kml/nomes_dumped.shp')
 df_nomes.to_excel('tabelas/processos_siout_{}.xlsx'.format(today), index=False, sheet_name='SIOUT')
 
 #aguardando análise
