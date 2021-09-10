@@ -120,7 +120,7 @@ df_nomes = df_nomes[['Prioridade', 'Número do cadastro', 'AHE', 'Nome', 'Nome d
 #gerando arquivos
 print('Gerando tabelas... \n')
 df_nomes.to_csv('tabelas/nomes_dumped.csv', index=False)
-pandas_to_shape(df_nomes, lat='Latitude', long='Longitude', flname='kml/nomes_dumped.shp')
+pandas_to_shape(df_nomes, lat='Latitude', long='Longitude', flname='kml/ahes_siout.shp')
 df_nomes.to_excel('tabelas/processos_siout_{}.xlsx'.format(today), index=False, sheet_name='SIOUT')
 
 #aguardando análise
